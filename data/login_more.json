@@ -1,0 +1,16 @@
+{
+  "login_001":{
+              "url":"http://ttapi.research.itcast.cn/app/v1_0/authorizations",
+              "mobile":"13320192033",
+              "code":"625738",
+              "except_result":"OK",
+              "status_code":201
+  },
+  "login_002":{
+              "url":"http://ttapi.research.itcast.cn/app/v1_0/authorizations",
+              "mobile":"13320192033",
+              "code":"625738",
+              "except_result":"Err",
+              "status_code":400
+  }
+}
