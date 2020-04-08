@@ -1,0 +1,7 @@
+{
+  "url":"http://ttapi.research.itcast.cn/app/v1_0/article/collections",
+  "headers":{"Content-Type": "application/json", "Authorization": "Bearer token-c9cdbf31e439486f9637471eb1630aee"},
+  "data":{"target":1},
+  "except_result":"OK",
+  "status_code":201
+}

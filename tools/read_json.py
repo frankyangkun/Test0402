@@ -53,3 +53,26 @@ class ReadJson(object):
     #              data.get("status_code")
     #              ))
     # print arrs
+
+#获取收藏文章调试
+    # data = ReadJson("article_add.json").read_json()
+    # arrs = []
+    # #append本身添加的就是[]，而我们需要的是[()]，所以里面要加上(),否则就把所有内容都添加到一个列表里了
+    # arrs.append((data.get("url"), #data["url"]和get方式的区别是前者如果获取错误会报异常，后者则为空
+    #              data.get("headers"),
+    #              data.get("data"),
+    #              data.get("except_result"),
+    #              data.get("status_code")
+    #              ))
+    # print arrs
+#获取取消收藏文章调试
+    # data = ReadJson("article_cancel.json").read_json()
+    # arrs = []
+    # # append本身添加的就是[]，而我们需要的是[()]，所以里面要加上(),否则就把所有内容都添加到一个列表里了
+    # arrs.append((data.get("url"),  # data["url"]和get方式的区别是前者如果获取错误会报异常，后者则为空
+    #              data.get("headers"),
+    #              data.get("data"),
+    #              data.get("except_result"),
+    #              data.get("status_code")
+    #              ))
+    # print arrs
