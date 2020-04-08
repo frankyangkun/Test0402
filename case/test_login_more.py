@@ -30,7 +30,7 @@ class TestLogin(unittest.TestCase):
     """
 #新建测试方法
     @parameterized.expand(get_data())
-    def test_login(self,url,mobile,code,except_result,status_code):
+    def test_login(self,url,mobile,code,except_result,status_code): #测试方法一定要test开头
         #暂时存放数据 url，mobile，code
         # url = "http://ttapi.research.itcast.cn/app/v1_0/authorizations"
         # mobile = "13320192033"
