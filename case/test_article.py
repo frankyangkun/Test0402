@@ -5,7 +5,6 @@ from api.api_article import ApiArticle
 from parameterized import parameterized
 from tools.read_json import ReadJson
 
-
 #获取收藏文章数据
 def get_data_add():
     data = ReadJson("article_add.json").read_json()
