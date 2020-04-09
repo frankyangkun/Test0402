@@ -57,3 +57,47 @@ class ReadDB(object): #也可不写(object)
             self.close_conn()
             #返回执行结果
             return data
+
+    #获取所有结果集
+    def get_sql_all(self,sql):
+        # 定义游标对象及数据变量
+        cursor = None
+        data = None
+        try:
+            # 获取游标对象
+            cursor = self.get_cursor()
+            # 调用执行方法
+            cursor.execute(sql)
+            # 获取结果
+            data = cursor.fetchall()
+        except Exception as e:
+            print "get_sql_one error:", e  # 如果出现异常，打印异常信息
+        finally:  # 无论是否有异常，都要关闭对象
+            # 关闭游标对象
+            self.close_cursor(cursor)
+            # 关闭连接对象
+            self.close_conn()
+            # 返回执行结果
+            return data
+
+    # 修改，删除，新增
+    def update_sql(self,sql):
+        # 定义游标对象及数据变量
+        cursor = None
+        data = None
+        try:
+            # 获取游标对象
+            cursor = self.get_cursor()
+            # 调用执行方法
+            cursor.execute(sql)
+            #提交事务 用连接对象提交，不是游标对象提交
+            self.conn.commit()
+        except Exception as e:
+            print "get_sql_one error:", e  # 如果出现异常，打印异常信息
+            #回滚事务
+            self.conn.rollback()
+        finally:  # 无论是否有异常，都要关闭对象
+            # 关闭游标对象
+            self.close_cursor(cursor)
+            # 关闭连接对象
+            self.close_conn()
