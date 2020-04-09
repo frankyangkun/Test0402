@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="workspace.xml">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="对数据库主要方法进行封装，便于重用。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/read_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/read_db.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Test0402$Unittests_for_test_param_TestPara_test_para.coverage" NAME="Unittests for test_param.TestPara.test_para Coverage Results" MODIFIED="1585898415298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586416953030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586420706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1585899391308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1586338074619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1586167402524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
@@ -21,8 +22,10 @@
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_more_py.coverage" NAME="Unittests in test_login_more.py Coverage Results" MODIFIED="1585902901360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1585900333249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_test_channels_TestChannels_test_channels.coverage" NAME="Unittests for test_channels.TestChannels.test_channels Coverage Results" MODIFIED="1586318693570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_database2_py.coverage" NAME="Unittests in test_database2.py Coverage Results" MODIFIED="1586421212344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$run_suites.coverage" NAME="run_suites Coverage Results" MODIFIED="1586397861475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_channels_py.coverage" NAME="Unittests in test_channels.py Coverage Results" MODIFIED="1586318796843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
@@ -75,14 +78,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="9" />
-          <entry key="Python" value="82" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="136" />
-          <entry key="PLAIN_TEXT" value="64" />
-          <entry key="Python" value="2093" />
+          <entry key="PLAIN_TEXT" value="118" />
+          <entry key="Python" value="3573" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -97,35 +100,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_article.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#26#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_suites.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="21" />
-              <folding>
-                <element signature="e#130#145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/read_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case/test_database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/test_database2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#51#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,6 +169,8 @@
         <option value="$PROJECT_DIR$/run_suites.py" />
         <option value="$PROJECT_DIR$/case/test_article.py" />
         <option value="$PROJECT_DIR$/case/test_database.py" />
+        <option value="$PROJECT_DIR$/case/test_database2.py" />
+        <option value="$PROJECT_DIR$/tools/read_db.py" />
       </list>
     </option>
   </component>
@@ -179,7 +181,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-46" />
+    <option name="x" value="18" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
@@ -234,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -268,7 +270,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_database">
+  <component name="RunManager" selected="Python tests.Unittests in test_database2.py">
+    <configuration name="read_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/read_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="read_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,7 +359,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_channels.TestChannels.test_channels" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_database2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,22 +370,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_channels.TestChannels.test_channels&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_article.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_article.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_database2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -381,19 +390,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_channels.TestChannels.test_channels" />
-      <item itemvalue="Python tests.Unittests in test_article.py" />
       <item itemvalue="Python.read_json" />
       <item itemvalue="Python.run_suites" />
       <item itemvalue="Python.test_database" />
+      <item itemvalue="Python tests.Unittests in test_database2.py" />
+      <item itemvalue="Python.read_db" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_database2.py" />
         <item itemvalue="Python.test_database" />
+        <item itemvalue="Python.read_db" />
         <item itemvalue="Python.run_suites" />
         <item itemvalue="Python.read_json" />
-        <item itemvalue="Python tests.Unittests in test_article.py" />
-        <item itemvalue="Python tests.Unittests for test_channels.TestChannels.test_channels" />
       </list>
     </recent_temporary>
   </component>
@@ -436,43 +445,57 @@
       <option name="project" value="LOCAL" />
       <updated>1586333568762</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="从数据库获取结果判断接口是否执行成功。">
+      <created>1586417171213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586417171214</updated>
+    </task>
+    <task id="LOCAL-00006" summary="对数据库主要方法进行封装，便于重用。">
+      <created>1586419618387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586419618387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 04m 33s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 15m 58s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 04m 54s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 16m 51s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 05m 43s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 17m 29s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 06m 02s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 18m 32s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 06m 32s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 20m 15s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 07m 18s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 25m 15s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 16h 08m 04s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 29m 09s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 17h 21m 18s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 29m 35s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.08 at 17h 32m 31s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 30m 15s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_article_py - 2020.04.09 at 11h 41m 17s.xml">
-      <configuration name="Unittests in test_article.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_database2_py - 2020.04.09 at 16h 32m 21s.xml">
+      <configuration name="Unittests in test_database2.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-46" y="23" width="1440" height="848" extended-state="0" />
+    <frame x="18" y="23" width="1440" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20958512" />
@@ -480,7 +503,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28042328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.260582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +559,9 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="文章相关接口对象层封装。" />
     <MESSAGE value="文章相关接口业务层实现。" />
-    <option name="LAST_COMMIT_MESSAGE" value="文章相关接口业务层实现。" />
+    <MESSAGE value="从数据库获取结果判断接口是否执行成功。" />
+    <MESSAGE value="对数据库主要方法进行封装，便于重用。" />
+    <option name="LAST_COMMIT_MESSAGE" value="对数据库主要方法进行封装，便于重用。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
@@ -664,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_article.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#26#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_suites.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -684,10 +699,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_article.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#26#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-797447900/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="730" column="6" selection-start-line="730" selection-start-column="6" selection-end-line="730" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_database2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#51#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/read_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>

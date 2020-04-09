@@ -1,3 +1,4 @@
+# -*- coding:utf8 -*-
 """
 目标：完成数据库相关工具类封装
 分析：1、主要方法
@@ -17,7 +18,7 @@ class ReadDB(object): #也可不写(object)
     #获取连接对象方法封装
     def get_conn(self):
         if self.conn is None:
-            pymysql.connect("127.0.0.1","root","123456","hmtt",charset="utf8")
+            self.conn = pymysql.connect("127.0.0.1", "root", "123456", "hmtt", charset="utf8")
         return self.conn
 
     #获取游标对象方法封装
@@ -25,7 +26,7 @@ class ReadDB(object): #也可不写(object)
         return self.get_conn().cursor()
 
     #关闭游标对象方法封装
-    def close_cursor(self,cursor):#必须指定要关闭的游标
+    def close_cursor(self, cursor):#必须指定要关闭的游标
         if cursor:#游标对象不能为空
             cursor.close()
 
@@ -36,7 +37,7 @@ class ReadDB(object): #也可不写(object)
             self.conn = None#注意：关闭连接对象后，对象还在内存中，需要手工设置为None
 
     #主要执行方法 外界调用此方法即可
-    def get_sql_one(self,sql):
+    def get_sql_one(self, sql):
         #定义游标对象及数据变量
         cursor = None
         data = None
@@ -44,7 +45,7 @@ class ReadDB(object): #也可不写(object)
             #获取游标对象
             cursor = self.get_cursor()
             #调用执行方法
-            cursor.excute(sql)
+            cursor.execute(sql)
             #获取结果
             data = cursor.fetchone()
         except Exception as e:
