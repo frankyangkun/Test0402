@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="对数据库主要方法进行封装，便于重用。">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="UnitTest结合DDT自动化实现。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittestDemo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittestDemo/demo2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_channels_py.coverage" NAME="Unittests in test_channels.py Coverage Results" MODIFIED="1586318796843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo2_py.coverage" NAME="Unittests in demo2.py Coverage Results" MODIFIED="1586763819985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo2_py.coverage" NAME="Unittests in demo2.py Coverage Results" MODIFIED="1586767083371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
   <component name="DatabaseView">
@@ -82,15 +83,17 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="13" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="125" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="132" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="136" />
-          <entry key="PLAIN_TEXT" value="145" />
-          <entry key="Python" value="5295" />
+          <entry key="PLAIN_TEXT" value="161" />
+          <entry key="Python" value="5426" />
+          <entry key="YAML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -105,11 +108,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/test_article.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="-400">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="e#26#41#0" expanded="true" />
                 <element signature="e#630#949#0" />
@@ -121,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/read_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="49" />
+            <state relative-caret-position="-153">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
                 <element signature="e#26#37#0" expanded="true" />
                 <element signature="e#91#106#0" />
@@ -131,24 +134,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unittestDemo/demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+            <state relative-caret-position="107">
+              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="e#34#49#0" expanded="true" />
-                <element signature="e#433#469#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittestDemo/param.txt">
+        <entry file="file://$PROJECT_DIR$/tools/read_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="1275">
+              <caret line="85" column="21" lean-forward="true" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/read_json_more.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="e#26#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,6 +211,8 @@
         <option value="$PROJECT_DIR$/1/demo1.py" />
         <option value="$PROJECT_DIR$/unittestDemo/demo1.py" />
         <option value="$PROJECT_DIR$/unittestDemo/param.txt" />
+        <option value="$PROJECT_DIR$/unittestDemo/ppp.yaml" />
+        <option value="$PROJECT_DIR$/unittestDemo/ppp.yml" />
         <option value="$PROJECT_DIR$/unittestDemo/demo2.py" />
       </list>
     </option>
@@ -208,8 +224,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="23" />
+    <option name="x" value="660" />
+    <option name="y" value="29" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
   </component>
@@ -228,6 +244,21 @@
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
@@ -445,38 +476,45 @@
       <option name="project" value="LOCAL" />
       <updated>1586419618387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="UnitTest结合DDT自动化实现。">
+      <created>1586764506154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586764506155</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 34m 51s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 09m 25s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 35m 07s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 11m 56s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 40m 12s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 33m 32s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 41m 11s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 34m 23s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 41m 44s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 35m 10s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 42m 42s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 36m 09s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 42m 59s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 36m 35s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 43m 08s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 37m 33s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 43m 17s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 37m 54s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 15h 43m 40s.xml">
+    <history-entry file="Unittests_in_demo2_py - 2020.04.13 at 16h 38m 03s.xml">
       <configuration name="Unittests in demo2.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -484,12 +522,12 @@
     <frame x="0" y="23" width="1440" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13090129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13090129" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29761904" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29232803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,7 +585,8 @@
     <MESSAGE value="文章相关接口业务层实现。" />
     <MESSAGE value="从数据库获取结果判断接口是否执行成功。" />
     <MESSAGE value="对数据库主要方法进行封装，便于重用。" />
-    <option name="LAST_COMMIT_MESSAGE" value="对数据库主要方法进行封装，便于重用。" />
+    <MESSAGE value="UnitTest结合DDT自动化实现。" />
+    <option name="LAST_COMMIT_MESSAGE" value="UnitTest结合DDT自动化实现。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
@@ -574,9 +613,6 @@
           <caret line="4" column="23" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/run_suites.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -650,20 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/api_channels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/read_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/case/test_database2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -674,48 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_login_more.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#89#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/read_json_more.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestDemo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/login.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_article.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#26#41#0" expanded="true" />
-            <element signature="e#630#949#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,10 +710,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/param.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/ppp.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api_channels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login_more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#89#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/read_json_more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#26#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/read_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="21" lean-forward="true" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#34#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tools/read_json.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="-153">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="e#26#37#0" expanded="true" />
             <element signature="e#91#106#0" />
@@ -737,20 +789,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittestDemo/param.txt">
+    <entry file="file://$PROJECT_DIR$/case/test_article.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestDemo/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+        <state relative-caret-position="-400">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
-            <element signature="e#34#49#0" expanded="true" />
-            <element signature="e#433#469#0" />
+            <element signature="e#26#41#0" expanded="true" />
+            <element signature="e#630#949#0" />
           </folding>
         </state>
       </provider>
