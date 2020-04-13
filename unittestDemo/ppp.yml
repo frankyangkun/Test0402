@@ -1,2 +1,10 @@
-name: 'name'
-info: 'info'
+name: 'name11'
+info: 'info11'
+data:
+  a: 1
+  b: 2
+  c: 3
+list:
+  - a
+  - b
+  - c
