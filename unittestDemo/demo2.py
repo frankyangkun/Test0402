@@ -60,9 +60,9 @@ class forTest(unittest.TestCase):
     #     print param2
 
 
-    @file_data('ppp.yml')
-    def test_6(self,value):
-        print value
+    @file_data('ppp.yml') #获取不了data: a: 111这种，会报错，其他的可以获取
+    def test_6(self, value1):
+        print value1
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
