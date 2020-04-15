@@ -1,8 +1,10 @@
-#encoding:utf8
+# -*- coding:utf8 -*-
 
 import unittest
 # from unittestDemo import * #不要写成这样
 from unittestDemo.testYml import *
+from tools.HTMLTestRunner import HTMLTestRunner
+import os
 
 #创建测试套件 == list
 suite = unittest.TestSuite()
@@ -24,10 +26,26 @@ suite = unittest.TestSuite()
 # discover = unittest.defaultTestLoader.discover(start_dir=test_dir,pattern='test*.py')
 
 #方法4：指定某个类，运行里面的所有用例
-suite.addTests(unittest.TestLoader().loadTestsFromTestCase(forYml))
+# suite.addTests(unittest.TestLoader().loadTestsFromTestCase(forYml))
 # suite.addTests(unittest.TestLoader().loadTestsFromName('unittestDemo.testYml')) #一样的效果，上面那种用的多一点
 
-#套件通过TextTestRunner对象进行运行 ≈ unittest.main()
-runner = unittest.TextTestRunner()
-runner.run(suite)
+#增加测试报告
+report_path = './report/'
+report_file = report_path + 'report.html'
+report_title = "title" #中文会有点问题，先不管
+report_desc = "desc"
+
+if not os.path.exists(report_path):
+    os.mkdir(report_path)
+else:
+    pass
+with open(report_file,'wb') as report:
+    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(forYml))
+    HTMLTestRunner(stream=report, title=report_title, description=report_desc).run(suite)
+
+    #套件通过TextTestRunner对象进行运行 ≈ unittest.main()
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
 # runner.run(discover) #方法3
+
+

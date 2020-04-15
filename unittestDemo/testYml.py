@@ -38,7 +38,7 @@ class forYml(unittest.TestCase):
     def test_6(self, value):
         print value
 
-    @unittest.skipIf(readFile()!='', '结果为空，所以不运行！')
+    @unittest.skipIf(readFile()=='', '结果为空，所以不运行！')
     def test_7(self): #这种方式可以获取data: a: 111
         print "global name is: ",self.name
         file = io.open("ppp2.yml",'r',encoding='utf8')
