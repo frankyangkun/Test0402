@@ -1,0 +1,10 @@
+name: 'name11'
+info: 'info11'
+data:
+  a: 111
+  b: 2222
+  c: 3333
+list:
+  - a
+  - b
+  - c
