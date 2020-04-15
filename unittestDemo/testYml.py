@@ -49,6 +49,8 @@ class forYml(unittest.TestCase):
     def test_8(self):
         self.assertEquals(1,2)
 
+    def test_9(self):
+        print 999
 if __name__ == '__main__':
     unittest.main()
 
