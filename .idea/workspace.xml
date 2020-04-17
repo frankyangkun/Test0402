@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="Unittest测试套件及runner应用。">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="web ui关键字驱动的设计模式实现。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui/testKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/testKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webui/webuiDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/webui/webuiDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1586167402524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_param_py.coverage" NAME="Unittests in test_param.py Coverage Results" MODIFIED="1585898569810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_article_py.coverage" NAME="Unittests in test_article.py Coverage Results" MODIFIED="1586403676435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_UnittestForUI_py.coverage" NAME="Unittests in UnittestForUI.py Coverage Results" MODIFIED="1587105712500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_test_channels_TestChannels_test_channels.coverage" NAME="Unittests for test_channels.TestChannels.test_channels Coverage Results" MODIFIED="1586318693570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$run_suites.coverage" NAME="run_suites Coverage Results" MODIFIED="1586397861475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -81,8 +84,9 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -90,7 +94,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="15" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="175" />
+          <entry key="Python" value="181" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="11" />
         </counts>
@@ -98,8 +102,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="136" />
-          <entry key="PLAIN_TEXT" value="272" />
-          <entry key="Python" value="11773" />
+          <entry key="PLAIN_TEXT" value="296" />
+          <entry key="Python" value="12190" />
           <entry key="YAML" value="183" />
         </counts>
       </usages-collector>
@@ -118,23 +122,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webui/testKeyword.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="630">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <element signature="e#30#60#0" expanded="true" />
+                <element signature="e#84#114#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/api_article.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webui/UnittestForUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#37#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,8 +202,9 @@
         <option value="$USER_HOME$/venv/lib/python2.7/site-packages/ddt.py" />
         <option value="$PROJECT_DIR$/unittestDemo/testYml.py" />
         <option value="$PROJECT_DIR$/unittestDemo/ppp2.yml" />
-        <option value="$PROJECT_DIR$/webui/webuiDemo.py" />
         <option value="$PROJECT_DIR$/webui/testKeyword.py" />
+        <option value="$PROJECT_DIR$/webui/UnittestForUI.py" />
+        <option value="$PROJECT_DIR$/webui/webuiDemo.py" />
       </list>
     </option>
   </component>
@@ -207,10 +215,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="848" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -230,22 +236,7 @@
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
               <item name="case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testKeyword">
+  <component name="RunManager" selected="Python tests.Unittests in UnittestForUI.py">
     <configuration name="testKeyword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,19 +369,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for demo2.forTest.test_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in UnittestForUI.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;demo2.forTest.test_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/webui/UnittestForUI.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -426,19 +417,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.unittest in testYml.py" />
-      <item itemvalue="Python tests.Unittests for demo2.forTest.test_2" />
       <item itemvalue="Python tests.Unittests for demo2.forTest" />
       <item itemvalue="Python.testSuite" />
       <item itemvalue="Python.webuiDemo" />
       <item itemvalue="Python.testKeyword" />
+      <item itemvalue="Python tests.Unittests in UnittestForUI.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in UnittestForUI.py" />
         <item itemvalue="Python.testKeyword" />
         <item itemvalue="Python.webuiDemo" />
         <item itemvalue="Python.testSuite" />
         <item itemvalue="Python tests.Unittests for demo2.forTest" />
-        <item itemvalue="Python tests.Unittests for demo2.forTest.test_2" />
       </list>
     </recent_temporary>
   </component>
@@ -530,22 +521,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586933848688</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="web ui关键字驱动的设计模式实现。">
+      <created>1587008550667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587008550668</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="unittest_in_testYml_py - 2020.04.14 at 16h 59m 47s.xml">
-      <configuration name="unittest in testYml.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_in_testYml_py - 2020.04.14 at 17h 00m 01s.xml">
-      <configuration name="unittest in testYml.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_in_testYml_py - 2020.04.15 at 14h 18m 48s.xml">
-      <configuration name="unittest in testYml.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="unittest_in_testYml_py - 2020.04.15 at 14h 19m 07s.xml">
-      <configuration name="unittest in testYml.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="unittest_in_testYml_py - 2020.04.15 at 16h 29m 37s.xml">
       <configuration name="unittest in testYml.py" configurationId="tests" />
     </history-entry>
@@ -564,17 +550,29 @@
     <history-entry file="unittest_in_testYml_py - 2020.04.15 at 16h 32m 48s.xml">
       <configuration name="unittest in testYml.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_UnittestForUI_py - 2020.04.17 at 11h 05m 32s.xml">
+      <configuration name="Unittests in UnittestForUI.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_UnittestForUI_py - 2020.04.17 at 11h 25m 56s.xml">
+      <configuration name="Unittests in UnittestForUI.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_UnittestForUI_py - 2020.04.17 at 14h 30m 49s.xml">
+      <configuration name="Unittests in UnittestForUI.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_UnittestForUI_py - 2020.04.17 at 14h 42m 05s.xml">
+      <configuration name="Unittests in UnittestForUI.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17381974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13948497" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.056626506" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20963855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,7 +635,8 @@
     <MESSAGE value="补充：ddt.file_data对yaml文件的读取，**kwargs参数个数不定。" />
     <MESSAGE value="Unittest断言和skip的使用。" />
     <MESSAGE value="Unittest测试套件及runner应用。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unittest测试套件及runner应用。" />
+    <MESSAGE value="web ui关键字驱动的设计模式实现。" />
+    <option name="LAST_COMMIT_MESSAGE" value="web ui关键字驱动的设计模式实现。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api/eee.py" />
@@ -649,13 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_param.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -702,10 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-            <element signature="e#91#106#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#73#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="21" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#130#145#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding>
-            <element signature="e#26#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="e#89#104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,18 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/webuiDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,6 +837,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api_article.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/webuiDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#16#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -892,19 +874,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/api_article.py">
+    <entry file="file://$PROJECT_DIR$/webui/testKeyword.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#84#114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webui/testKeyword.py">
+    <entry file="file://$PROJECT_DIR$/webui/UnittestForUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#30#60#0" expanded="true" />
+            <element signature="e#37#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

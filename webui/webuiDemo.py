@@ -1,5 +1,7 @@
-
 #encoding:utf8
+"""
+最基本的ui自动化demo
+"""
 from selenium import webdriver
 from time import sleep
 

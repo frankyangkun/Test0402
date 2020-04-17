@@ -52,7 +52,7 @@ class TestKeywords(object):
     #关闭浏览器
     def close_browser(self):
         sleep(2)
-        self.driver.close()
+        self.driver.quit() #self.driver.close()也可以，close不会关闭chromedriver进程，只是关闭当前标签页
 
 if __name__ == '__main__':
     tk = TestKeywords('http://www.baidu.com','chrome')
