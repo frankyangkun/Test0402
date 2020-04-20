@@ -16,8 +16,14 @@ class TestKeywords(object):
 
     #调用浏览器
     def open_browser(self, browsertype):
+        # 运行时，disable-infobars参数可去掉浏览器的"Chrome正受自动测试软件的控制"提示条，但我的没起作用
+        option = webdriver.ChromeOptions()
+        option.add_argument('headless') #headless浏览器静默运行(在后台运行，不打开浏览器)
+
         if browsertype == 'chrome':
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(chrome_options=option)
+            print "*************",driver.title #不知为啥没打印出「百度一下，你就知道」，可能是baidu做了限制
+
             return driver
         elif browsertype == 'firefox':
             driver = webdriver.Firefox()
