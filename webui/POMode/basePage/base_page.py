@@ -1,4 +1,7 @@
 #coding:utf8
+"""
+PO模式实现
+"""
 from selenium import webdriver
 from time import sleep
 

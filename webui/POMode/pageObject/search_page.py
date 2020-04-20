@@ -1,5 +1,7 @@
 #coding:utf8
-
+"""
+PO模式实现
+"""
 from selenium import webdriver
 from webui.POMode.basePage.base_page import BasePage
 from selenium.webdriver.common.by import By
