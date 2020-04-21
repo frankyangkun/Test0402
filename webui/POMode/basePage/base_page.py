@@ -1,6 +1,7 @@
 #coding:utf8
 """
 PO模式实现
+ps：po模式完全基于关键字驱动
 """
 from selenium import webdriver
 from time import sleep
@@ -24,3 +25,5 @@ class BasePage(object):
         sleep(2)
         self.driver.quit()
 
+    def get_title(self):
+        return self.driver.title
