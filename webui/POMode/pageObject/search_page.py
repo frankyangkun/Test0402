@@ -23,7 +23,7 @@ class SarchPage(BasePage):
     def click_element(self):
         self.locator(self.click_id).click()
 
-    #
+    #调试函数，测试函数，正式运行需要结合unittest来管理测试用例，调试通过后可删掉
     def check(self, url, input_text):
         self.visit(url)
         time.sleep(10) #如果是测试locman，必须在这里等待10s，因为加载较慢
