@@ -26,5 +26,5 @@ class TestCases(unittest.TestCase):
         self.assertEqual(self.sp.get_title(), '百度一下'.decode('utf-8'), msg='百度一下'.decode('utf-8'))
 
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
