@@ -16,9 +16,10 @@ from selenium.webdriver.common.by import By
 
 list1 = ddtreadexcel().getdata()
 
-
+@allure.feature('Locman登录')  # 用feature说明产品需求，可以理解为JIRA中的Epic
 @ddt
 class TestDemo3(unittest.TestCase):
+
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get("http://140.246.137.19:45680/#/login")
@@ -26,26 +27,11 @@ class TestDemo3(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
 
-    # @pytest.fixture(scope='function')
-    # def login(self):
-    #     print("登录")
-    #     yield
-    #     print("登录完成")
-    #
-    # # @allure.feature('加入购物车')
-    # def test_1(login):
-    #     '''将苹果加入购物车'''
-    #     print("测试用例1")
-    #
-    # # @allure.feature('加入购物车')
-    # def test_2(self):
-    #     '''将橘子加入购物车'''
-    #     print("测试用例2")
-
+    @allure.story('登录')  # 用story说明用户场景，可以理解为JIRA中的Story
     @data(*list1)  # getdata()返回的是list，里面的值是dict的kv值
     @unpack
     def test1(self, **dict):  # 解包后得到的是dict类型的kv值
-
+        '''这里是登录操作'''
         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(
             (By.XPATH, '/html/body/div/div/div/div[1]/div[3]/div/div[2]/div/form/div[1]/input')))
         self.driver.find_element_by_xpath(
@@ -62,6 +48,10 @@ class TestDemo3(unittest.TestCase):
             '/html/body/div/div/div/div[1]/div[3]/div/div[2]/div/form/div[3]/button').click()
 
         self.assertEqual(dict.get('username'), dict.get('password'))
+
+    @pytest.mark.skipif(reason='本次不执行')
+    def test2(self):
+        print ("test2...")
 
 
 if __name__ == "__main__":
