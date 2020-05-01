@@ -20,13 +20,16 @@ list1 = ddtreadexcel().getdata()
 @ddt
 class TestDemo3(unittest.TestCase):
 
-    def setUp(self):
-        self.driver = webdriver.Chrome()
-        self.driver.get("http://140.246.137.19:45680/#/login")
+    # @pytest.mark.skipif(reason='本次不执行')  # 对前置后置无效
+    # def setUp(self):
+    #     self.driver = webdriver.Chrome()
+    #     self.driver.get("http://140.246.137.19:45680/#/login")
 
-    def tearDown(self):
-        self.driver.quit()
+    # @pytest.mark.skipif(reason='本次不执行')
+    # def tearDown(self):
+    #     self.driver.quit()
 
+    @pytest.mark.skipif(reason='本次不执行')
     @allure.story('登录')  # 用story说明用户场景，可以理解为JIRA中的Story
     @data(*list1)  # getdata()返回的是list，里面的值是dict的kv值
     @unpack
@@ -49,9 +52,14 @@ class TestDemo3(unittest.TestCase):
 
         self.assertEqual(dict.get('username'), dict.get('password'))
 
-    @pytest.mark.skipif(reason='本次不执行')
+    # @pytest.mark.skipif(reason='本次不执行')
     def test2(self):
         print ("test2...")
+        # assert 1 == 2  # python3的断言只会断言一次
+        # self.assertEqual(2, 3)  # unittest的断言也只会断言一次
+        # self.assertEqual(3, 4)
+        pytest.assume(1 == 2)  # pytest的断言可以进行多次
+        pytest.assume(2 == 3)
 
 
 if __name__ == "__main__":
