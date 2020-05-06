@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="Pytest框架的常见用法">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="pytest参数化用法，@pytest.mark.parametrize">
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0624a218-4bdb-461a-a2d4-fa5dbfce858e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/07226267-8250-441c-8b20-bbd6a430e2ac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/08058444-aefc-4325-8125-53839f564369-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0b672c6a-95a7-4007-a19c-efd62d71a560-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0d9e71f7-2822-4eca-b2aa-8352f2e74cc3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0dd9edd5-cfac-48f2-82b3-256a20651748-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0f0202a6-f1b7-455c-8280-ffc295f55dea-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/16f4e11f-012d-4e02-b84e-03287d40a400-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/176992a2-cb80-4261-9b1e-9d762bf8504f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/1a33b1e1-9679-436f-8aee-06e0036efae0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/1acd449e-75ab-4219-a6d6-393c758ad567-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/228ea7a8-950a-4fe2-a533-467741691a2f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/25bfefed-9f65-4887-a8a8-2bc36196444f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/295303ab-a973-4616-b145-3dbd8098f886-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/29609bf1-4af8-4b1d-b3c3-b056d7642c31-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/2c186b32-4fd9-425f-b8ed-62a2e40b2c4d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/2f7c5097-5aa8-4f7f-9678-5a2e23126f43-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/305d0efb-5531-484b-aded-20ddc62abac9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/3534069c-5371-4b49-a728-5cf167b5d0c9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/354bcfb9-c96c-49aa-ab55-18fae56328bf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/413fe612-31eb-4c18-8f26-ebf09281198e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/487489e5-b751-42c7-b004-3e1e891c8577-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/48fb3934-63bf-4597-ba9c-9f08adbc0e21-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/55146a6b-bae1-42cb-bbdb-7217b8d0427d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/5ca9b036-bded-458c-a1ac-d022249d4292-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/63f467ed-2ab0-4477-a581-02582b315c66-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/6d252352-b02f-4a0e-b77b-2a0837d1641b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/710ab496-9510-41f4-8709-86afa78d0413-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/729d10b5-82c9-4086-a7ac-cef4141816a2-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/74c02821-774f-4557-96ef-bd68d538fbe1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/7531b821-f2e3-42f5-8dc7-3062f9afe788-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/792ed047-a34d-4821-9262-6fb28aa7f52a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/858bd596-6f67-457f-8c76-fc279c8323ad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/89a4100b-69bf-46c9-9bf8-06b27881b95d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/8c15247a-0e0d-4888-a508-65fc0e4c38f2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/8cffb4e4-9444-4c5f-bdef-81a74da11145-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/954a70a9-42ec-45a4-88dc-3ed17d649324-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/98f63230-b1d0-4e91-97c4-99727f8b5336-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/9c40b1d3-c1eb-4d7d-939a-9f89337cf8f5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/aaeb81c2-f793-4350-bd35-1b2b7029a4ac-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ab42b791-f86d-4e9c-a093-b4f6d0125a1b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/abee49b4-356d-4c89-92c4-717a415eac7d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ad3a5948-39ad-498c-bf1a-9af2d67b51fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/af51b2e2-9eda-40e0-b959-9db0945ac196-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/b71038ac-6bdb-426b-ad52-acb4f72ba45f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/b916705b-e71e-45d0-b59c-05d482933ac0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/bc2a25b5-7bdc-42f3-808c-37681476f4b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/bd908822-a3ed-4c42-85c2-cbc843cafea4-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/c333b5e6-7e32-4dec-8ffb-2a17017772e1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/cdb0d763-2a65-4737-ad4a-8f7adef4c57c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/de46ca78-cb26-4cf5-aa7d-6d4142851dba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/df0b8798-9a83-415f-ba60-423f9db503e5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e1836055-f569-4e1a-ba93-28cb4ddfd1b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e5308fbf-e7ee-4435-adde-7f06a0413398-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e6bf5f43-83ad-4bd7-a690-95eeabba5033-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e9ce75ea-b9e5-4c90-81e8-094c60d4691b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ea0843f5-a796-48d7-8be9-37559fab5a7f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ec38d130-0834-4f39-98b6-50db17832346-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f1eb2e5c-bc1b-4807-8aa7-495164f23754-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f2759762-fdde-49ad-843b-08ad1554aa85-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f2fc2383-1d98-40f3-bce4-554fed0b4cb6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f64f9018-2c27-434e-b907-f22cd89e9f22-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/fba62e48-82ff-41fc-a461-d334da27a028-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/test_pytestddt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddt_excel/test_locman_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/test_locman_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +80,14 @@
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo2.coverage" NAME="test_demo2 Coverage Results" MODIFIED="1587980046844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1587463356795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/test_case" />
     <SUITE FILE_PATH="coverage/Test0402_git$testYml.coverage" NAME="testYml Coverage Results" MODIFIED="1586849781401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_pytestddt_py.coverage" NAME="pytest in test_pytestddt.py Coverage Results" MODIFIED="1588777181250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_param_py.coverage" NAME="Unittests in test_param.py Coverage Results" MODIFIED="1585898569810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1587450516715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3.coverage" NAME="pytest for test_locman_login.TestDemo3 Coverage Results" MODIFIED="1588756849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1586338074619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_test3.coverage" NAME="pytest for test_locman_login.test3 Coverage Results" MODIFIED="1588756079984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1585900333249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$MailDemo.coverage" NAME="MailDemo Coverage Results" MODIFIED="1587631514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$Testdemo1.coverage" NAME="Testdemo1 Coverage Results" MODIFIED="1588038143745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
@@ -32,6 +100,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo2_py.coverage" NAME="Unittests in demo2.py Coverage Results" MODIFIED="1586849020394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_pytestDemo.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1588059936866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_pytestddt.coverage" NAME="unittest in pytestddt Coverage Results" MODIFIED="1588775576572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo3_py.coverage" NAME="pytest in test_demo4.py Coverage Results" MODIFIED="1588147381738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo5_py.coverage" NAME="pytest in test_demo5.py Coverage Results" MODIFIED="1588234949018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1587885005459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
@@ -41,21 +110,24 @@
     <SUITE FILE_PATH="coverage/Test0402_git$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1586167402524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_article_py.coverage" NAME="Unittests in test_article.py Coverage Results" MODIFIED="1586403676435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_test_01.coverage" NAME="pytest for test_demo5.test_01 Coverage Results" MODIFIED="1588234156177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_locman_login_py.coverage" NAME="pytest in test_locman_login.py Coverage Results" MODIFIED="1588756669226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_UnittestForUI_py.coverage" NAME="Unittests in UnittestForUI.py Coverage Results" MODIFIED="1587110270063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_TestCase_py.coverage" NAME="Unittests in TestCase.py Coverage Results" MODIFIED="1587540860284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode2" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo3.coverage" NAME="test_demo3 Coverage Results" MODIFIED="1588146479400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_test_channels_TestChannels_test_channels.coverage" NAME="Unittests for test_channels.TestChannels.test_channels Coverage Results" MODIFIED="1586318693570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$run_suites.coverage" NAME="run_suites Coverage Results" MODIFIED="1586397861475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_testYml_py.coverage" NAME="unittest in testYml.py Coverage Results" MODIFIED="1586939568454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_ddt_excel.coverage" NAME="pytest in ddt_excel Coverage Results" MODIFIED="1588082210545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_ddt_excel.coverage" NAME="pytest in ddt_excel Coverage Results" MODIFIED="1588775598168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest_test_2.coverage" NAME="Unittests for demo2.forTest.test_2 Coverage Results" MODIFIED="1586613932726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586420706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$webuiDemo.coverage" NAME="webuiDemo Coverage Results" MODIFIED="1586945515129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_ReadExcel_py.coverage" NAME="Unittests in ReadExcel.py Coverage Results" MODIFIED="1587718662738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_pytestddt_TestDDT_test1.coverage" NAME="pytest for test_pytestddt.TestDDT.test1 Coverage Results" MODIFIED="1588757594172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$ddt_excel.coverage" NAME="ddt_excel Coverage Results" MODIFIED="1588082166443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1587884289438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_demo3_py.coverage" NAME="Unittests in test_demo3.py Coverage Results" MODIFIED="1588081661571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3_test3.coverage" NAME="pytest for test_locman_login.TestDemo3.test3 Coverage Results" MODIFIED="1588755901167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_more_py.coverage" NAME="Unittests in test_login_more.py Coverage Results" MODIFIED="1585902901360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo4.coverage" NAME="test_demo4 Coverage Results" MODIFIED="1588213835725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_test_02.coverage" NAME="pytest for test_demo5.test_02 Coverage Results" MODIFIED="1588229269612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
@@ -121,7 +193,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="29" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="437" />
+          <entry key="Python" value="443" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="12" />
         </counts>
@@ -129,8 +201,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="136" />
-          <entry key="PLAIN_TEXT" value="471" />
-          <entry key="Python" value="26089" />
+          <entry key="PLAIN_TEXT" value="495" />
+          <entry key="Python" value="26611" />
           <entry key="YAML" value="183" />
         </counts>
       </usages-collector>
@@ -149,29 +221,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ddt_excel/test_locman_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-420">
+              <caret line="24" column="99" lean-forward="true" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
               <folding>
                 <element signature="e#97#110#0" expanded="true" />
               </folding>
@@ -180,30 +234,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webui/POMode/test_case/test_cases.py">
+        <entry file="file://$PROJECT_DIR$/ddt_excel/test_pytestddt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
               <folding>
-                <element signature="e#53#68#0" expanded="true" />
+                <element signature="e#23#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittestDemo/testSuite.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case/test_login_more.py">
+        <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#89#104#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-11">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -236,8 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/api_article.py" />
-        <option value="$PROJECT_DIR$/data/article_add.json" />
         <option value="$PROJECT_DIR$/data/article_cancel.json" />
         <option value="$PROJECT_DIR$/tools/read_json.py" />
         <option value="$PROJECT_DIR$/run_suites.py" />
@@ -287,6 +331,8 @@
         <option value="$PROJECT_DIR$/pytestDemo/contest.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo5.py" />
         <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/test_locman_login.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/test_pytestddt.py" />
       </list>
     </option>
   </component>
@@ -395,7 +441,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_demo5.py">
+  <component name="RunManager" selected="Python tests.pytest in test_pytestddt.py">
     <configuration name="test_demo3" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -455,68 +501,52 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_demo5.TestDemo5.test_04" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_locman_login.TestDemo3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo5.TestDemo5.test_04&quot;" />
+      <option name="_new_target" value="&quot;test_locman_login.TestDemo3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_demo5.test_01" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_locman_login.test3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo5.test_01&quot;" />
+      <option name="_new_target" value="&quot;test_locman_login.test3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_demo5.test_02" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_pytestddt.TestDDT.test1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_demo5.test_02&quot;" />
+      <option name="_new_target" value="&quot;test_pytestddt.TestDDT.test1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in ddt_excel" type="tests" factoryName="py.test">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in pytestDemo" type="tests" factoryName="py.test">
@@ -535,39 +565,23 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_demo4.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_locman_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestDemo/test_demo4.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_locman_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_demo5.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestDemo/test_demo5.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_demo4" type="tests" factoryName="py.test">
+    <configuration name="pytest in test_pytestddt.py" type="tests" factoryName="py.test">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -579,7 +593,23 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestDemo/test_demo4.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_pytestddt.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unittest in pytestddt" type="tests" factoryName="Unittests">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_pytestddt.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -602,23 +632,22 @@
     <list>
       <item itemvalue="Python.test_demo4" />
       <item itemvalue="Python.test_demo3" />
-      <item itemvalue="Python tests.test_demo4" />
-      <item itemvalue="Python tests.pytest in ddt_excel" />
       <item itemvalue="Python tests.pytest in pytestDemo" />
+      <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
-      <item itemvalue="Python tests.pytest in test_demo4.py" />
-      <item itemvalue="Python tests.pytest in test_demo5.py" />
-      <item itemvalue="Python tests.pytest for test_demo5.test_02" />
-      <item itemvalue="Python tests.pytest for test_demo5.TestDemo5.test_04" />
-      <item itemvalue="Python tests.pytest for test_demo5.test_01" />
+      <item itemvalue="Python tests.unittest in pytestddt" />
+      <item itemvalue="Python tests.pytest in test_locman_login.py" />
+      <item itemvalue="Python tests.pytest for test_locman_login.test3" />
+      <item itemvalue="Python tests.pytest for test_locman_login.TestDemo3" />
+      <item itemvalue="Python tests.pytest for test_pytestddt.TestDDT.test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_demo5.py" />
-        <item itemvalue="Python tests.pytest for test_demo5.test_01" />
-        <item itemvalue="Python tests.pytest for test_demo5.TestDemo5.test_04" />
-        <item itemvalue="Python tests.pytest for test_demo5.test_02" />
-        <item itemvalue="Python tests.pytest in test_demo4.py" />
+        <item itemvalue="Python tests.pytest in test_pytestddt.py" />
+        <item itemvalue="Python tests.pytest for test_pytestddt.TestDDT.test1" />
+        <item itemvalue="Python tests.pytest for test_locman_login.TestDemo3" />
+        <item itemvalue="Python tests.pytest in test_locman_login.py" />
+        <item itemvalue="Python tests.pytest for test_locman_login.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -745,51 +774,57 @@
       <option name="project" value="LOCAL" />
       <updated>1588312505604</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="补充@pytest.fixture()的用法，各种前后置用法。">
+      <created>1588755353087</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588755353087</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_demo5_test_01 - 2020.04.30 at 16h 04m 01s.xml">
-      <configuration name="pytest for test_demo5.test_01" configurationId="tests" />
+    <history-entry file="pytest_in_test_pytestddt_py - 2020.05.06 at 17h 36m 12s.xml">
+      <configuration name="pytest in test_pytestddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo5_test_01 - 2020.04.30 at 16h 04m 29s.xml">
-      <configuration name="pytest for test_demo5.test_01" configurationId="tests" />
+    <history-entry file="pytest_in_test_pytestddt_py - 2020.05.06 at 22h 28m 13s.xml">
+      <configuration name="pytest in test_pytestddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo5_test_01 - 2020.04.30 at 16h 04m 56s.xml">
-      <configuration name="pytest for test_demo5.test_01" configurationId="tests" />
+    <history-entry file="pytest_in_test_pytestddt_py - 2020.05.06 at 22h 28m 48s.xml">
+      <configuration name="pytest in test_pytestddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo5_test_01 - 2020.04.30 at 16h 06m 23s.xml">
-      <configuration name="pytest for test_demo5.test_01" configurationId="tests" />
+    <history-entry file="pytest_in_test_pytestddt_py - 2020.05.06 at 22h 30m 55s.xml">
+      <configuration name="pytest in test_pytestddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_demo5_test_01 - 2020.04.30 at 16h 09m 17s.xml">
-      <configuration name="pytest for test_demo5.test_01" configurationId="tests" />
+    <history-entry file="unittest_in_pytestddt - 2020.05.06 at 22h 32m 23s.xml">
+      <configuration name="unittest in pytestddt" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.04.30 at 16h 09m 24s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="unittest_in_pytestddt - 2020.05.06 at 22h 32m 30s.xml">
+      <configuration name="unittest in pytestddt" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.04.30 at 16h 12m 00s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="unittest_in_pytestddt - 2020.05.06 at 22h 32m 56s.xml">
+      <configuration name="unittest in pytestddt" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.04.30 at 16h 15m 20s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="pytest_in_ddt_excel - 2020.05.06 at 22h 33m 19s.xml">
+      <configuration name="pytest in ddt_excel" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.04.30 at 16h 21m 46s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_pytestddt_py - 2020.05.06 at 22h 35m 27s.xml">
+      <configuration name="pytest in test_pytestddt.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.04.30 at 16h 22m 30s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_pytestddt_py - 2020.05.06 at 22h 59m 42s.xml">
+      <configuration name="pytest in test_pytestddt.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13733906" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2987952" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29277107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -857,16 +892,10 @@
     <MESSAGE value="补充上一次提交涉及的文件。" />
     <MESSAGE value="补充一点Allure库的用法，让allure报告更完善。" />
     <MESSAGE value="Pytest框架的常见用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pytest框架的常见用法" />
+    <MESSAGE value="补充@pytest.fixture()的用法，各种前后置用法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充@pytest.fixture()的用法，各种前后置用法。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webui/POMode/pageObject/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webui/POMode/pageObject/search_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1029,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1076,13 +1098,6 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/ddt.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytestDemo/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unittestDemo/testYml.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1127,27 +1142,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
+    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locman_login.py">
+    <entry file="file://$PROJECT_DIR$/pytestDemo/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#97#110#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_pytestddt.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locman_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="24" column="99" lean-forward="true" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
+          <folding>
+            <element signature="e#97#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

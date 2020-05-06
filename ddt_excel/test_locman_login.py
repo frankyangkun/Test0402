@@ -16,6 +16,13 @@ from selenium.webdriver.common.by import By
 
 list1 = ddtreadexcel().getdata()
 
+
+@pytest.mark.parametrize('a,b', [(1, 1), (3, 2), (2, 2)])  # 测试方法在class外面
+def test3(a, b):
+    assert a == b
+
+
+# @pytest.mark.parametrize('x,y', [(1, 1), (2, 2), (2, 2)])  # 测试方法在class里面，但不能和unittest.TestCase混用
 @allure.feature('Locman登录')  # 用feature说明产品需求，可以理解为JIRA中的Epic
 @ddt
 class TestDemo3(unittest.TestCase):
@@ -29,7 +36,7 @@ class TestDemo3(unittest.TestCase):
     # def tearDown(self):
     #     self.driver.quit()
 
-    @pytest.mark.skipif(reason='本次不执行')
+    @pytest.mark.skipif(reason='test1本次不执行')
     @allure.story('登录')  # 用story说明用户场景，可以理解为JIRA中的Story
     @data(*list1)  # getdata()返回的是list，里面的值是dict的kv值
     @unpack
@@ -52,14 +59,20 @@ class TestDemo3(unittest.TestCase):
 
         self.assertEqual(dict.get('username'), dict.get('password'))
 
-    # @pytest.mark.skipif(reason='本次不执行')
+    @pytest.mark.skipif(reason='test2本次不执行')
     def test2(self):
-        print ("test2...")
+        print("test2...")
         # assert 1 == 2  # python3的断言只会断言一次
         # self.assertEqual(2, 3)  # unittest的断言也只会断言一次
         # self.assertEqual(3, 4)
         pytest.assume(1 == 2)  # pytest的断言可以进行多次
         pytest.assume(2 == 3)
+
+    # def test4(self, x, y):
+    #     assert x == y
+    #
+    # def test5(self, x, y):
+    #     assert x == y
 
 
 if __name__ == "__main__":
