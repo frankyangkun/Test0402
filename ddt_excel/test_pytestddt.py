@@ -1,5 +1,6 @@
 # -*- coding:utf8 -*-
 """
+2020-05-06
 @pytest.mark.parametrize不能和unittest混用（不能unittest.TestCase）
 否则报missing 2 required positional arguments: 'a' and 'b'
 由于继承了unittest.TestCase，就要用unittets模式运行，unittest没法直接调用pytest的这两个参数
