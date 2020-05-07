@@ -2,12 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="结合Locman的DDT+excel模式，">
-      <change afterPath="$PROJECT_DIR$/ddt_excel/te0st_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddt_excel/tes9t_demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddt_excel/test_demo3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0624a218-4bdb-461a-a2d4-fa5dbfce858e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/07226267-8250-441c-8b20-bbd6a430e2ac-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/08058444-aefc-4325-8125-53839f564369-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0b672c6a-95a7-4007-a19c-efd62d71a560-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0d9e71f7-2822-4eca-b2aa-8352f2e74cc3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0dd9edd5-cfac-48f2-82b3-256a20651748-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/0f0202a6-f1b7-455c-8280-ffc295f55dea-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/16f4e11f-012d-4e02-b84e-03287d40a400-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/176992a2-cb80-4261-9b1e-9d762bf8504f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/1a33b1e1-9679-436f-8aee-06e0036efae0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/1acd449e-75ab-4219-a6d6-393c758ad567-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/228ea7a8-950a-4fe2-a533-467741691a2f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/25bfefed-9f65-4887-a8a8-2bc36196444f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/295303ab-a973-4616-b145-3dbd8098f886-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/29609bf1-4af8-4b1d-b3c3-b056d7642c31-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/2c186b32-4fd9-425f-b8ed-62a2e40b2c4d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/2f7c5097-5aa8-4f7f-9678-5a2e23126f43-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/305d0efb-5531-484b-aded-20ddc62abac9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/3534069c-5371-4b49-a728-5cf167b5d0c9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/354bcfb9-c96c-49aa-ab55-18fae56328bf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/413fe612-31eb-4c18-8f26-ebf09281198e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/487489e5-b751-42c7-b004-3e1e891c8577-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/48fb3934-63bf-4597-ba9c-9f08adbc0e21-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/55146a6b-bae1-42cb-bbdb-7217b8d0427d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/5ca9b036-bded-458c-a1ac-d022249d4292-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/63f467ed-2ab0-4477-a581-02582b315c66-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/6d252352-b02f-4a0e-b77b-2a0837d1641b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/710ab496-9510-41f4-8709-86afa78d0413-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/729d10b5-82c9-4086-a7ac-cef4141816a2-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/74c02821-774f-4557-96ef-bd68d538fbe1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/7531b821-f2e3-42f5-8dc7-3062f9afe788-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/792ed047-a34d-4821-9262-6fb28aa7f52a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/858bd596-6f67-457f-8c76-fc279c8323ad-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/89a4100b-69bf-46c9-9bf8-06b27881b95d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/8c15247a-0e0d-4888-a508-65fc0e4c38f2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/8cffb4e4-9444-4c5f-bdef-81a74da11145-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/954a70a9-42ec-45a4-88dc-3ed17d649324-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/98f63230-b1d0-4e91-97c4-99727f8b5336-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/9c40b1d3-c1eb-4d7d-939a-9f89337cf8f5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/aaeb81c2-f793-4350-bd35-1b2b7029a4ac-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ab42b791-f86d-4e9c-a093-b4f6d0125a1b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/abee49b4-356d-4c89-92c4-717a415eac7d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ad3a5948-39ad-498c-bf1a-9af2d67b51fe-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/af51b2e2-9eda-40e0-b959-9db0945ac196-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/b71038ac-6bdb-426b-ad52-acb4f72ba45f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/b916705b-e71e-45d0-b59c-05d482933ac0-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/bc2a25b5-7bdc-42f3-808c-37681476f4b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/bd908822-a3ed-4c42-85c2-cbc843cafea4-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/c333b5e6-7e32-4dec-8ffb-2a17017772e1-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/cdb0d763-2a65-4737-ad4a-8f7adef4c57c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/de46ca78-cb26-4cf5-aa7d-6d4142851dba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/df0b8798-9a83-415f-ba60-423f9db503e5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e1836055-f569-4e1a-ba93-28cb4ddfd1b6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e5308fbf-e7ee-4435-adde-7f06a0413398-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e6bf5f43-83ad-4bd7-a690-95eeabba5033-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/e9ce75ea-b9e5-4c90-81e8-094c60d4691b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ea0843f5-a796-48d7-8be9-37559fab5a7f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/ec38d130-0834-4f39-98b6-50db17832346-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f1eb2e5c-bc1b-4807-8aa7-495164f23754-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f2759762-fdde-49ad-843b-08ad1554aa85-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f2fc2383-1d98-40f3-bce4-554fed0b4cb6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/f64f9018-2c27-434e-b907-f22cd89e9f22-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddt_excel/temp/fba62e48-82ff-41fc-a461-d334da27a028-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddt_excel/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +161,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="13" />
+          <entry key="project.open.time.0" value="14" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -111,7 +169,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -160,7 +218,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ddt_excel/te0st_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
+            <state relative-caret-position="810">
               <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
@@ -173,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ddt_excel/tes9t_demo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="1020">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -185,11 +243,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ddt_excel/test_demo3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-              <folding>
-                <element signature="e#23#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -314,7 +369,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,6 +389,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -719,7 +774,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -729,7 +784,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.25661376" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.2554217" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.6096386" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.23148148" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32771084" />
@@ -1075,26 +1130,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_demoo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/tes9t_demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_demoo.py" />
     <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1104,7 +1140,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ddt_excel/te0st_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
+        <state relative-caret-position="810">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
@@ -1113,13 +1149,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_demo3.py">
+    <entry file="file://$PROJECT_DIR$/ddt_excel/tes9t_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="1020">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
