@@ -93,7 +93,7 @@ class kdtExcel(unittest.TestCase):
             eval(command)
 
     def test_cases(self):
-        self.readExcel(r"./testcase.xlsx") #ps：可以利用unittest管理不同类型的测试用例，分别存放在不同的excel
+        self.readExcel(r"./locmantestcase.xlsx") #ps：可以利用unittest管理不同类型的测试用例，分别存放在不同的excel
 
 
 if __name__ == '__main__':
