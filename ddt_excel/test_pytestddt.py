@@ -11,7 +11,7 @@ import pytest
 import unittest
 
 
-@pytest.mark.parametrize('a,b', [(1, 1), (2, 2)])
+@pytest.mark.parametrize('a,b', [(1, 1), (2, 3), (3, 3)])
 class TestDDT(object):  # class必须大写Test开头
     def test1(self, a, b):
         assert a == b
