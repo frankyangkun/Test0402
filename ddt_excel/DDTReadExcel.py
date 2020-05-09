@@ -4,6 +4,7 @@
 2020-04-26
 """
 import xlrd
+import json
 
 class ddtreadexcel(object):
     """
@@ -43,6 +44,23 @@ class ddtreadexcel(object):
                 course_data.append(data)
         return course_data
 
+    """
+       返回指定功能的用例的两个字段
+    """
+    def getdata3(self):
+        all_datas = self.getdata()
+        course_data = []
+        for data in all_datas:
+            if data['功能'] == '登录':
+                print("+++++++", data, type(data))  # json类型 dict
+                body = data['请求参数']
+                j = json.loads(body)  # 将str类型的body转换为json类型
+                expect = data['断言']
+                expect1 = json.loads(expect)
+                course_data.append((j, expect1))  # 让它符合@pytest.mark.parametrize('a,b',[(1,2,),(2,2,),(3,3)])格式
+        return course_data
+
+
 # if __name__ == '__main__':
 #     test = ddtreadexcel()
-#     print(test.getdata2())
+#     print(test.getdata3())
