@@ -11,7 +11,9 @@ import pytest
 
 @pytest.fixture()  # 将该函数作为参数传给其他函数，默认是scope="function"
 def login():
-    print("login...")
+    print("setup login...")
+    yield  # 起到一个等待的作用，前面的执行完后，等待，去执行调用者的内容，然后再回来执行后面的内容
+    print("teardown login...")
 
 
 @pytest.fixture(scope="class", params=[1, 2, 3])
@@ -25,20 +27,22 @@ def login3():
     print("login3**************")
 
 
-def test_01(login2):
-    print(login2)
-
-
 class TestDemo5(object):
-    def test_03(self, login2):
+    @pytest.mark.others
+    def test_01(login2):
+        print(login2)
+
+    def test_print_03(self, login2):
         print("test03...")
 
-    def test_04(self, publictest, login):
+    def test_print_04(self, publictest, login):
         print("test04...")
 
-    def test_05(self):
+    def test_print_05(self):
         print("test05")
 
 
+
+
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main(["-m","others"])
