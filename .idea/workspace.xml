@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="测试数据与测试代码分离，从json文件中批量执行用例。">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="基于pytest的参数化，测试代码与数据分离，从json文件中批量执行用例。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginDemo/utils/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/loginDemo/utils/get_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,8 +148,8 @@
         <counts>
           <entry key="Ini" value="189" />
           <entry key="JSON" value="244" />
-          <entry key="PLAIN_TEXT" value="608" />
-          <entry key="Python" value="30769" />
+          <entry key="PLAIN_TEXT" value="641" />
+          <entry key="Python" value="30815" />
           <entry key="YAML" value="183" />
         </counts>
       </usages-collector>
@@ -168,11 +168,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
@@ -180,11 +180,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="81">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -192,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="45">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding>
                 <element signature="e#56#71#0" expanded="true" />
               </folding>
@@ -277,9 +277,9 @@
         <option value="$PROJECT_DIR$/loginDemo/utils/get_data2.py" />
         <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login2.json" />
         <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login3" />
-        <option value="$PROJECT_DIR$/loginDemo/utils/get_data.py" />
-        <option value="$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py" />
         <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login31.json" />
+        <option value="$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py" />
+        <option value="$PROJECT_DIR$/loginDemo/utils/get_data.py" />
       </list>
     </option>
   </component>
@@ -847,7 +847,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588928897626</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="基于pytest的参数化，测试代码与数据分离，从json文件中批量执行用例。">
+      <created>1589376453098</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1589376453101</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -962,7 +969,8 @@
     <MESSAGE value="补充@pytest.fixture()的用法，各种前后置用法。" />
     <MESSAGE value="pytest参数化用法，@pytest.mark.parametrize" />
     <MESSAGE value="结合读取Excel的ddt方式，实现Locman接口自动化。" />
-    <option name="LAST_COMMIT_MESSAGE" value="结合读取Excel的ddt方式，实现Locman接口自动化。" />
+    <MESSAGE value="基于pytest的参数化，测试代码与数据分离，从json文件中批量执行用例。" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于pytest的参数化，测试代码与数据分离，从json文件中批量执行用例。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ddt_excel/te0st_demo.py" />
@@ -1272,26 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#56#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login31.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1301,8 +1289,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="81">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="e#56#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

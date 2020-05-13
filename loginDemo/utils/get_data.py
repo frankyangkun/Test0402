@@ -1,5 +1,6 @@
 # -*- coding:utf8 -*-
 """
+注意测试用例目录结构和测试数据目录结构要相同，才方便使用。
 用例地址 /Users/yang/PycharmProjects/Test0402_git/loginDemo/tests/test_login/test_login3.json.py
 数据地址 /Users/yang/PycharmProjects/Test0402_git/loginDemo/data/test_login/test_login3.json
 区别就是一个是tests目录，一个是data目录，文件后缀不同。即可根据测试用例目录获取到测试数据所在目录
