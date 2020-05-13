@@ -54,13 +54,15 @@ class ddtreadexcel(object):
             if data['功能'] == '登录':
                 print("+++++++", data, type(data))  # json类型 dict
                 body = data['请求参数']
+                # print("xxxx",body,type(body))
                 j = json.loads(body)  # 将str类型的body转换为json类型
+                # print("yyyy", j, type(j))
                 expect = data['断言']
                 expect1 = json.loads(expect)
                 course_data.append((j, expect1))  # 让它符合@pytest.mark.parametrize('a,b',[(1,2,),(2,2,),(3,3)])格式
         return course_data
 
 
-# if __name__ == '__main__':
-#     test = ddtreadexcel()
-#     print(test.getdata3())
+if __name__ == '__main__':
+    test = ddtreadexcel()
+    print(test.getdata3())

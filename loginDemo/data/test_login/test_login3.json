@@ -1,0 +1,36 @@
+{
+  "test": [
+    {
+      "case": "login1",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {"loginAccount": "pzadmin","password": "96E79218965EB72C92A549DD5A330112", "userType": "individual"},
+      "expected": {
+
+      }
+    },
+
+    {
+      "case": "login2",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {"loginAccount": "201808230@sefon.com","password": "96E79218965EB72C92A549DD5A330112", "userType": "individual"},
+      "expected": {
+
+      }
+    },
+
+    {
+      "case": "login3",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "payload": {"loginAccount": "pzadmin","password": "123", "userType": "individual"},
+      "expected": {
+
+      }
+    }
+  ]
+}

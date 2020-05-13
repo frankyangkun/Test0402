@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="结合读取Excel的ddt方式，实现Locman接口自动化。">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="测试数据与测试代码分离，从json文件中批量执行用例。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/test_demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestDemo/test_demo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,10 @@
     <SUITE FILE_PATH="coverage/Test0402_git$testYml.coverage" NAME="testYml Coverage Results" MODIFIED="1586849781401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_pytestddt_py.coverage" NAME="pytest in test_pytestddt.py Coverage Results" MODIFIED="1588816447601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_param_py.coverage" NAME="Unittests in test_param.py Coverage Results" MODIFIED="1585898569810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login1_py.coverage" NAME="pytest in test_login1.py Coverage Results" MODIFIED="1589359379695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login2_py.coverage" NAME="pytest in test_login2.py Coverage Results" MODIFIED="1589359874524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1587450516715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login3_py.coverage" NAME="pytest in test_login3.py Coverage Results" MODIFIED="1589375343032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3.coverage" NAME="pytest for test_locman_login.TestDemo3 Coverage Results" MODIFIED="1588756849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
@@ -30,6 +33,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Testdemo1.coverage" NAME="Testdemo1 Coverage Results" MODIFIED="1588038143745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_database2_py.coverage" NAME="Unittests in test_database2.py Coverage Results" MODIFIED="1586421212344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo2__1_.coverage" NAME="test_demo2 (1) Coverage Results" MODIFIED="1588081533616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1589362614116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/utils" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1587960961023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo1_py.coverage" NAME="Unittests in demo1.py Coverage Results" MODIFIED="1586504145549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$search_page.coverage" NAME="search_page Coverage Results" MODIFIED="1587443447652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
@@ -65,7 +69,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_ReadExcel_py.coverage" NAME="Unittests in ReadExcel.py Coverage Results" MODIFIED="1587718662738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_pytestddt_TestDDT_test1.coverage" NAME="pytest for test_pytestddt.TestDDT.test1 Coverage Results" MODIFIED="1588757594172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$ddt_excel.coverage" NAME="ddt_excel Coverage Results" MODIFIED="1588082166443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589010164239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589358298474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_demo3_py.coverage" NAME="Unittests in test_demo3.py Coverage Results" MODIFIED="1588081661571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3_test3.coverage" NAME="pytest for test_locman_login.TestDemo3.test3 Coverage Results" MODIFIED="1588755901167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
@@ -117,7 +121,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="17" />
+          <entry key="project.open.time.0" value="18" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -125,17 +129,17 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="Ini" value="1" />
-          <entry key="JSON" value="33" />
+          <entry key="Ini" value="2" />
+          <entry key="JSON" value="47" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="512" />
+          <entry key="Python" value="529" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="12" />
         </counts>
@@ -143,15 +147,15 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="189" />
-          <entry key="JSON" value="136" />
-          <entry key="PLAIN_TEXT" value="548" />
-          <entry key="Python" value="28984" />
+          <entry key="JSON" value="244" />
+          <entry key="PLAIN_TEXT" value="608" />
+          <entry key="Python" value="30769" />
           <entry key="YAML" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="37" />
+          <entry key="git.branch.checkout.local" value="38" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="4" />
           <entry key="git.checkout.as.new.branch" value="1" />
@@ -164,43 +168,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/pytest.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanlogin.py">
+        <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="53" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="53" />
+            <state relative-caret-position="540">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
-                <element signature="e#191#206#0" expanded="true" />
+                <element signature="e#22#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
+        <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#106#119#0" expanded="true" />
+                <element signature="e#56#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,14 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/unittestDemo/param.txt" />
-        <option value="$PROJECT_DIR$/unittestDemo/ppp.yaml" />
-        <option value="$PROJECT_DIR$/unittestDemo/ppp.yml" />
-        <option value="$PROJECT_DIR$/unittestDemo/demo2.py" />
-        <option value="$PROJECT_DIR$/unittestDemo/testSuite.py" />
-        <option value="$USER_HOME$/venv/lib/python2.7/site-packages/ddt.py" />
-        <option value="$PROJECT_DIR$/unittestDemo/testYml.py" />
-        <option value="$PROJECT_DIR$/unittestDemo/ppp2.yml" />
         <option value="$PROJECT_DIR$/webui/UnittestForUI.py" />
         <option value="$PROJECT_DIR$/webui/webuiDemo.py" />
         <option value="$PROJECT_DIR$/webui/testKeyword.py" />
@@ -279,12 +266,20 @@
         <option value="$PROJECT_DIR$/api/api_channels.py" />
         <option value="$PROJECT_DIR$/api/locmanlogin.py" />
         <option value="$PROJECT_DIR$/ddt_excel/locmanlogin.py" />
-        <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
         <option value="$PROJECT_DIR$/ddt_excel/test_locmanlogin.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo5.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo6.py" />
         <option value="$PROJECT_DIR$/pytestDemo/pytest.ini" />
+        <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
+        <option value="$PROJECT_DIR$/loginDemo/test_login1.py" />
+        <option value="$PROJECT_DIR$/loginDemo/test_login2.py" />
+        <option value="$PROJECT_DIR$/loginDemo/utils/get_data2.py" />
+        <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login2.json" />
+        <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login3" />
+        <option value="$PROJECT_DIR$/loginDemo/utils/get_data.py" />
+        <option value="$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py" />
+        <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login31.json" />
       </list>
     </option>
   </component>
@@ -294,11 +289,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="117" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="848" />
+    <option name="height" value="849" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,6 +331,43 @@
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test_login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -360,19 +391,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pytestDemo" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ddt_excel" />
-      <recent name="$PROJECT_DIR$/webui" />
-      <recent name="$PROJECT_DIR$/tools" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginDemo/tests/test_login" />
+      <recent name="$PROJECT_DIR$/loginDemo" />
       <recent name="$PROJECT_DIR$/ddt_excel" />
       <recent name="$PROJECT_DIR$/pytestDemo" />
       <recent name="$PROJECT_DIR$/case" />
-      <recent name="$PROJECT_DIR$/tools" />
-      <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginDemo/tests/test_login" />
+      <recent name="$PROJECT_DIR$/loginDemo/tests" />
+      <recent name="$PROJECT_DIR$/pytestDemo" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ddt_excel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,7 +418,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_demo5.py">
+  <component name="RunManager" selected="Python tests.pytest in test_login3.py">
+    <configuration name="DDTReadExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loginDemo/utils/get_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_demo3" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -491,22 +566,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_pytestddt.TestDDT.test1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pytestddt.TestDDT.test1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in pytestDemo" type="tests" factoryName="py.test">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -523,67 +582,51 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_demo5.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_login1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestDemo/test_demo5.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/loginDemo/tests/test_login/test_login1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_demo6.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_login2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestDemo/test_demo6.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_locman_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_login3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo/tests/test_login" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_locman_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_locmanlogin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_locmanlogin.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -644,19 +687,19 @@
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
-      <item itemvalue="Python tests.pytest for test_pytestddt.TestDDT.test1" />
-      <item itemvalue="Python tests.pytest in test_locmanlogin.py" />
-      <item itemvalue="Python tests.pytest in test_locman_login.py" />
-      <item itemvalue="Python tests.pytest in test_demo5.py" />
-      <item itemvalue="Python tests.pytest in test_demo6.py" />
+      <item itemvalue="Python tests.pytest in test_login1.py" />
+      <item itemvalue="Python.DDTReadExcel" />
+      <item itemvalue="Python tests.pytest in test_login2.py" />
+      <item itemvalue="Python.get_data" />
+      <item itemvalue="Python tests.pytest in test_login3.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_demo5.py" />
-        <item itemvalue="Python tests.pytest in test_demo6.py" />
-        <item itemvalue="Python tests.pytest in test_locman_login.py" />
-        <item itemvalue="Python tests.pytest in test_locmanlogin.py" />
-        <item itemvalue="Python tests.pytest for test_pytestddt.TestDDT.test1" />
+        <item itemvalue="Python tests.pytest in test_login3.py" />
+        <item itemvalue="Python.get_data" />
+        <item itemvalue="Python tests.pytest in test_login2.py" />
+        <item itemvalue="Python tests.pytest in test_login1.py" />
+        <item itemvalue="Python.DDTReadExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -808,53 +851,53 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 10h 53m 21s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 17h 51m 19s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 10h 53m 45s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 17h 53m 49s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 10h 55m 01s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 17h 54m 57s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 10h 55m 53s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 17h 55m 34s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 10h 56m 06s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 17h 56m 00s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 11h 08m 59s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 17h 56m 21s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.05.12 at 14h 57m 24s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 21h 05m 01s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo6_py - 2020.05.12 at 16h 09m 35s.xml">
-      <configuration name="pytest in test_demo6.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 21h 05m 29s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.05.12 at 16h 25m 10s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 21h 06m 43s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_demo5_py - 2020.05.12 at 16h 25m 54s.xml">
-      <configuration name="pytest in test_demo5.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_login3_py - 2020.05.13 at 21h 09m 04s.xml">
+      <configuration name="pytest in test_login3.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="849" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21101573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30722892" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32760897" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19682959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.25661376" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34096387" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.28042328" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3399471" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.23148148" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -922,38 +965,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="结合读取Excel的ddt方式，实现Locman接口自动化。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pytestDemo/output/1b8168c2-7c15-46f0-bf96-6badd83f0ea3-result.json" />
-    <entry file="file://$PROJECT_DIR$/ddt_excel/report/styles.css" />
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_demoo.py" />
-    <entry file="file://$PROJECT_DIR$/webui/MailDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/webuiDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/UnittestForUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/testKeyword.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/tes9t_demo2.py" />
     <entry file="file://$PROJECT_DIR$/ddt_excel/te0st_demo.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -976,20 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/article_cancel.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_channels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -999,13 +996,6 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/ddt.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/read_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/parameterized/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1017,24 +1007,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/article_add.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/api_channels.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/login_more.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1045,34 +1021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_article.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/api_article.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_login_more.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#89#104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,16 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#53#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/_pytest/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1205,35 +1147,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="e#106#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanlogin.py">
+    <entry file="file://$PROJECT_DIR$/case/test_article.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="53" />
-          <folding>
-            <element signature="e#191#206#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
+        <state relative-caret-position="346">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_database2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/read_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/article_add.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_channels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/article_cancel.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/login_more.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login_more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#89#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="60" column="43" lean-forward="true" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="e#53#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="e#191#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="80" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="80" />
+          <folding>
+            <element signature="e#48#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#56#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login31.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
