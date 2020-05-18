@@ -2,6 +2,7 @@
 """
 2020-05-15
 python日志处理
+解决重复日志问题
 """
 import logging
 import time
@@ -12,7 +13,7 @@ class Logger(object):
         self.logger = logging.getLogger("logger")
         # 输出当前设置等级及以上等级所有信息
         # logger.setLevel(logging.ERROR)  # 如果不设置，默认等级为warning
-        if not self.logger.handlers:  # 方案2：判断如果logger没有handler，才创建处理器
+        if not self.logger.handlers:  # 方案2：判断如果logger没有handler，才创建处理器，解决重复日志问题
             # 创建handler处理器 一个logger可有多个handler
             # StreamHandler 控制台输出
             sh = logging.StreamHandler()
@@ -39,7 +40,7 @@ class Logger(object):
             # logger.info("info")
             # logger.warning("warning")
             # logger.error("error")
-        self.logger.critical("critical")
+        self.logger.critical("critical最严重级别")
 
         # # 方案1：移出日志处理器，避免多次调用的重复日志问题
         # logger.removeHandler(sh)
