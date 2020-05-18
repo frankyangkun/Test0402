@@ -1,2 +1,16 @@
 2020-05-18 15:16:23 logger.py [93] DEBUG debug信息 logger
 2020-05-18 15:16:49 logger.py [93] DEBUG debug信息 logger <module>
+2020-05-18 16:41:24 test_login3.py [20] DEBUG --------debug..setup----------- test_login3 setup
+2020-05-18 16:41:24 connectionpool.py [226] DEBUG Starting new HTTP connection (1): 182.43.224.122:8002 connectionpool _new_conn
+2020-05-18 16:41:24 connectionpool.py [433] DEBUG http://182.43.224.122:8002 "POST /interGateway/v3/user/authentication HTTP/1.1" 200 None connectionpool _make_request
+2020-05-18 16:41:24 test_login3.py [20] DEBUG --------debug..setup----------- test_login3 setup
+2020-05-18 16:41:24 connectionpool.py [226] DEBUG Starting new HTTP connection (1): 182.43.224.122:8002 connectionpool _new_conn
+2020-05-18 16:41:24 connectionpool.py [433] DEBUG http://182.43.224.122:8002 "POST /interGateway/v3/user/authentication HTTP/1.1" 200 None connectionpool _make_request
+2020-05-18 16:41:24 test_login3.py [20] DEBUG --------debug..setup----------- test_login3 setup
+2020-05-18 16:41:24 connectionpool.py [226] DEBUG Starting new HTTP connection (1): 182.43.224.122:8002 connectionpool _new_conn
+2020-05-18 16:41:24 connectionpool.py [433] DEBUG http://182.43.224.122:8002 "POST /interGateway/v3/user/authentication HTTP/1.1" 200 None connectionpool _make_request
+2020-05-18 16:44:14 test_login3.py [30] ERROR ---------error------------ test_login3 test_login
+2020-05-18 16:47:03 test_login3.py [31] ERROR ---------error------------ test_login3 test_login
+2020-05-18 16:47:36 test_login3.py [31] ERROR ---------loginDemo.tests.test_login.test_login3 error------------ test_login3 test_login
+2020-05-18 16:55:53 test_login3.py [31] ERROR ---------loginDemo.tests.test_login.test_login3 error------------ test_login3 test_login
+2020-05-18 16:55:53 test_login3.py [31] ERROR ---------loginDemo.tests.test_login.test_login3 error------------ test_login3 test_login
