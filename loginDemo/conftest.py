@@ -37,12 +37,14 @@ def pytest_addoption(parser):
         dest="env1",
         help="set test run env")
 
-# @pytest.fixture(scope="session")
-# def cmdopt(request):
-#     return request.config.yml.getoption("--env", default='test')
 
-# @pytest.fixture(scope="session", autouse=True)
-# def env(request, cmdopt):
-#     # load remote config.yml settings
-#     request.config.yml.base_data = collect_static_data(cmdopt, str(request.config.yml.rootdir))  # 找不到collect_static_data
-#     return request.config.yml.base_data
+@pytest.fixture(scope="session")
+def cmdopt(request):  # pytestconfig通过配置对象读取参数的值，这里换成了request
+    return request.config.yml.getoption("--env", default='test')  # 这里应该就是从yaml文件中读取--env的值
+
+
+@pytest.fixture(scope="session", autouse=True)
+def env(request, cmdopt):  # 这里的cmdopt就是yaml中的--env  request就是和cmdopt的作用一样，读取数据用的
+    # load remote config.yml settings
+    request.config.yml.base_data = collect_static_data(cmdopt, str(request.config.yml.rootdir))  # 找不到collect_static_data
+    return request.config.yml.base_data
