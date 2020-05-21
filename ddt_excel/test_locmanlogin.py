@@ -4,6 +4,9 @@
     使用pytest，并且基于pytest的参数化实现批量用例执行
     注意：必须在运行模式中用纯python运行，才能生成allure报告
     用unittest和pytest模式运行都不能生成allure报告。
+
+    注意：测试用例文件必须是test_开头，否则纯python模式运行后，pytest识别不了用例，allure里就没内容
+    而pytest模式直接在pycharm运行的话，是可以识别的，即使文件名不以test_开头
     2020-05-09
 """
 # 导包 requests

@@ -1,8 +1,9 @@
 # -*- coding:utf8 -*-
 """
 2020-05-19
-测试hook函数pytest_addoption的用法
+测试hook函数pytest_addoption和pytest_runtest_makereport的用法
 """
+import null as null
 import pytest
 
 
@@ -24,3 +25,27 @@ def cmdopt(request):  # pytestconfig通过配置对象读取参数的值，这�
 @pytest.fixture(autouse=True)
 def fix_1(cmdopt):
     print('\n --cmdopt的值：', cmdopt)
+
+
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)
+def pytest_runtest_makereport(item, call):
+    """
+        每个测试用例执行后，制作测试报告
+    　　:param item:测试用例对象
+    　　:param call:测试用例的测试步骤
+            先执行when=’setup’ 返回setup 的执行结果
+            然后执行when=’call’ 返回call 的执行结果
+            最后执行when=’teardown’返回teardown 的执行结果
+    　　:return:
+    """
+    # 获取钩子方法的调用结果,返回一个result对象
+    out = yield  # 带有 yield 的函数不再是一个普通函数，而是一个生成器generator，可用于迭代
+    # 应该是由于一个用例的多个步骤都要调用，setup调用时out return的是null，然后返回结果get_result，接着call和teardown调用时out也是null
+    # 获取调用结果的测试报告，返回一个report对象, reportd对象的属性包括when（steup, call, teardown三个值）、nodeid(测试用例的名字)、outcome(用例的执行结果，passed,failed)
+    report = out.get_result()  # 必须是yield才是生成器，才有get_result去获得3次调用的结果
+
+    print("*****out*****", out)
+    print("*****report*****", report)
+    print("*****report.when*****", report.when)
+    print("*****report.nodeid*****", report.nodeid)
+    print("*****report.outcome*****", report.outcome)
