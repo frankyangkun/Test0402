@@ -15,9 +15,7 @@ logger.error("info")
     # file_or_terminal == file: 只打印到日志文件
     # file_or_terminal == all: 同时打印到日志文件和命令行
     # level = CRITICAL','ERROR','WARNING','INFO','DEBUG
-
 """
-
 import logging
 import time
 import os
