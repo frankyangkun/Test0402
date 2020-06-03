@@ -3,6 +3,8 @@
 2020-05-28 17:49:38
 locust参数化
 使用locust自己的断言判断请求成功与否
+2020-06-02 10:36:03
+验证分布式压测（locust多进程模式）
 """
 from locust import HttpUser, TaskSet, task, between
 from random import randint

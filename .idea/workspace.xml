@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="测试hook函数pytest_addoption的用法。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger/loggerDemo/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger/loggerDemo/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logger/logs/2020_05_18_09_27_46_log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logger/logs/2020_05_18_14_49_05_log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logger/logs/2020_05_18_15_07_34_log" beforeDir="false" />
@@ -19,6 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Test0402$Unittests_for_test_param_TestPara_test_para.coverage" NAME="Unittests for test_param.TestPara.test_para Coverage Results" MODIFIED="1585898415298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo2.coverage" NAME="test_demo2 Coverage Results" MODIFIED="1587980046844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$testRandomLogin3_queue.coverage" NAME="testRandomLogin3-queue Coverage Results" MODIFIED="1591153170834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo5.coverage" NAME="test_demo5 Coverage Results" MODIFIED="1590029674310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest_conftest.coverage" NAME="hooktest_conftest Coverage Results" MODIFIED="1589870605603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1587463356795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/test_case" />
@@ -50,6 +50,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_hooktest_TestHook_test_1.coverage" NAME="pytest for hooktest.TestHook.test_1 Coverage Results" MODIFIED="1589877514725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_database2_py.coverage" NAME="Unittests in test_database2.py Coverage Results" MODIFIED="1586421212344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo2__1_.coverage" NAME="test_demo2 (1) Coverage Results" MODIFIED="1588081533616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$correlationtools.coverage" NAME="correlationtools Coverage Results" MODIFIED="1591167774744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/utils" />
     <SUITE FILE_PATH="coverage/Test0402_git$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1589362614116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/utils" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1587960961023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo1_py.coverage" NAME="Unittests in demo1.py Coverage Results" MODIFIED="1586504145549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
@@ -90,6 +91,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_ReadExcel_py.coverage" NAME="Unittests in ReadExcel.py Coverage Results" MODIFIED="1587718662738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_pytestddt_TestDDT_test1.coverage" NAME="pytest for test_pytestddt.TestDDT.test1 Coverage Results" MODIFIED="1588757594172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$ddt_excel.coverage" NAME="ddt_excel Coverage Results" MODIFIED="1588082166443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test0402_git$testRandomLogin2.coverage" NAME="testRandomLogin2 Coverage Results" MODIFIED="1591109326010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589358298474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_demo3_py.coverage" NAME="Unittests in test_demo3.py Coverage Results" MODIFIED="1588081661571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
@@ -143,28 +145,30 @@
     <session id="552763555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="22" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
+          <entry key="CSV" value="3" />
           <entry key="HTML" value="14" />
           <entry key="Ini" value="2" />
-          <entry key="JSON" value="66" />
+          <entry key="JSON" value="70" />
           <entry key="Log" value="25" />
-          <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Python" value="723" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Python" value="734" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -173,8 +177,8 @@
         <counts>
           <entry key="Ini" value="189" />
           <entry key="JSON" value="264" />
-          <entry key="PLAIN_TEXT" value="791" />
-          <entry key="Python" value="44300" />
+          <entry key="PLAIN_TEXT" value="850" />
+          <entry key="Python" value="48171" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
@@ -196,38 +200,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="78" column="75" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="75" />
+            <state relative-caret-position="337">
+              <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="74" />
               <folding>
-                <element signature="e#223#307#0" expanded="true" />
-                <element signature="e#1405#1428#0" />
-                <element signature="e#2340#2388#0" />
-                <element signature="e#2091#2255#0" />
-                <element signature="e#2459#2480#0" />
+                <element signature="e#279#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
+        <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="60">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
-                <element signature="e#48#63#0" expanded="true" />
+                <element signature="e#144#195#0" expanded="true" />
+                <element signature="e#1238#1340#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py">
+        <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="141" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
+            <state relative-caret-position="235">
+              <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding>
-                <element signature="e#23#74#0" expanded="true" />
+                <element signature="e#140#191#0" expanded="true" />
+                <element signature="e#433#443#0" />
+                <element signature="e#1393#1469#0" />
+                <element signature="e#3086#3188#0" />
               </folding>
             </state>
           </provider>
@@ -249,8 +253,12 @@
       <find>formatter</find>
       <find>set</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pytestDemo</dir>
+      <dir>$PROJECT_DIR$/Locust/utils</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -264,10 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pytestDemo/test_demo4.py" />
-        <option value="$PROJECT_DIR$/pytestDemo/contest.py" />
-        <option value="$PROJECT_DIR$/ddt_excel/test_locman_login.py" />
-        <option value="$PROJECT_DIR$/ddt_excel/test_pytestddt.py" />
         <option value="$PROJECT_DIR$/api/api_login.py" />
         <option value="$PROJECT_DIR$/api/api_article.py" />
         <option value="$PROJECT_DIR$/api/api_channels.py" />
@@ -315,6 +319,10 @@
         <option value="$PROJECT_DIR$/Locust/tests/test_login/locust_log.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py" />
+        <option value="$PROJECT_DIR$/Locust/data/test_login/userdata.csv" />
+        <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py" />
+        <option value="$PROJECT_DIR$/Locust/utils/correlationtools.py" />
+        <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py" />
       </list>
     </option>
   </component>
@@ -325,9 +333,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+    <option name="y" value="167" />
     <option name="width" value="1440" />
-    <option name="height" value="848" />
+    <option name="height" value="847" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -357,7 +365,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,6 +387,13 @@
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
               <item name="Locust" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test_login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="Locust" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -389,13 +403,43 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="test_login" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="Locust" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (Test0402_git) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (Test0402_git) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (Test0402_git) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="locust" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yang/PycharmProjects/Test0402_git/Locust/utils/get_data.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -410,18 +454,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Locust/tests/test_login" />
       <recent name="$PROJECT_DIR$/Locust/data/test_login" />
       <recent name="$PROJECT_DIR$/Locust/utils" />
       <recent name="$PROJECT_DIR$/Locust" />
       <recent name="$PROJECT_DIR$/loginDemo/data/test_login" />
-      <recent name="$PROJECT_DIR$/loginDemo/config/dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Locust/data/test_login" />
       <recent name="$PROJECT_DIR$/Locust/tests" />
       <recent name="$PROJECT_DIR$/Locust/test_login" />
       <recent name="$PROJECT_DIR$/hooktest" />
       <recent name="$PROJECT_DIR$/loginDemo/tests/test_login" />
-      <recent name="$PROJECT_DIR$/loginDemo/tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,7 +480,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testLogin">
+  <component name="RunManager" selected="Python.correlationtools">
+    <configuration name="correlationtools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Locust/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/utils/correlationtools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hooktest" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -561,6 +627,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testRandomLogin2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Locust/tests/test_login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testRandomLogin3-queue" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/Test0402_git/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Locust/tests/test_login" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -764,38 +874,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_demo5.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestDemo/test_demo5.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_hook2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hooktest2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/hooktest2/test_hook2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_pytestddt.py" type="tests" factoryName="py.test">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -855,24 +933,25 @@
       <item itemvalue="Python.test_demo3" />
       <item itemvalue="Python.hooktest_conftest" />
       <item itemvalue="Python.hooktest" />
+      <item itemvalue="Python.testRandomLogin3-queue" />
       <item itemvalue="Python tests.pytest in hook" />
       <item itemvalue="Python tests.pytest in pytestDemo" />
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
-      <item itemvalue="Python tests.pytest in test_demo5.py" />
-      <item itemvalue="Python tests.pytest in test_hook2.py" />
-      <item itemvalue="Python tests.pytest in testLogin.py" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.logger" />
+      <item itemvalue="Python.testRandomLogin2" />
+      <item itemvalue="Python tests.pytest in testLogin.py" />
+      <item itemvalue="Python.correlationtools" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.correlationtools" />
+        <item itemvalue="Python.testRandomLogin2" />
+        <item itemvalue="Python.testRandomLogin3-queue" />
         <item itemvalue="Python.logger" />
         <item itemvalue="Python tests.pytest in testLogin.py" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.pytest in test_hook2.py" />
-        <item itemvalue="Python tests.pytest in test_demo5.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1062,7 +1141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590646943257</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="加入locust自带断言（不是python的assert断言）判断随机请求的正确性。">
+      <created>1590740056405</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1590740056405</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1101,19 +1187,19 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14592275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15307583" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32650602" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25783134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22048193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.28042328" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14698794" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.23148148" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.21204819" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.25060242" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32771084" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -1158,7 +1244,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test,add dev1 ." />
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="文章相关接口对象层封装。" />
     <MESSAGE value="文章相关接口业务层实现。" />
@@ -1183,58 +1268,10 @@
     <MESSAGE value="在locman接口用例脚本中使用日志模块。" />
     <MESSAGE value="测试hook函数pytest_addoption的用法。" />
     <MESSAGE value="引入Locust进行性能测试，并结合python的参数化@parameterized.expand" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入Locust进行性能测试，并结合python的参数化@parameterized.expand" />
+    <MESSAGE value="加入locust自带断言（不是python的assert断言）判断随机请求的正确性。" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入locust自带断言（不是python的assert断言）判断随机请求的正确性。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/api_article.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_channels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#47#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/utils/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-26.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-21.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-19.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Locust/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1249,9 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#34#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,20 +1370,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/utils/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-18.log">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/logger/loggerDemo/logger2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1361,13 +1388,7 @@
     <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-27.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/locust_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/locust_log.py" />
     <entry file="file://$PROJECT_DIR$/logger/loggerDemo/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1382,9 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding>
-            <element signature="e#56#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,16 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-          <folding>
-            <element signature="e#89#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/data/test_login/testLogin.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1421,9 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#53#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,30 +1453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#48#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="78" column="75" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="75" />
-          <folding>
-            <element signature="e#223#307#0" expanded="true" />
-            <element signature="e#1405#1428#0" />
-            <element signature="e#2340#2388#0" />
-            <element signature="e#2091#2255#0" />
-            <element signature="e#2459#2480#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/locust/contrib/fasthttp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-942">
@@ -1479,12 +1460,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/locust/user/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="184" column="6" selection-start-line="184" selection-start-column="6" selection-end-line="184" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogi.py" />
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin2.py" />
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/locust/user/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="141" selection-start-line="22" selection-start-column="141" selection-end-line="22" selection-end-column="141" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="74" />
           <folding>
-            <element signature="e#23#74#0" expanded="true" />
+            <element signature="e#279#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/pip-10.0.1-py3.8.egg/pip/_vendor/cachecontrol/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/utils/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#144#195#0" expanded="true" />
+            <element signature="e#1238#1340#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/data/test_login/testLogin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/utils/correlationtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#75#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/data/test_login/userdata.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="199" />
+          <column index="1" width="318" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+          <folding>
+            <element signature="e#140#191#0" expanded="true" />
+            <element signature="e#433#443#0" />
+            <element signature="e#1393#1469#0" />
+            <element signature="e#3086#3188#0" />
           </folding>
         </state>
       </provider>
