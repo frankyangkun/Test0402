@@ -24,7 +24,7 @@ import io #python2.7如需要在open()函数中使用encoding，需引用io模�
 
 class ReadJson(object):
     def __init__(self,filename):
-        self.filepath = "../data/" + filename
+        self.filepath = "../../data/" + filename
 
     def read_json(self):
         with io.open(self.filepath, "r", encoding="utf-8") as f:

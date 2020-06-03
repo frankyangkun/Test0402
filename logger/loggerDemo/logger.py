@@ -79,6 +79,7 @@ class Logger():
 
 
 if __name__ == '__main__':
-    logger = Logger(file_or_terminal="terminal", level="DEBUG").getLogger()
-    logger.debug("debug信息...")
-    logger.debug("debug信息...")
+    logger = Logger(file_or_terminal="all", level="ERROR").getLogger()
+    logger.debug("debug2信息...")
+    logger.debug("debug2信息...")
+    logger.error("error.2.")
