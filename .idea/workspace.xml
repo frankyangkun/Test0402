@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="测试hook函数pytest_addoption的用法。">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="测试unittest mock模块的使用。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittestMock/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittestMock/demo1_payTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittestMock/testPay.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittestMock/testDemo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$testRandomLogin3_queue.coverage" NAME="testRandomLogin3-queue Coverage Results" MODIFIED="1591153170834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo5.coverage" NAME="test_demo5 Coverage Results" MODIFIED="1590029674310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest_conftest.coverage" NAME="hooktest_conftest Coverage Results" MODIFIED="1589870605603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testPay_py.coverage" NAME="pytest in testPay.py Coverage Results" MODIFIED="1591240515095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testPay_py.coverage" NAME="pytest in testDemo1.py Coverage Results" MODIFIED="1591253067253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1587463356795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/test_case" />
     <SUITE FILE_PATH="coverage/Test0402_git$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1589785758054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$testYml.coverage" NAME="testYml Coverage Results" MODIFIED="1586849781401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
@@ -56,6 +58,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo2_py.coverage" NAME="Unittests in demo2.py Coverage Results" MODIFIED="1586849020394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest.coverage" NAME="hooktest Coverage Results" MODIFIED="1590044231077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo2_mock_py.coverage" NAME="pytest in testDemo2_mock.py Coverage Results" MODIFIED="1591257641722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_pytestDemo.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1589188642767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_pytestddt.coverage" NAME="unittest in pytestddt Coverage Results" MODIFIED="1588775576572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo3_py.coverage" NAME="pytest in test_demo4.py Coverage Results" MODIFIED="1588147381738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
@@ -75,6 +78,8 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_hook.coverage" NAME="pytest in hook Coverage Results" MODIFIED="1590029696545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo3.coverage" NAME="test_demo3 Coverage Results" MODIFIED="1588146479400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_test_channels_TestChannels_test_channels.coverage" NAME="Unittests for test_channels.TestChannels.test_channels Coverage Results" MODIFIED="1586318693570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo1_mock_py.coverage" NAME="pytest in testDemo1_mock.py Coverage Results" MODIFIED="1591260330493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo2_py.coverage" NAME="pytest in testDemo2.py Coverage Results" MODIFIED="1591257759346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$run_suites.coverage" NAME="run_suites Coverage Results" MODIFIED="1586397861475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_testYml_py.coverage" NAME="unittest in testYml.py Coverage Results" MODIFIED="1586939568454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_ddt_excel.coverage" NAME="pytest in ddt_excel Coverage Results" MODIFIED="1588775598168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -92,6 +97,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_demo3_py.coverage" NAME="Unittests in test_demo3.py Coverage Results" MODIFIED="1588081661571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3_test3.coverage" NAME="pytest for test_locman_login.TestDemo3.test3 Coverage Results" MODIFIED="1588755901167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$demo2_math.coverage" NAME="demo2_math Coverage Results" MODIFIED="1591256522477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_more_py.coverage" NAME="Unittests in test_login_more.py Coverage Results" MODIFIED="1585902901360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$logger.coverage" NAME="logger Coverage Results" MODIFIED="1590649901480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo4.coverage" NAME="test_demo4 Coverage Results" MODIFIED="1588213835725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -164,7 +170,7 @@
           <entry key="JSON" value="70" />
           <entry key="Log" value="25" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="746" />
+          <entry key="Python" value="759" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -173,8 +179,8 @@
         <counts>
           <entry key="Ini" value="189" />
           <entry key="JSON" value="264" />
-          <entry key="PLAIN_TEXT" value="850" />
-          <entry key="Python" value="49026" />
+          <entry key="PLAIN_TEXT" value="909" />
+          <entry key="Python" value="50713" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
@@ -192,59 +198,79 @@
     <favorites_list name="Test0402_git" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
-              <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="74" />
-              <folding>
-                <element signature="e#279#363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittestMock/template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unittestMock/testPay.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="e#22#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.43034825">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittestMock/demo1_payTemplate.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittestMock/testDemo2_mock.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#155#170#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/unittestMock/demo1_class.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittestMock/demo2_math.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittestMock/testDemo1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="15" column="96" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="96" />
+                  <folding>
+                    <element signature="e#70#95#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/unittestMock/testDemo1_mock.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#115#160#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -279,14 +305,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/api_channels.py" />
-        <option value="$PROJECT_DIR$/api/locmanlogin.py" />
-        <option value="$PROJECT_DIR$/ddt_excel/locmanlogin.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/pytestDemo/test_demo6.py" />
-        <option value="$PROJECT_DIR$/pytestDemo/pytest.ini" />
-        <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
-        <option value="$PROJECT_DIR$/loginDemo/test_login1.py" />
         <option value="$PROJECT_DIR$/loginDemo/test_login2.py" />
         <option value="$PROJECT_DIR$/loginDemo/utils/get_data2.py" />
         <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login2.json" />
@@ -330,6 +348,14 @@
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py" />
         <option value="$PROJECT_DIR$/unittestMock/template.py" />
         <option value="$PROJECT_DIR$/unittestMock/testPay.py" />
+        <option value="$PROJECT_DIR$/unittestMock/demo2.py" />
+        <option value="$PROJECT_DIR$/unittestMock/testMath.py" />
+        <option value="$PROJECT_DIR$/unittestMock/testDemo2_mock.py" />
+        <option value="$PROJECT_DIR$/unittestMock/demo2_math.py" />
+        <option value="$PROJECT_DIR$/unittestMock/testDemo2.py" />
+        <option value="$PROJECT_DIR$/unittestMock/testDemo1.py" />
+        <option value="$PROJECT_DIR$/unittestMock/testDemo1_mock.py" />
+        <option value="$PROJECT_DIR$/unittestMock/demo1_class.py" />
       </list>
     </option>
   </component>
@@ -340,7 +366,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
+    <option name="x" value="-27" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="847" />
@@ -387,17 +413,6 @@
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="webui" type="462c0819:PsiDirectoryNode" />
-              <item name="POMode2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -422,19 +437,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Locust/tests/test_login" />
-      <recent name="$PROJECT_DIR$/Locust/data/test_login" />
-      <recent name="$PROJECT_DIR$/Locust/utils" />
-      <recent name="$PROJECT_DIR$/Locust" />
-      <recent name="$PROJECT_DIR$/loginDemo/data/test_login" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Locust/data/test_login" />
       <recent name="$PROJECT_DIR$/Locust/tests" />
       <recent name="$PROJECT_DIR$/Locust/test_login" />
       <recent name="$PROJECT_DIR$/hooktest" />
       <recent name="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unittestMock" />
+      <recent name="$PROJECT_DIR$/Locust/tests/test_login" />
+      <recent name="$PROJECT_DIR$/Locust/data/test_login" />
+      <recent name="$PROJECT_DIR$/Locust/utils" />
+      <recent name="$PROJECT_DIR$/Locust" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -449,8 +464,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in testPay.py">
-    <configuration name="correlationtools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in testDemo1_mock.py">
+    <configuration name="demo2_math" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -458,12 +473,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Locust/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/utils/correlationtools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittestMock/demo2_math.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -538,28 +553,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logger/loggerDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logger/loggerDemo/logger.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="testLogin" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -574,28 +567,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testRandomLogin2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Locust/tests/test_login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -805,23 +776,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in testLogin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Locust" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Locust/tests/test_login/testLogin.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in testPay.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in testDemo1_mock.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -833,7 +788,55 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testPay.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo1_mock.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in testDemo1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in testDemo2_mock.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo2_mock.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in testDemo2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -902,19 +905,19 @@
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
-      <item itemvalue="Python.logger" />
-      <item itemvalue="Python.testRandomLogin2" />
-      <item itemvalue="Python tests.pytest in testLogin.py" />
-      <item itemvalue="Python.correlationtools" />
-      <item itemvalue="Python tests.pytest in testPay.py" />
+      <item itemvalue="Python tests.pytest in testDemo1.py" />
+      <item itemvalue="Python tests.pytest in testDemo2.py" />
+      <item itemvalue="Python.demo2_math" />
+      <item itemvalue="Python tests.pytest in testDemo2_mock.py" />
+      <item itemvalue="Python tests.pytest in testDemo1_mock.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in testPay.py" />
-        <item itemvalue="Python.correlationtools" />
-        <item itemvalue="Python tests.pytest in testLogin.py" />
-        <item itemvalue="Python.testRandomLogin2" />
-        <item itemvalue="Python.logger" />
+        <item itemvalue="Python tests.pytest in testDemo1_mock.py" />
+        <item itemvalue="Python tests.pytest in testDemo2.py" />
+        <item itemvalue="Python tests.pytest in testDemo2_mock.py" />
+        <item itemvalue="Python.demo2_math" />
+        <item itemvalue="Python tests.pytest in testDemo1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1111,51 +1114,58 @@
       <option name="project" value="LOCAL" />
       <updated>1590740056405</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="测试unittest mock模块的使用。">
+      <created>1591250605389</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591250605389</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_testLogin_py - 2020.05.25 at 17h 04m 53s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_py - 2020.06.04 at 15h 53m 50s.xml">
+      <configuration name="pytest in testDemo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.25 at 17h 14m 28s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_py - 2020.06.04 at 15h 54m 33s.xml">
+      <configuration name="pytest in testDemo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.25 at 17h 15m 05s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_mock_py - 2020.06.04 at 15h 55m 43s.xml">
+      <configuration name="pytest in testDemo2_mock.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.25 at 17h 15m 20s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_mock_py - 2020.06.04 at 15h 58m 45s.xml">
+      <configuration name="pytest in testDemo2_mock.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.25 at 17h 16m 17s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_mock_py - 2020.06.04 at 15h 59m 05s.xml">
+      <configuration name="pytest in testDemo2_mock.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.25 at 17h 23m 09s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_mock_py - 2020.06.04 at 16h 00m 42s.xml">
+      <configuration name="pytest in testDemo2_mock.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.27 at 09h 02m 24s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo2_py - 2020.06.04 at 16h 02m 40s.xml">
+      <configuration name="pytest in testDemo2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.27 at 10h 42m 20s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo1_mock_py - 2020.06.04 at 16h 40m 42s.xml">
+      <configuration name="pytest in testDemo1_mock.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testLogin_py - 2020.05.27 at 16h 05m 29s.xml">
-      <configuration name="pytest in testLogin.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo1_mock_py - 2020.06.04 at 16h 43m 15s.xml">
+      <configuration name="pytest in testDemo1_mock.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_testPay_py - 2020.06.04 at 11h 15m 16s.xml">
-      <configuration name="pytest in testPay.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo1_mock_py - 2020.06.04 at 16h 45m 31s.xml">
+      <configuration name="pytest in testDemo1_mock.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="386" y="278" width="1440" height="847" extended-state="0" />
+    <frame x="-27" y="23" width="1440" height="847" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13733906" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32650602" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2397351" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47549668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1207,7 +1217,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="workspace.xml" />
     <MESSAGE value="文章相关接口对象层封装。" />
     <MESSAGE value="文章相关接口业务层实现。" />
     <MESSAGE value="从数据库获取结果判断接口是否执行成功。" />
@@ -1232,24 +1241,10 @@
     <MESSAGE value="测试hook函数pytest_addoption的用法。" />
     <MESSAGE value="引入Locust进行性能测试，并结合python的参数化@parameterized.expand" />
     <MESSAGE value="加入locust自带断言（不是python的assert断言）判断随机请求的正确性。" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入locust自带断言（不是python的assert断言）判断随机请求的正确性。" />
+    <MESSAGE value="测试unittest mock模块的使用。" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试unittest mock模块的使用。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webui/testKeyword.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/MailDemo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/webuiDemo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/POMode/test_case/test_cases.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/POMode/pageObject/search_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webui/POMode/basePage/base_page.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1464,16 +1459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="74" />
-          <folding>
-            <element signature="e#279#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1508,31 +1493,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="855">
           <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="-84">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittestMock/template.py">
+    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="882">
+          <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="74" />
+          <folding>
+            <element signature="e#279#363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unittestMock/testPay.py">
+    <entry file="file://$PROJECT_DIR$/unittestMock/testDemo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding>
-            <element signature="e#22#47#0" expanded="true" />
+            <element signature="e#69#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestMock/demo1_payTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestMock/demo2_math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestMock/testDemo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="96" />
+          <folding>
+            <element signature="e#70#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestMock/testDemo2_mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#155#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestMock/demo1_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestMock/testDemo1_mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#115#160#0" expanded="true" />
           </folding>
         </state>
       </provider>

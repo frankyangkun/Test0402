@@ -5,7 +5,7 @@
 """
 from unittest import mock
 import unittest
-from unittestMock import template
+from unittestMock import demo1_payTemplate
 
 
 class Test_zhifu_status(unittest.TestCase):
@@ -13,9 +13,9 @@ class Test_zhifu_status(unittest.TestCase):
     def test1(self):
         """测试支付成功"""
         # mock一个支付成功的数据
-        template.zhifu = mock.Mock(return_value={"result": "success", "reason": "null"})
+        demo1_payTemplate.zhifu = mock.Mock(return_value={"result": "success", "reason": "null"})
         # 根据支付结果测试页面跳转
-        status = template.zhifu_status()
+        status = demo1_payTemplate.zhifu_status()
         print(status)
         # self.assertEqual(status, "支付成功")
         assert status == "支付成功"
@@ -23,9 +23,9 @@ class Test_zhifu_status(unittest.TestCase):
     def test2(self):
         """测试支付失败"""
         # mock一个支付失败的数据
-        template.zhifu = mock.Mock(return_value={"result": "fail", "reason": "余额不足"})
+        demo1_payTemplate.zhifu = mock.Mock(return_value={"result": "fail", "reason": "余额不足"})
         # 根据支付结果测试页面跳转
-        status = template.zhifu_status()
+        status = demo1_payTemplate.zhifu_status()
         print(status)
         assert status == "支付失败"
 
