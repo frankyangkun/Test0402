@@ -2,6 +2,7 @@
 """
  2020-06-04 10:47:06
  测试unittest mock模块
+ 第一种实现方式：mock.Mock
 """
 from unittest import mock
 import unittest
