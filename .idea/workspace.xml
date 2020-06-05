@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="补充unittest mock的另一种实现方式：@patch(上次是mock.Mock)">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="通过fixture跨用例共享pytest monkeypatch(如果想让mock_response应用于所有的测试用例，可考虑将它移到conftest.py里，并标记autouse=True)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittestMock/testDemo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittestMock/testDemo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,80 +12,42 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Test0402$Unittests_for_test_param_TestPara_test_para.coverage" NAME="Unittests for test_param.TestPara.test_para Coverage Results" MODIFIED="1585898415298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$test_demo2.coverage" NAME="test_demo2 Coverage Results" MODIFIED="1587980046844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$testRandomLogin3_queue.coverage" NAME="testRandomLogin3-queue Coverage Results" MODIFIED="1591153170834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo5.coverage" NAME="test_demo5 Coverage Results" MODIFIED="1590029674310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$hooktest_conftest.coverage" NAME="hooktest_conftest Coverage Results" MODIFIED="1589870605603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testPay_py.coverage" NAME="pytest in testDemo1.py Coverage Results" MODIFIED="1591253067253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1587463356795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/test_case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_monkeypatch3_py.coverage" NAME="pytest in test_monkeypatch3.py Coverage Results" MODIFIED="1591348551394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1589785758054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$testYml.coverage" NAME="testYml Coverage Results" MODIFIED="1586849781401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_pytestddt_py.coverage" NAME="pytest in test_pytestddt.py Coverage Results" MODIFIED="1588816447601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_param_py.coverage" NAME="Unittests in test_param.py Coverage Results" MODIFIED="1585898569810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$test.coverage" NAME="test Coverage Results" MODIFIED="1590540645757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login1_py.coverage" NAME="pytest in test_login1.py Coverage Results" MODIFIED="1589359379695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_hook2_py.coverage" NAME="pytest in test_hook2.py Coverage Results" MODIFIED="1590049124134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
     <SUITE FILE_PATH="coverage/Test0402_git$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1590654486850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login2_py.coverage" NAME="pytest in test_login2.py Coverage Results" MODIFIED="1589359874524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1587450516715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login3_py.coverage" NAME="pytest in test_login3.py Coverage Results" MODIFIED="1589791655147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
-    <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/Test0402_git$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1589867768264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3.coverage" NAME="pytest for test_locman_login.TestDemo3 Coverage Results" MODIFIED="1588756849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login4_py.coverage" NAME="pytest in test_login4.py Coverage Results" MODIFIED="1589447136950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest2.coverage" NAME="hooktest2 Coverage Results" MODIFIED="1590049195321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1586338074619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo6.coverage" NAME="test_demo6 Coverage Results" MODIFIED="1589271129288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_test3.coverage" NAME="pytest for test_locman_login.test3 Coverage Results" MODIFIED="1588756079984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_hooktest_py.coverage" NAME="pytest in hooktest.py Coverage Results" MODIFIED="1589955554149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
     <SUITE FILE_PATH="coverage/Test0402$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1585900333249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1590566728004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust" />
-    <SUITE FILE_PATH="coverage/Test0402_git$MailDemo.coverage" NAME="MailDemo Coverage Results" MODIFIED="1587631514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$Testdemo1.coverage" NAME="Testdemo1 Coverage Results" MODIFIED="1588038143745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_hooktest_TestHook_test_1.coverage" NAME="pytest for hooktest.TestHook.test_1 Coverage Results" MODIFIED="1589877514725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_database2_py.coverage" NAME="Unittests in test_database2.py Coverage Results" MODIFIED="1586421212344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo2__1_.coverage" NAME="test_demo2 (1) Coverage Results" MODIFIED="1588081533616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$correlationtools.coverage" NAME="correlationtools Coverage Results" MODIFIED="1591167774744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/utils" />
-    <SUITE FILE_PATH="coverage/Test0402_git$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1589362614116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/utils" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1587960961023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo1_py.coverage" NAME="Unittests in demo1.py Coverage Results" MODIFIED="1586504145549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$search_page.coverage" NAME="search_page Coverage Results" MODIFIED="1587443447652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_locmanlogin_py.coverage" NAME="pytest in test_locmanlogin.py Coverage Results" MODIFIED="1589013187836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_channels_py.coverage" NAME="Unittests in test_channels.py Coverage Results" MODIFIED="1586318796843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo2_py.coverage" NAME="Unittests in demo2.py Coverage Results" MODIFIED="1586849020394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$hooktest.coverage" NAME="hooktest Coverage Results" MODIFIED="1590044231077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo2_mock_py.coverage" NAME="pytest in testDemo2_mock.py Coverage Results" MODIFIED="1591257641722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_pytestDemo.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1589188642767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_pytestddt.coverage" NAME="unittest in pytestddt Coverage Results" MODIFIED="1588775576572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo3_py.coverage" NAME="pytest in test_demo4.py Coverage Results" MODIFIED="1588147381738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo5_py.coverage" NAME="pytest in test_demo5.py Coverage Results" MODIFIED="1590029564789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1587885005459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1585899391308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_TestDemo5_test_04.coverage" NAME="pytest for test_demo5.TestDemo5.test_04 Coverage Results" MODIFIED="1588232443995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_mockRequest_py.coverage" NAME="pytest in test_mockRequest.py Coverage Results" MODIFIED="1591340632629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_mockRequest_test_get_foo.coverage" NAME="pytest for test_mockRequest.test_get_foo Coverage Results" MODIFIED="1591342223206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_demo_py.coverage" NAME="Unittests in test_demo.py Coverage Results" MODIFIED="1588079238627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
-    <SUITE FILE_PATH="coverage/Test0402_git$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1586167402524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_article_py.coverage" NAME="Unittests in test_article.py Coverage Results" MODIFIED="1586403676435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo6_py.coverage" NAME="pytest in test_demo6.py Coverage Results" MODIFIED="1589270974145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$logger2.coverage" NAME="logger2 Coverage Results" MODIFIED="1589784573467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_test_01.coverage" NAME="pytest for test_demo5.test_01 Coverage Results" MODIFIED="1588234156177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_locman_login_py.coverage" NAME="pytest in test_locman_login.py Coverage Results" MODIFIED="1589013353163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_UnittestForUI_py.coverage" NAME="Unittests in UnittestForUI.py Coverage Results" MODIFIED="1587110270063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_TestCase_py.coverage" NAME="Unittests in TestCase.py Coverage Results" MODIFIED="1587540860284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode2" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_hook.coverage" NAME="pytest in hook Coverage Results" MODIFIED="1590029696545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo3.coverage" NAME="test_demo3 Coverage Results" MODIFIED="1588146479400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_monkeypatch_py.coverage" NAME="pytest in monkeypatch.py Coverage Results" MODIFIED="1591344140507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_test_channels_TestChannels_test_channels.coverage" NAME="Unittests for test_channels.TestChannels.test_channels Coverage Results" MODIFIED="1586318693570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo1_mock_py.coverage" NAME="pytest in testDemo1_mock.py Coverage Results" MODIFIED="1591260330493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo2_py.coverage" NAME="pytest in testDemo2.py Coverage Results" MODIFIED="1591257759346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
-    <SUITE FILE_PATH="coverage/Test0402_git$run_suites.coverage" NAME="run_suites Coverage Results" MODIFIED="1586397861475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_testYml_py.coverage" NAME="unittest in testYml.py Coverage Results" MODIFIED="1586939568454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_ddt_excel.coverage" NAME="pytest in ddt_excel Coverage Results" MODIFIED="1588775598168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest_test_2.coverage" NAME="Unittests for demo2.forTest.test_2 Coverage Results" MODIFIED="1586613932726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$hooktest__1_.coverage" NAME="hooktest (1) Coverage Results" MODIFIED="1589872491609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest/.pytest_cache" />
-    <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586420706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$webuiDemo.coverage" NAME="webuiDemo Coverage Results" MODIFIED="1586945515129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$locmanlogin.coverage" NAME="locmanlogin Coverage Results" MODIFIED="1588929630128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_locmanlogin.coverage" NAME="test_locmanlogin Coverage Results" MODIFIED="1589013569651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
@@ -94,18 +55,60 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_pytestddt_TestDDT_test1.coverage" NAME="pytest for test_pytestddt.TestDDT.test1 Coverage Results" MODIFIED="1588757594172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$ddt_excel.coverage" NAME="ddt_excel Coverage Results" MODIFIED="1588082166443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test0402_git$testRandomLogin2.coverage" NAME="testRandomLogin2 Coverage Results" MODIFIED="1591109326010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
-    <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589358298474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_demo3_py.coverage" NAME="Unittests in test_demo3.py Coverage Results" MODIFIED="1588081661571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
-    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3_test3.coverage" NAME="pytest for test_locman_login.TestDemo3.test3 Coverage Results" MODIFIED="1588755901167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$demo2_math.coverage" NAME="demo2_math Coverage Results" MODIFIED="1591256522477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_more_py.coverage" NAME="Unittests in test_login_more.py Coverage Results" MODIFIED="1585902901360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$logger.coverage" NAME="logger Coverage Results" MODIFIED="1590649901480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$test_demo4.coverage" NAME="test_demo4 Coverage Results" MODIFIED="1588213835725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_test_02.coverage" NAME="pytest for test_demo5.test_02 Coverage Results" MODIFIED="1588229269612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$testSuite.coverage" NAME="testSuite Coverage Results" MODIFIED="1586938138641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
-    <SUITE FILE_PATH="coverage/Test0402_git$testKeyword.coverage" NAME="testKeyword Coverage Results" MODIFIED="1587006878326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_login3.coverage" NAME="test_login3 Coverage Results" MODIFIED="1590479191519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$test_demo2.coverage" NAME="test_demo2 Coverage Results" MODIFIED="1587980046844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$hooktest_conftest.coverage" NAME="hooktest_conftest Coverage Results" MODIFIED="1589870605603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testPay_py.coverage" NAME="pytest in testDemo1.py Coverage Results" MODIFIED="1591253067253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_cases_py.coverage" NAME="Unittests in test_cases.py Coverage Results" MODIFIED="1587463356795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/test_case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_pytestddt_py.coverage" NAME="pytest in test_pytestddt.py Coverage Results" MODIFIED="1588816447601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$test.coverage" NAME="test Coverage Results" MODIFIED="1590540645757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login1_py.coverage" NAME="pytest in test_login1.py Coverage Results" MODIFIED="1589359379695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_hook2_py.coverage" NAME="pytest in test_hook2.py Coverage Results" MODIFIED="1590049124134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login2_py.coverage" NAME="pytest in test_login2.py Coverage Results" MODIFIED="1589359874524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1587450516715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login3_py.coverage" NAME="pytest in test_login3.py Coverage Results" MODIFIED="1589791655147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1589867768264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3.coverage" NAME="pytest for test_locman_login.TestDemo3 Coverage Results" MODIFIED="1588756849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login4_py.coverage" NAME="pytest in test_login4.py Coverage Results" MODIFIED="1589447136950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1590566728004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_monkeypatch2_test_get.coverage" NAME="pytest for test_monkeypatch2.test_get Coverage Results" MODIFIED="1591346397884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$MailDemo.coverage" NAME="MailDemo Coverage Results" MODIFIED="1587631514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_database2_py.coverage" NAME="Unittests in test_database2.py Coverage Results" MODIFIED="1586421212344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1589362614116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/utils" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1587960961023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_locmanlogin_py.coverage" NAME="pytest in test_locmanlogin.py Coverage Results" MODIFIED="1589013187836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_channels_py.coverage" NAME="Unittests in test_channels.py Coverage Results" MODIFIED="1586318796843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$hooktest.coverage" NAME="hooktest Coverage Results" MODIFIED="1590044231077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testDemo2_mock_py.coverage" NAME="pytest in testDemo2_mock.py Coverage Results" MODIFIED="1591257641722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_pytestddt.coverage" NAME="unittest in pytestddt Coverage Results" MODIFIED="1588775576572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo3_py.coverage" NAME="pytest in test_demo4.py Coverage Results" MODIFIED="1588147381738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo5_py.coverage" NAME="pytest in test_demo5.py Coverage Results" MODIFIED="1590029564789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_mockRequest_py.coverage" NAME="pytest in test_mockRequest.py Coverage Results" MODIFIED="1591346981141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1586167402524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_demo6_py.coverage" NAME="pytest in test_demo6.py Coverage Results" MODIFIED="1589270974145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$logger2.coverage" NAME="logger2 Coverage Results" MODIFIED="1589784573467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$monkeypatch2.coverage" NAME="monkeypatch2 Coverage Results" MODIFIED="1591346195222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_test_01.coverage" NAME="pytest for test_demo5.test_01 Coverage Results" MODIFIED="1588234156177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_locman_login_py.coverage" NAME="pytest in test_locman_login.py Coverage Results" MODIFIED="1589013353163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_UnittestForUI_py.coverage" NAME="Unittests in UnittestForUI.py Coverage Results" MODIFIED="1587110270063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_TestCase_py.coverage" NAME="Unittests in TestCase.py Coverage Results" MODIFIED="1587540860284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode2" />
+    <SUITE FILE_PATH="coverage/Test0402_git$run_suites.coverage" NAME="run_suites Coverage Results" MODIFIED="1586397861475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_testYml_py.coverage" NAME="unittest in testYml.py Coverage Results" MODIFIED="1586939568454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest_test_2.coverage" NAME="Unittests for demo2.forTest.test_2 Coverage Results" MODIFIED="1586613932726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$hooktest__1_.coverage" NAME="hooktest (1) Coverage Results" MODIFIED="1589872491609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest/.pytest_cache" />
+    <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586420706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589358298474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
+    <SUITE FILE_PATH="coverage/Test0402_git$test_demo4.coverage" NAME="test_demo4 Coverage Results" MODIFIED="1588213835725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test0402_git$testKeyword.coverage" NAME="testKeyword Coverage Results" MODIFIED="1587006878326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -171,7 +174,7 @@
           <entry key="JSON" value="70" />
           <entry key="Log" value="25" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="775" />
+          <entry key="Python" value="783" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -180,8 +183,8 @@
         <counts>
           <entry key="Ini" value="189" />
           <entry key="JSON" value="264" />
-          <entry key="PLAIN_TEXT" value="937" />
-          <entry key="Python" value="51705" />
+          <entry key="PLAIN_TEXT" value="939" />
+          <entry key="Python" value="53094" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
@@ -201,34 +204,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytestMock/mockRequest.py">
+        <entry file="file://$PROJECT_DIR$/pytestMock/monkeypatch2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytestMock/test_mockRequest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="28" />
-              <folding>
-                <element signature="e#313#324#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittestMock/testDemo1_mock.py">
+        <entry file="file://$PROJECT_DIR$/pytestMock/test_monkeypatch2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="36" />
               <folding>
-                <element signature="e#115#163#0" expanded="true" />
+                <element signature="e#147#173#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytestMock/test_monkeypatch3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -268,10 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login3" />
-        <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login31.json" />
-        <option value="$PROJECT_DIR$/loginDemo/utils/get_data.py" />
-        <option value="$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json" />
         <option value="$PROJECT_DIR$/pytestDemo/conftest.py" />
         <option value="$PROJECT_DIR$/loginDemo/config/settings.py" />
         <option value="$PROJECT_DIR$/loginDemo/config/test/config.yml" />
@@ -319,6 +315,10 @@
         <option value="$PROJECT_DIR$/pytestMock/mockRequest.py" />
         <option value="$PROJECT_DIR$/unittestMock/testDemo1_mock.py" />
         <option value="$PROJECT_DIR$/pytestMock/test_mockRequest.py" />
+        <option value="$PROJECT_DIR$/pytestMock/monkeypatch.py" />
+        <option value="$PROJECT_DIR$/pytestMock/monkeypatch2.py" />
+        <option value="$PROJECT_DIR$/pytestMock/test_monkeypatch2.py" />
+        <option value="$PROJECT_DIR$/pytestMock/test_monkeypatch3.py" />
       </list>
     </option>
   </component>
@@ -328,9 +328,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-29" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="429" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
   </component>
@@ -373,11 +373,6 @@
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
               <item name="pytestMock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="unittestMock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
@@ -450,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_mockRequest.test_get_foo">
+  <component name="RunManager" selected="Python tests.pytest in test_monkeypatch3.py">
     <configuration name="hooktest" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -509,6 +504,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hooktest/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="monkeypatch2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestMock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestMock/monkeypatch2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -708,7 +725,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_mockRequest.test_get_foo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_monkeypatch2.test_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -720,7 +737,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mockRequest.test_get_foo&quot;" />
+      <option name="_new_target" value="&quot;test_monkeypatch2.test_get&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -740,6 +757,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in monkeypatch.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestMock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestMock/monkeypatch.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in pytestDemo" type="tests" factoryName="py.test">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -756,54 +789,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in testDemo1_mock.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo1_mock.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in testDemo2_mock.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo2_mock.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in testDemo2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittestMock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unittestMock/testDemo2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_mockRequest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -817,6 +802,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestMock/test_mockRequest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_monkeypatch3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestMock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestMock/test_monkeypatch3.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -885,19 +886,19 @@
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
-      <item itemvalue="Python tests.pytest in testDemo2.py" />
-      <item itemvalue="Python tests.pytest in testDemo2_mock.py" />
-      <item itemvalue="Python tests.pytest in testDemo1_mock.py" />
       <item itemvalue="Python tests.pytest in test_mockRequest.py" />
-      <item itemvalue="Python tests.pytest for test_mockRequest.test_get_foo" />
+      <item itemvalue="Python tests.pytest in monkeypatch.py" />
+      <item itemvalue="Python tests.pytest for test_monkeypatch2.test_get" />
+      <item itemvalue="Python.monkeypatch2" />
+      <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_mockRequest.test_get_foo" />
+        <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
         <item itemvalue="Python tests.pytest in test_mockRequest.py" />
-        <item itemvalue="Python tests.pytest in testDemo1_mock.py" />
-        <item itemvalue="Python tests.pytest in testDemo2.py" />
-        <item itemvalue="Python tests.pytest in testDemo2_mock.py" />
+        <item itemvalue="Python tests.pytest for test_monkeypatch2.test_get" />
+        <item itemvalue="Python.monkeypatch2" />
+        <item itemvalue="Python tests.pytest in monkeypatch.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1108,51 +1109,65 @@
       <option name="project" value="LOCAL" />
       <updated>1591261080481</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1. 使用的是pytest-mock 中的mocker&#10;2. 使用的 mock 中patch方法，是对目标函数的返回值进行替换，采用了with上下文进行管理&#10;3. 使用的装饰器的方式对mock对象的函数返回值进行替换">
+      <created>1591343344252</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591343344252</updated>
+    </task>
+    <task id="LOCAL-00030" summary="使用monkeypatch.setattr()结合类，模拟函数的返回对象">
+      <created>1591346482815</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591346482815</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_mockRequest_py - 2020.06.05 at 15h 02m 24s.xml">
+    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 32m 46s.xml">
+      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 32m 57s.xml">
+      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 33m 43s.xml">
+      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 34m 31s.xml">
+      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 36m 54s.xml">
+      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 39m 58s.xml">
+      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_mockRequest_py - 2020.06.05 at 16h 49m 42s.xml">
       <configuration name="pytest in test_mockRequest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 02m 36s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
+    <history-entry file="pytest_in_test_monkeypatch3_py - 2020.06.05 at 17h 12m 20s.xml">
+      <configuration name="pytest in test_monkeypatch3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 02m 56s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
+    <history-entry file="pytest_in_test_monkeypatch3_py - 2020.06.05 at 17h 12m 56s.xml">
+      <configuration name="pytest in test_monkeypatch3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 03m 32s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_mockRequest_py - 2020.06.05 at 15h 03m 40s.xml">
-      <configuration name="pytest in test_mockRequest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_mockRequest_py - 2020.06.05 at 15h 03m 53s.xml">
-      <configuration name="pytest in test_mockRequest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 13m 15s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 13m 42s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 27m 38s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_mockRequest_test_get_foo - 2020.06.05 at 15h 30m 24s.xml">
-      <configuration name="pytest for test_mockRequest.test_get_foo" configurationId="tests" />
+    <history-entry file="pytest_in_test_monkeypatch3_py - 2020.06.05 at 17h 15m 52s.xml">
+      <configuration name="pytest in test_monkeypatch3.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-29" y="23" width="1440" height="848" extended-state="0" />
+    <frame x="2" y="23" width="1440" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18025751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32650602" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3346561" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21031746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1204,8 +1219,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文章相关接口业务层实现。" />
-    <MESSAGE value="从数据库获取结果判断接口是否执行成功。" />
     <MESSAGE value="对数据库主要方法进行封装，便于重用。" />
     <MESSAGE value="UnitTest结合DDT自动化实现。" />
     <MESSAGE value="补充：ddt.file_data对yaml文件的读取。" />
@@ -1229,28 +1242,11 @@
     <MESSAGE value="加入locust自带断言（不是python的assert断言）判断随机请求的正确性。" />
     <MESSAGE value="测试unittest mock模块的使用。" />
     <MESSAGE value="补充unittest mock的另一种实现方式：@patch(上次是mock.Mock)" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充unittest mock的另一种实现方式：@patch(上次是mock.Mock)" />
+    <MESSAGE value="1. 使用的是pytest-mock 中的mocker&#10;2. 使用的 mock 中patch方法，是对目标函数的返回值进行替换，采用了with上下文进行管理&#10;3. 使用的装饰器的方式对mock对象的函数返回值进行替换" />
+    <MESSAGE value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-18.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/loggerDemo/logger2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/result/Log/2020-05/2020-05-27.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/locust_log.py" />
     <entry file="file://$PROJECT_DIR$/logger/loggerDemo/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1556,18 +1552,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestMock/mockRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestMock/test_mockRequest.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestMock/monkeypatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestMock/monkeypatch2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestMock/test_monkeypatch2.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="28" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="36" />
           <folding>
-            <element signature="e#313#324#0" expanded="true" />
+            <element signature="e#147#173#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestMock/test_monkeypatch3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
