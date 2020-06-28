@@ -52,4 +52,4 @@ class GetMikuInfoContract(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)  # 运行前要先启动消费者服务，因为pact是模拟生产者
+    unittest.main(verbosity=2)  # 运行前要先启动消费者服务，因为pact是模拟生产者(不过这里无需运行访问8080的，因为调用的query里已经有了访问1234的)

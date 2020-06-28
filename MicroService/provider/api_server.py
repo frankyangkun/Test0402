@@ -31,6 +31,7 @@ rsp_body = [
     }
 ]
 
+
 @app.route('/information', methods=['GET'])
 def test():
     get_name = request.args.get("name", "").lower()
@@ -41,6 +42,18 @@ def test():
     else:
         rsp = jsonify({'status': '404 not found.'})
     return rsp
+
+
+# 这个路由的定义主要是为了演示pact的ProviderState特性
+@app.route('/setup', methods=['POST'])
+def setup():  # 方法名字无所谓
+    states = request.json.get("state")  # 这是flask框架中获取用户提交的json数据的方法
+    # 通过这个状态字段的检查，来动态修改生产者服务端返回的数据内容
+    if states == "No nationality":
+        rsp_body[1]['nationality'] = None  # 这里直接用rsp_body的数据，为了省事
+    else:
+        rsp_body[1]['nationality'] = "Japan"
+    return jsonify()  # 返回json数据，flask的用法
 
 
 if __name__ == '__main__':
