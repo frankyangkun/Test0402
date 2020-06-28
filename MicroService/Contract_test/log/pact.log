@@ -1,0 +1,19 @@
+# Logfile created on 2020-06-28 15:38:02 +0800 by logger.rb/47272
+I, [2020-06-28T15:38:02.438742 #32850]  INFO -- : Running example 'Verifying a pact between Consumer Miku and Provider A request for miku with GET /information?name=miku returns a response which has status code 200'
+I, [2020-06-28T15:38:02.438887 #32850]  INFO -- : Sending GET request to path: "/information?name=miku" with headers: {}, see debug logs for body
+D, [2020-06-28T15:38:02.438918 #32850] DEBUG -- : body :
+I, [2020-06-28T15:38:02.464447 #32850]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"137", "Server"=>"Werkzeug/1.0.1 Python/3.8.2", "Date"=>"Sun, 28 Jun 2020 07:38:02 GMT"}, see debug logs for body
+D, [2020-06-28T15:38:02.464551 #32850] DEBUG -- : body: {"salary":45000,"name":"Hatsune Miku","nationality":"Japan","contact":{"Email":"hatsune.miku@woniuxy.com","Phone Number":"13982739999"}}
+
+I, [2020-06-28T15:45:16.093298 #33364]  INFO -- : Running example 'Verifying a pact between Consumer Miku and Provider A request for miku with GET /information?name=miku returns a response which has status code 200'
+I, [2020-06-28T15:45:16.093766 #33364]  INFO -- : Sending GET request to path: "/information?name=miku" with headers: {}, see debug logs for body
+D, [2020-06-28T15:45:16.093811 #33364] DEBUG -- : body :
+I, [2020-06-28T15:45:16.125593 #33364]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"138", "Server"=>"Werkzeug/1.0.1 Python/3.8.2", "Date"=>"Sun, 28 Jun 2020 07:45:16 GMT"}, see debug logs for body
+D, [2020-06-28T15:45:16.125679 #33364] DEBUG -- : body: {"salary":45000,"name":"Hatsune Miku1","nationality":"Japan","contact":{"Email":"hatsune.miku@woniuxy.com","Phone Number":"13982739992"}}
+
+I, [2020-06-28T15:47:08.576172 #33802]  INFO -- : Running example 'Verifying a pact between Consumer Miku and Provider A request for miku with GET /information?name=miku returns a response which has status code 200'
+I, [2020-06-28T15:47:08.576340 #33802]  INFO -- : Sending GET request to path: "/information?name=miku" with headers: {}, see debug logs for body
+D, [2020-06-28T15:47:08.576374 #33802] DEBUG -- : body :
+I, [2020-06-28T15:47:08.598720 #33802]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"137", "Server"=>"Werkzeug/1.0.1 Python/3.8.2", "Date"=>"Sun, 28 Jun 2020 07:47:08 GMT"}, see debug logs for body
+D, [2020-06-28T15:47:08.598819 #33802] DEBUG -- : body: {"salary":45000,"name":"Hatsune Miku","nationality":"Japan","contact":{"Email":"hatsune.miku@woniuxy.com","Phone Number":"13982739999"}}
+

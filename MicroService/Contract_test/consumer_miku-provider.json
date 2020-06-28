@@ -1,0 +1,38 @@
+{
+  "consumer": {
+    "name": "Consumer Miku"
+  },
+  "provider": {
+    "name": "Provider"
+  },
+  "interactions": [
+    {
+      "description": "a request for Miku",
+      "request": {
+        "method": "GET",
+        "path": "/information",
+        "query": "name=miku"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "salary": 45000,
+          "name": "Hatsune Miku",
+          "nationality": "Japan",
+          "contact": {
+            "Email": "hatsune.miku@woniuxy.com",
+            "Phone Number": "13982739999"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

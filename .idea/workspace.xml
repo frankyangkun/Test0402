@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="通过fixture跨用例共享pytest monkeypatch(如果想让mock_response应用于所有的测试用例，可考虑将它移到conftest.py里，并标记autouse=True)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService/consumer/consumer_miku.py" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/consumer/consumer_miku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService/provider/api_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/provider/api_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +42,7 @@
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_pytestDemo.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1589188642767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1587885005459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$contract_test_miku.coverage" NAME="contract_test_miku Coverage Results" MODIFIED="1593330990641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1585899391308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_TestDemo5_test_04.coverage" NAME="pytest for test_demo5.TestDemo5.test_04 Coverage Results" MODIFIED="1588232443995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_mockRequest_test_get_foo.coverage" NAME="pytest for test_mockRequest.test_get_foo Coverage Results" MODIFIED="1591342223206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
@@ -82,6 +86,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1589867768264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3.coverage" NAME="pytest for test_locman_login.TestDemo3 Coverage Results" MODIFIED="1588756849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login4_py.coverage" NAME="pytest in test_login4.py Coverage Results" MODIFIED="1589447136950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_contract_miku_py.coverage" NAME="pytest in contract_miku.py Coverage Results" MODIFIED="1593103451601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1590566728004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_monkeypatch2_test_get.coverage" NAME="pytest for test_monkeypatch2.test_get Coverage Results" MODIFIED="1591346397884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$MailDemo.coverage" NAME="MailDemo Coverage Results" MODIFIED="1587631514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
@@ -109,8 +114,8 @@
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest_test_2.coverage" NAME="Unittests for demo2.forTest.test_2 Coverage Results" MODIFIED="1586613932726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest__1_.coverage" NAME="hooktest (1) Coverage Results" MODIFIED="1589872491609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest/.pytest_cache" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586420706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$consumer_miku.coverage" NAME="consumer_miku Coverage Results" MODIFIED="1592989205442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/consumer" />
-    <SUITE FILE_PATH="coverage/Test0402_git$api_server.coverage" NAME="api_server Coverage Results" MODIFIED="1592990936267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
+    <SUITE FILE_PATH="coverage/Test0402_git$consumer_miku.coverage" NAME="consumer_miku Coverage Results" MODIFIED="1593314131993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/consumer" />
+    <SUITE FILE_PATH="coverage/Test0402_git$api_server.coverage" NAME="api_server Coverage Results" MODIFIED="1593330421800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
     <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589358298474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$flaskDemo1.coverage" NAME="flaskDemo1 Coverage Results" MODIFIED="1591601496182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskMock" />
@@ -158,31 +163,32 @@
     <session id="552763555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="25" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="26" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="CSV" value="3" />
-          <entry key="HTML" value="19" />
+          <entry key="HTML" value="21" />
           <entry key="Ini" value="2" />
-          <entry key="JSON" value="70" />
-          <entry key="Log" value="25" />
+          <entry key="JSON" value="73" />
+          <entry key="Log" value="26" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="834" />
+          <entry key="Python" value="853" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -193,13 +199,13 @@
           <entry key="Ini" value="189" />
           <entry key="JSON" value="264" />
           <entry key="PLAIN_TEXT" value="950" />
-          <entry key="Python" value="56179" />
+          <entry key="Python" value="57591" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="45" />
+          <entry key="git.branch.checkout.local" value="47" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="4" />
           <entry key="git.checkout.as.new.branch" value="1" />
@@ -215,8 +221,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -224,32 +230,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_miku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-              <folding>
-                <element signature="e#40#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py">
+        <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_miku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding>
-                <element signature="e#40#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="155">
+              <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MicroService/consumer/templates/nanoha.html">
+        <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -290,8 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hooktest2/hooktest.py" />
-        <option value="$PROJECT_DIR$/loginDemo/conftest.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo5.py" />
         <option value="$PROJECT_DIR$/hooktest/hooktest.py" />
         <option value="$PROJECT_DIR$/ddt_excel/test_locmanlogin.py" />
@@ -336,11 +334,13 @@
         <option value="$PROJECT_DIR$/flaskMock/mock_client.py" />
         <option value="$PROJECT_DIR$/flaskMock/pay_client.py" />
         <option value="$PROJECT_DIR$/flaskMock/mock_server.py" />
-        <option value="$PROJECT_DIR$/MicroService/consumer/consumer_miku.py" />
-        <option value="$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py" />
         <option value="$PROJECT_DIR$/MicroService/consumer/templates/miku.html" />
-        <option value="$PROJECT_DIR$/MicroService/provider/api_server.py" />
         <option value="$PROJECT_DIR$/MicroService/consumer/templates/nanoha.html" />
+        <option value="$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py" />
+        <option value="$PROJECT_DIR$/MicroService/consumer/consumer_miku.py" />
+        <option value="$PROJECT_DIR$/MicroService/Contract_test/query.py" />
+        <option value="$PROJECT_DIR$/MicroService/provider/api_server.py" />
+        <option value="$PROJECT_DIR$/MicroService/Contract_test/contract_miku.py" />
       </list>
     </option>
   </component>
@@ -350,11 +350,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="y" value="26" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-20" />
+    <option name="y" value="112" />
     <option name="width" value="1440" />
-    <option name="height" value="843" />
+    <option name="height" value="844" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -390,11 +390,6 @@
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskMock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
@@ -441,7 +436,17 @@
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
               <item name="MicroService" type="462c0819:PsiDirectoryNode" />
+              <item name="Contract_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="MicroService" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -494,7 +499,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.consumer_nanoha">
+  <component name="RunManager" selected="Python.contract_test_miku">
     <configuration name="api_server" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -561,6 +566,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="contract_test_miku" type="PythonConfigurationType" factoryName="Python">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/Test0402_git/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MicroService/Contract_test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MicroService/Contract_test/contract_miku.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -589,6 +616,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/MicroService/provider/api_server.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in contract_miku.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MicroService/Contract_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MicroService/Contract_test/contract_miku.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -689,21 +732,24 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.contract_test_miku" />
       <item itemvalue="Python.api_server" />
       <item itemvalue="Python tests.pytest in hook" />
       <item itemvalue="Python tests.pytest in pytestDemo" />
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
-      <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
-      <item itemvalue="Python tests.pytest in api_server.py" />
       <item itemvalue="Python.consumer_miku" />
       <item itemvalue="Python.consumer_nanoha" />
+      <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
+      <item itemvalue="Python tests.pytest in api_server.py" />
+      <item itemvalue="Python tests.pytest in contract_miku.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.consumer_nanoha" />
         <item itemvalue="Python.consumer_miku" />
+        <item itemvalue="Python tests.pytest in contract_miku.py" />
+        <item itemvalue="Python.consumer_nanoha" />
         <item itemvalue="Python tests.pytest in api_server.py" />
         <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
       </list>
@@ -934,21 +980,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 34m 31s.xml">
-      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 36m 54s.xml">
-      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_monkeypatch2_test_get - 2020.06.05 at 16h 39m 58s.xml">
-      <configuration name="pytest for test_monkeypatch2.test_get" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_mockRequest_py - 2020.06.05 at 16h 49m 42s.xml">
-      <configuration name="pytest in test_mockRequest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_monkeypatch3_py - 2020.06.05 at 17h 12m 20s.xml">
-      <configuration name="pytest in test_monkeypatch3.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_monkeypatch3_py - 2020.06.05 at 17h 12m 56s.xml">
       <configuration name="pytest in test_monkeypatch3.py" configurationId="tests" />
     </history-entry>
@@ -964,24 +995,41 @@
     <history-entry file="pytest_in_api_server_py - 2020.06.24 at 15h 41m 44s.xml">
       <configuration name="pytest in api_server.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_contract_miku_py - 2020.06.25 at 22h 00m 00s.xml">
+      <configuration name="pytest in contract_miku.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_contract_miku_py - 2020.06.25 at 23h 59m 58s.xml">
+      <configuration name="pytest in contract_miku.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_contract_miku_py - 2020.06.26 at 00h 03m 29s.xml">
+      <configuration name="pytest in contract_miku.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_contract_miku_py - 2020.06.26 at 00h 07m 51s.xml">
+      <configuration name="pytest in contract_miku.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_contract_miku_py - 2020.06.26 at 00h 44m 12s.xml">
+      <configuration name="pytest in contract_miku.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="843" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20457797" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19174434" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32756326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24698795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.2794702" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.20106524" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.2253012" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.25060242" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.39893618" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1053,47 +1101,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webui/POMode2/login_page.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webui/POMode2/TestCase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="94" selection-start-line="94" selection-end-line="95" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestMock/demo1_payTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestMock/demo2_math.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittestMock/demo1_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/setuptools-39.1.0-py3.8.egg!/setuptools/build_meta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/pip-10.0.1-py3.8.egg/pip/_vendor/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1206,9 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="e#147#173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,9 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#91#104#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1323,53 +1324,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#124#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/static/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/templates/miku.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_miku.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-          <folding>
-            <element signature="e#40#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroService/consumer/templates/nanoha.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="720">
           <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/consumer/static/css/cover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1838" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/pact/pact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+          <folding>
+            <element signature="e#68#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="853" selection-start-line="853" selection-end-line="853" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/consumer/templates/miku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1944169360/atexit.py" />
     <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_miku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_miku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
         </state>
       </provider>
     </entry>
