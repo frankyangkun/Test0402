@@ -1,0 +1,62 @@
+I, [2020-06-28T15:56:32.516521 #34160]  INFO -- : Cleared interactions
+I, [2020-06-28T15:56:32.522287 #34160]  INFO -- : Registered expected interaction GET /information?name=miku
+D, [2020-06-28T15:56:32.522535 #34160] DEBUG -- : {
+  "description": "a request for Miku",
+  "request": {
+    "method": "GET",
+    "path": "/information",
+    "query": {
+      "name": [
+        "miku"
+      ]
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "salary": 45000,
+      "name": "Hatsune Miku",
+      "nationality": "Japan",
+      "contact": {
+        "Email": "hatsune.miku@woniuxy.com",
+        "Phone Number": "13982739999"
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2020-06-28T15:56:32.527817 #34160]  INFO -- : Received request GET /information?name=miku
+D, [2020-06-28T15:56:32.527945 #34160] DEBUG -- : {
+  "path": "/information",
+  "query": "name=miku",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "User-Agent": "python-requests/2.23.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-06-28T15:56:32.528278 #34160]  INFO -- : Found matching response for GET /information?name=miku
+D, [2020-06-28T15:56:32.528384 #34160] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "salary": 45000,
+    "name": "Hatsune Miku",
+    "nationality": "Japan",
+    "contact": {
+      "Email": "hatsune.miku@woniuxy.com",
+      "Phone Number": "13982739999"
+    }
+  }
+}
+I, [2020-06-28T15:56:32.533908 #34160]  INFO -- : Verifying - interactions matched
+I, [2020-06-28T15:56:32.538977 #34160]  INFO -- : Writing pact for Provider to /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test/consumer_miku-provider.json
