@@ -17,3 +17,15 @@ D, [2020-06-28T15:47:08.576374 #33802] DEBUG -- : body :
 I, [2020-06-28T15:47:08.598720 #33802]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"137", "Server"=>"Werkzeug/1.0.1 Python/3.8.2", "Date"=>"Sun, 28 Jun 2020 07:47:08 GMT"}, see debug logs for body
 D, [2020-06-28T15:47:08.598819 #33802] DEBUG -- : body: {"salary":45000,"name":"Hatsune Miku","nationality":"Japan","contact":{"Email":"hatsune.miku@woniuxy.com","Phone Number":"13982739999"}}
 
+I, [2020-06-28T17:18:42.519086 #37987]  INFO -- : Running example 'Verifying a pact between Consumer Nanoha and Provider Given No nationality a request for Nanoha with GET /information?name=nanoha returns a response which has status code 200'
+I, [2020-06-28T17:18:42.544036 #37987]  INFO -- : Sending GET request to path: "/information?name=nanoha" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"No nationality"}]}, see debug logs for body
+D, [2020-06-28T17:18:42.544104 #37987] DEBUG -- : body :
+I, [2020-06-28T17:18:42.570846 #37987]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"142", "Server"=>"Werkzeug/1.0.1 Python/3.8.2", "Date"=>"Sun, 28 Jun 2020 09:18:42 GMT"}, see debug logs for body
+D, [2020-06-28T17:18:42.570934 #37987] DEBUG -- : body: {"salary":80000,"name":"Takamachi Nahoha","nationality":null,"contact":{"Email":"takamachi.nahoha@woniuxy.com","Phone Number":"18783723445"}}
+
+I, [2020-06-28T17:18:42.574762 #37987]  INFO -- : Running example 'Verifying a pact between Consumer Nanoha and Provider Given  a request for Nanoha with GET /information?name=nanoha returns a response which has status code 200'
+I, [2020-06-28T17:18:42.580532 #37987]  INFO -- : Sending GET request to path: "/information?name=nanoha" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>""}]}, see debug logs for body
+D, [2020-06-28T17:18:42.580604 #37987] DEBUG -- : body :
+I, [2020-06-28T17:18:42.583711 #37987]  INFO -- : Received response with status: 200, headers: {"Content-Type"=>"application/json", "Content-Length"=>"145", "Server"=>"Werkzeug/1.0.1 Python/3.8.2", "Date"=>"Sun, 28 Jun 2020 09:18:42 GMT"}, see debug logs for body
+D, [2020-06-28T17:18:42.583908 #37987] DEBUG -- : body: {"salary":80000,"name":"Takamachi Nahoha","nationality":"Japan","contact":{"Email":"takamachi.nahoha@woniuxy.com","Phone Number":"18783723445"}}
+
