@@ -1,14 +1,13 @@
-I, [2020-06-28T16:55:11.743240 #37165]  INFO -- : Cleared interactions
-I, [2020-06-28T16:55:11.749041 #37165]  INFO -- : Registered expected interaction GET /information?name=nanoha
-D, [2020-06-28T16:55:11.749286 #37165] DEBUG -- : {
-  "description": "a request for Nanoha",
-  "providerState": "No nationality",
+I, [2020-07-03T15:47:42.640877 #63970]  INFO -- : Cleared interactions
+I, [2020-07-03T15:47:42.647186 #63970]  INFO -- : Registered expected interaction GET /information?name=miku
+D, [2020-07-03T15:47:42.647474 #63970] DEBUG -- : {
+  "description": "a request for Miku",
   "request": {
     "method": "GET",
     "path": "/information",
     "query": {
       "name": [
-        "nanoha"
+        "miku"
       ]
     }
   },
@@ -18,84 +17,21 @@ D, [2020-06-28T16:55:11.749286 #37165] DEBUG -- : {
       "Content-Type": "application/json"
     },
     "body": {
-      "salary": 80000,
-      "name": "Takamachi Nahoha",
-      "nationality": null,
-      "contact": {
-        "Email": "takamachi.nahoha@woniuxy.com",
-        "Phone Number": "18783723445"
-      }
-    }
-  },
-  "metadata": null
-}
-I, [2020-06-28T16:55:11.754697 #37165]  INFO -- : Received request GET /information?name=nanoha
-D, [2020-06-28T16:55:11.754789 #37165] DEBUG -- : {
-  "path": "/information",
-  "query": "name=nanoha",
-  "method": "get",
-  "headers": {
-    "Host": "localhost:1234",
-    "User-Agent": "python-requests/2.23.0",
-    "Accept-Encoding": "gzip, deflate",
-    "Accept": "*/*",
-    "Connection": "keep-alive",
-    "Version": "HTTP/1.1"
-  }
-}
-I, [2020-06-28T16:55:11.755153 #37165]  INFO -- : Found matching response for GET /information?name=nanoha
-D, [2020-06-28T16:55:11.755223 #37165] DEBUG -- : {
-  "status": 200,
-  "headers": {
-    "Content-Type": "application/json"
-  },
-  "body": {
-    "salary": 80000,
-    "name": "Takamachi Nahoha",
-    "nationality": null,
-    "contact": {
-      "Email": "takamachi.nahoha@woniuxy.com",
-      "Phone Number": "18783723445"
-    }
-  }
-}
-I, [2020-06-28T16:55:11.760594 #37165]  INFO -- : Verifying - interactions matched
-I, [2020-06-28T16:55:11.765517 #37165]  INFO -- : Writing pact for Provider to /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test/consumer_nanoha-provider.json
-I, [2020-06-28T16:55:11.772245 #37165]  INFO -- : Cleared interactions
-I, [2020-06-28T16:55:11.777997 #37165]  INFO -- : Registered expected interaction GET /information?name=nanoha
-D, [2020-06-28T16:55:11.778134 #37165] DEBUG -- : {
-  "description": "a request for Nanoha",
-  "providerState": "",
-  "request": {
-    "method": "GET",
-    "path": "/information",
-    "query": {
-      "name": [
-        "nanoha"
-      ]
-    }
-  },
-  "response": {
-    "status": 200,
-    "headers": {
-      "Content-Type": "application/json"
-    },
-    "body": {
-      "salary": 80000,
-      "name": "Takamachi Nahoha",
+      "salary": 45000,
+      "name": "Hatsune Miku",
       "nationality": "Japan",
       "contact": {
-        "Email": "takamachi.nahoha@woniuxy.com",
-        "Phone Number": "18783723445"
+        "Email": "hatsune.miku@woniuxy.com",
+        "Phone Number": "13982739999"
       }
     }
   },
   "metadata": null
 }
-I, [2020-06-28T16:55:11.783226 #37165]  INFO -- : Received request GET /information?name=nanoha
-D, [2020-06-28T16:55:11.783316 #37165] DEBUG -- : {
+I, [2020-07-03T15:47:42.653110 #63970]  INFO -- : Received request GET /information?name=miku
+D, [2020-07-03T15:47:42.653209 #63970] DEBUG -- : {
   "path": "/information",
-  "query": "name=nanoha",
+  "query": "name=miku",
   "method": "get",
   "headers": {
     "Host": "localhost:1234",
@@ -106,21 +42,21 @@ D, [2020-06-28T16:55:11.783316 #37165] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2020-06-28T16:55:11.783580 #37165]  INFO -- : Found matching response for GET /information?name=nanoha
-D, [2020-06-28T16:55:11.783670 #37165] DEBUG -- : {
+I, [2020-07-03T15:47:42.653577 #63970]  INFO -- : Found matching response for GET /information?name=miku
+D, [2020-07-03T15:47:42.653720 #63970] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
   },
   "body": {
-    "salary": 80000,
-    "name": "Takamachi Nahoha",
+    "salary": 45000,
+    "name": "Hatsune Miku",
     "nationality": "Japan",
     "contact": {
-      "Email": "takamachi.nahoha@woniuxy.com",
-      "Phone Number": "18783723445"
+      "Email": "hatsune.miku@woniuxy.com",
+      "Phone Number": "13982739999"
     }
   }
 }
-I, [2020-06-28T16:55:11.789240 #37165]  INFO -- : Verifying - interactions matched
-I, [2020-06-28T16:55:11.794902 #37165]  INFO -- : Writing pact for Provider to /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test/consumer_nanoha-provider.json
+I, [2020-07-03T15:47:42.658948 #63970]  INFO -- : Verifying - interactions matched
+I, [2020-07-03T15:47:42.665152 #63970]  INFO -- : Writing pact for Provider to /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test/consumer_miku-provider.json
