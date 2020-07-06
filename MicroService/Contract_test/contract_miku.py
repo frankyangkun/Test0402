@@ -11,6 +11,7 @@ Miku消费者服务和生产者服务之间的契约测试
 1、找不到项目模块，sys.path.append('')添加路径到环境变量；
 2、命令行执行时默认用的是python2.7，pycharm python模式执行时是3.8，搜索路径不同--指定3.8绝对路径运行解决；
 3、指定3.8绝对路径后依然错误，因为pycharm是虚拟环境的3.8，pact安装在了虚拟环境，本地环境的3.8没安装，手动拷贝pact模块到本地3.8解决；
+4、sys模块和atexit找不到的问题，解释器换成本地的python3.8解决；
 """
 import sys
 
@@ -20,14 +21,19 @@ import sys
 print("***sys.path***", sys.path)  # sys.path 返回的是一个列表,这个列表内的路径都添加到环境变量中去了,sys.path[0]是第一个
 import os
 
+print("当前工作目录：", os.getcwd())  # /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test
 # 获取项目路径下的目录
-os.chdir('/Users/yang/PycharmProjects/Test0402_git')
+# os.chdir('/Users/yang/PycharmProjects/Test0402_git')  # 用于改变当前工作目录到指定的路径  必须的操作！**********************
+os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
+
 # 打印出项目路径下的目录
-for file in os.listdir(os.getcwd()):
-    print("###", file)
+# for file in os.listdir(os.getcwd()):  # os.getcwd()查看当前工作目录
+#     print("###", file)
+print("修改后当前工作目录2：", os.getcwd())  # /Users/yang/PycharmProjects/Test0402_git
+
 # 将项目路径保存至环境变量
-sys.path.append('/Users/yang/PycharmProjects/Test0402_git')
-# sys.path.append('/Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test')
+# sys.path.append('/Users/yang/PycharmProjects/Test0402_git')  # 必须的操作！否则提示 No module named 'MicroService' *******
+sys.path.append(os.getcwd())
 # 注意：如果要导入该项目其他模块的包名，应将导入的方法写在上面方法的后面
 
 import atexit  # 退出时资源自动释放,一般用来做一些资源清理的操作
