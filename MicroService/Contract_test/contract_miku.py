@@ -24,7 +24,8 @@ import os
 print("当前工作目录：", os.getcwd())  # /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test
 # 获取项目路径下的目录
 # os.chdir('/Users/yang/PycharmProjects/Test0402_git')  # 用于改变当前工作目录到指定的路径  必须的操作！**********************
-os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
+
+# os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
 
 # 打印出项目路径下的目录
 # for file in os.listdir(os.getcwd()):  # os.getcwd()查看当前工作目录
@@ -34,6 +35,8 @@ print("修改后当前工作目录2：", os.getcwd())  # /Users/yang/PycharmProj
 # 将项目路径保存至环境变量
 # sys.path.append('/Users/yang/PycharmProjects/Test0402_git')  # 必须的操作！否则提示 No module named 'MicroService' *******
 sys.path.append(os.getcwd())
+
+
 # 注意：如果要导入该项目其他模块的包名，应将导入的方法写在上面方法的后面
 
 import atexit  # 退出时资源自动释放,一般用来做一些资源清理的操作
