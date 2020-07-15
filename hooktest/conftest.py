@@ -3,7 +3,7 @@
 2020-05-19
 测试hook函数pytest_addoption和pytest_runtest_makereport的用法
 """
-import null as null
+# import null as null
 import pytest
 
 

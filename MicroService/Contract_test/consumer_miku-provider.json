@@ -28,6 +28,54 @@
           }
         }
       }
+    },
+    {
+      "description": "a request for Nanoha",
+      "providerState": "",
+      "request": {
+        "method": "GET",
+        "path": "/information",
+        "query": "name=nanoha"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "salary": 80000,
+          "name": "Takamachi Nahoha",
+          "nationality": "Japan",
+          "contact": {
+            "Email": "takamachi.nahoha@woniuxy.com",
+            "Phone Number": "18783723445"
+          }
+        }
+      }
+    },
+    {
+      "description": "a request for Nanoha",
+      "providerState": "No nationality",
+      "request": {
+        "method": "GET",
+        "path": "/information",
+        "query": "name=nanoha"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "salary": 80000,
+          "name": "Takamachi Nahoha",
+          "nationality": null,
+          "contact": {
+            "Email": "takamachi.nahoha@woniuxy.com",
+            "Phone Number": "18783723445"
+          }
+        }
+      }
     }
   ],
   "metadata": {

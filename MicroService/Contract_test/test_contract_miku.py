@@ -25,7 +25,8 @@ print("当前工作目录：", os.getcwd())  # /Users/yang/PycharmProjects/Test0
 # 获取项目路径下的目录
 # os.chdir('/Users/yang/PycharmProjects/Test0402_git')  # 用于改变当前工作目录到指定的路径  必须的操作！**********************
 
-# os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
+os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
+# 为了jenkins运行成功，这里注释掉os.chdir('../../')操作，因为目录退2格后jenkins找不到MicroService目录了。
 
 # 打印出项目路径下的目录
 # for file in os.listdir(os.getcwd()):  # os.getcwd()查看当前工作目录
@@ -36,7 +37,6 @@ print("修改后当前工作目录2：", os.getcwd())  # /Users/yang/PycharmProj
 # sys.path.append('/Users/yang/PycharmProjects/Test0402_git')  # 必须的操作！否则提示 No module named 'MicroService' *******
 sys.path.append(os.getcwd())
 
-
 # 注意：如果要导入该项目其他模块的包名，应将导入的方法写在上面方法的后面
 
 import atexit  # 退出时资源自动释放,一般用来做一些资源清理的操作
@@ -44,6 +44,7 @@ from atexit import register  # 有时候重启pycharm后会找不到atexit模块
 import unittest
 from pact import Consumer, Provider
 from MicroService.Contract_test.query import get_cartoon_characters
+import pytest
 
 # 构造pact对象，定义消费者服务的名字并给它绑定一个生产者服务
 pact = Consumer('Consumer Miku').has_pact_with(Provider('Provider'))  # 为消费者绑定一个生产者，名字可随便取
@@ -54,7 +55,7 @@ atexit.register(pact.stop_service)  # 注册退出时，关闭pact服务,stop_se
 # pact.stop_service()  # 由于atexit经常出错，可以不用
 
 
-class GetMikuInfoContract(unittest.TestCase):
+class TestGetMikuInfoContract():
     def test_miku(self):
         # 定义响应的期望结果
         expected = {
@@ -82,8 +83,18 @@ class GetMikuInfoContract(unittest.TestCase):
         with pact:  # 让pact去做请求
             result = get_cartoon_characters('miku')
         # 断言
-        self.assertEqual(result.json(), expected)
+        # self.assertEqual(result.json(), expected)
+        assert result.json(), expected
 
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)  # 运行前要先启动消费者服务，因为pact是模拟生产者(不过这里无需运行访问8080的，因为调用的query里已经有了访问1234的)
+    # unittest.main(verbosity=2)  # 运行前要先启动消费者服务，因为pact是模拟生产者(不过这里无需运行访问8080的，因为调用的query里已经有了访问1234的)
+    pytest.main()
+    # os.system('allure generate ./temp -o ./report --clean')
+    # =============2020-07-15 16:23:14=========================================================================
+    # 总结一下用法，如果直接在pycharm里使用，上面两条命令可以直接写在main中，如果要在ci中使用，必须使用命令行执行
+    # 1、先用pytest生成测试数据，pytest --alluredir=temp test_demo4.py
+    # 2、有时候找不到allure命令，source ~/.bash_profile 生效一下
+    # 3、生成allure报告，allure generate ./temp -o ./report --clean
+    # 4、注意：jenkins中添加以上命令
+    # 5、注意：不能把命令写在main中，然后用python3 xx.py的方式执行脚本
