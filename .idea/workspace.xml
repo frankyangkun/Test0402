@@ -3,160 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="解决契约测试脚本生成Allure报告报错的问题&#10;总结一下用法，如果直接在pycharm里使用，下面两条命令可以直接写在main中，如果要在ci中使用，必须使用命令行执行&#10;1、先用pytest生成测试数据，pytest --alluredir=temp test_demo4.py&#10;2、有时候找不到allure命令，source ~/.bash_profile 生效一下&#10;3、生成allure报告，allure generate ./temp -o ./report --clean&#10;4、注意：jenkins中添加以上命令&#10;5、注意：不能把命令写在main中，然后用python3 xx.py的方式执行脚本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/consumer_nanoha-provider.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/contract_miku.py" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooktest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/hooktest/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/attachments/408dfde6f7dbb73a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/attachments/61fa44b2e8621f7e.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/test-cases/c4f0166f4cb393ad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/test-cases/dba4cfccb5d4c5b8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/report/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/00796187-5008-4f3b-9b60-676a85441d5b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/00e3f9c5-5058-4b25-a2e1-8024864e5951-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/01bd4d5b-797d-49e7-b0f4-f3ceac6f3084-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/095b3bd1-086c-4865-8565-a008093904a0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/0fd4f834-87ad-41f2-b954-1e1499acf559-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/1031d6f9-4771-4a59-9fde-996e23738473-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/114c9eeb-3c63-4a3d-b602-baace26e5115-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/123b4c2d-ec17-4cd5-8773-0609360529cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/14cd0e61-7d20-4b62-a313-3209f065a31d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/1c145f3d-83c7-415f-ac0c-64dfe845d0b5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/21c9e291-8ce2-4c43-8928-98dbf3a6f452-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/23069054-718b-41d3-9559-206f4196f034-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/2acbf3a1-fde6-4859-9969-cfd17c2f4f9c-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/2bb68592-3a36-4874-af30-b8819bf4901d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/30be4ee5-89db-405d-9456-bacffdff7370-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/331da717-599c-429c-b616-82eda8ef6e3d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/33778459-0261-447a-ae33-dc1f3576326e-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/36ba15a9-1f68-4b6c-98cd-711006eda8ec-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/37a36659-64c3-4139-9b28-9a95d39aba39-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/38a9b999-8f76-4b7f-974c-fca829070802-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/38d269a4-556b-4565-82cc-377f8131ba1a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/394d1fb9-b319-4610-b90e-5caed45b88dc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/3960a7b6-81ed-4f00-9129-34a68a03e5ce-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/4060c9f2-2ed3-49f7-b26d-41ec7a79f483-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/409a2dce-8d20-40c9-b028-ba4d66a2e42c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/41fccf76-b1b4-4aea-9f11-eb50944a8338-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/426ac5ac-821f-4539-bbae-68400a5f59e5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/43abdfe4-8fd3-44b0-bd22-a6bc054a3d72-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/43d58ab2-8b76-4760-9dd8-60c4e1935e87-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/50fd9ce0-9b82-4f22-927a-02bfbb703c4f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/511dd9c8-eb92-4b91-8645-67382bb1e421-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/53767634-c1e4-4af4-b270-b2e1ad0b82a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/551d94db-a5ae-4beb-9066-84c3c47a19d6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/56443d1f-6f44-4938-adea-eb04af348c8c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/56f64d1d-20f7-4881-b073-51f68fbe6623-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/5b9d0ee0-f19a-43c5-9ee7-072904ff71f8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/5d1154db-e656-48b1-b5d8-474821e762a9-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/5ec29066-cab7-4e23-b96b-6291a502a31c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/5f144f9e-0999-4021-bb70-391e58493bda-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/5f3f1b00-f5b1-4bb8-8338-c45d3c4fa7dc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/63bd2122-62c4-4528-bf70-e229a2e61b2b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/65105eb7-73a0-4cd6-b88c-9ffbba1495c0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/654691f5-5562-4f8b-bfa9-193bd31537bc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/6d7211ac-226b-46d8-b526-ca5738d66ec8-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/6f8acbff-bc2c-4bc3-b5ec-54ec7ed057b5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/71bba561-4941-46f4-a231-62d1fc251ccb-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/71df66a8-e7b3-4952-997c-72cdd2df055b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/73be10a2-bbc4-488a-8b56-49dbd3e37a50-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/7437ef5e-ec38-4bdd-901d-ed4640524620-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/74fbdf34-b12f-4776-8f64-3d96513d2976-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/7e3b57ea-6bb1-4ba7-aa3e-16fd0921151e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/7f9d1268-d105-480f-aa0d-372e43e9ca65-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/8034301e-a0ac-4833-86ac-ee10609fe9c1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/81b93022-4d8a-439d-80aa-5dbe1268b94a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/90ebbd9e-a85c-4cf9-b8ad-a67d2c9d2c4f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/923a554c-4039-4418-90f6-3b596f4030d6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/94114635-07e3-499a-9ead-7f2ba4fe2611-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/98114df2-998e-429f-90b8-0fee6ce7ce18-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/9c124aa4-b00e-40f4-a12f-84dc17017f9f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/9f1342ac-2464-4102-9ac9-5c052213aab3-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/a205df43-d737-4e64-8843-a03bcbd857d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/a3f3a9fc-7b36-4fa6-ad1a-a61b9c7ebf2b-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/a42f483f-7bc3-41ed-9eed-96c3cde80409-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/a649b1cd-a5ec-48d6-aa42-3506927798e5-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/a826fbef-8ae4-42ec-a080-2686788995ec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/aae28972-8e6f-4b0d-8cc7-5c3ef75e7052-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/ac6ce877-006f-4ca9-a412-1647acbef786-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/afa110b6-3e1e-4b42-83ea-0fb9a78cc354-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b077c3a9-4644-4ea6-897f-eb8f68bfc01c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b239d8b6-c4e0-4a84-8eb6-c3b082bc18cd-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b30a30c8-cc0f-47b2-a76a-e6c4274812fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b5004f9b-fdf2-4b2f-b503-c7c868b7a5ff-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b52e284a-93e9-410e-991b-cb399f1fb6f8-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b5799d7f-0195-4110-a50b-607d5b4421f2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/b6257dfe-e649-4f10-a1db-a4d5870ef086-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/bbf2ac9c-95b8-4a16-96b4-e1bcc9bc0ac6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/bd5e46df-ec75-4e09-950f-3d7496e22661-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/bed17320-0121-476e-a4fa-1fe99c8781cb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/bf0004be-ac3c-4f51-99b6-72f6a35b254b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/c36aabf2-49ae-40d0-95c0-f50d36226381-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/c49141a6-8c20-48e0-bdeb-26c965e5c6ae-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/c5c5ee61-69cb-45a2-a4e1-173c195d024e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/c75e45fd-ca44-439d-a791-3b3b204ec6a1-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/c879cf52-762f-4639-80c3-48ea50394d33-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/ca6117c1-733d-424a-b530-4b752f57403f-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/cc758e17-65f2-4687-9726-949cba0dd8ae-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/cef22584-e417-4d77-9283-6f39d4016661-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/cf020141-e565-4699-a0fd-6117afca177a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/d1e32e2d-46a3-4e86-8a47-32b4c310db4e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/d71937dc-0dd4-4f44-858e-02d91d5f7785-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/d765099a-fcc1-47f1-8f5a-d6e351f91e12-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e04ab527-a4c5-4193-a4c0-3bb1659d1841-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e0e50df1-977b-482e-bf67-d6a580601a87-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e11a2334-b8c3-4eb7-a133-91cb45198c22-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e7532b04-80a2-4379-a5aa-28f74d78fa21-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e85caa51-0508-41c5-a342-a97475392f4b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e8b2dadb-9fb0-4338-8ead-b7a6d5888a05-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/e9cbe6f0-ba1b-4005-88fe-6befed04f2d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/ee074151-1e14-418d-b603-eef360b19b70-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/ee5a7c53-85c3-4f95-8736-5b2f38f1b0a4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/temp/f6be4ad0-3927-4cee-9a3b-5584f86a61da-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/test_demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestDemo/test_demo4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/test_demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestDemo/test_demo5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytestDemo/test_demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestDemo/test_demo6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020_04_09 09_57_32.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/2020_04_09 10_04_21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +26,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_api_server_py.coverage" NAME="pytest in api_server.py Coverage Results" MODIFIED="1592984503013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
     <SUITE FILE_PATH="coverage/Test0402_git$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1590654486850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_contract_miku_py.coverage" NAME="pytest in test_contract_miku.py Coverage Results" MODIFIED="1594801083570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_contract_miku_py.coverage" NAME="pytest in test_contract_miku.py Coverage Results" MODIFIED="1594804025873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest2.coverage" NAME="hooktest2 Coverage Results" MODIFIED="1590049195321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_contract_miku.coverage" NAME="test_contract_miku Coverage Results" MODIFIED="1594800908518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1586338074619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
@@ -324,9 +173,9 @@
         <counts>
           <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="31" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -336,19 +185,19 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="8" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="66" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
           <entry key="CSV" value="3" />
-          <entry key="HTML" value="26" />
+          <entry key="HTML" value="27" />
           <entry key="Ini" value="3" />
           <entry key="JSON" value="78" />
           <entry key="Log" value="27" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="922" />
+          <entry key="Python" value="930" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -365,7 +214,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="53" />
+          <entry key="git.branch.checkout.local" value="54" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="4" />
           <entry key="git.checkout.as.new.branch" value="1" />
@@ -381,7 +230,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="404">
               <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
             </state>
           </provider>
@@ -390,49 +239,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            <state relative-caret-position="218">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
+        <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-              <folding>
-                <element signature="e#172#185#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-              <folding>
-                <element signature="e#46#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_nanoha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="-317">
               <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding>
                 <element signature="e#137#188#0" expanded="true" />
@@ -524,10 +349,10 @@
         <option value="$PROJECT_DIR$/MicroService/Contract_test/test_contract_nanoha.py" />
         <option value="$PROJECT_DIR$/hooktest/conftest.py" />
         <option value="$PROJECT_DIR$/pytestDemo/tesqt_demo4.py" />
-        <option value="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo6.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo5.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo4.py" />
+        <option value="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" />
       </list>
     </option>
   </component>
@@ -1045,9 +870,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_contract_miku.py" />
-        <item itemvalue="Python.pact_provider" />
         <item itemvalue="Python tests.pytest in api_server.py" />
         <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
+        <item itemvalue="Python.pact_provider" />
         <item itemvalue="Python.consumer_nanoha" />
       </list>
     </recent_temporary>
@@ -1277,9 +1102,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_contract_miku_py - 2020.07.14 at 16h 32m 17s.xml">
-      <configuration name="pytest in contract_miku.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_contract_miku_py - 2020.07.14 at 16h 52m 31s.xml">
       <configuration name="pytest in contract_miku.py" configurationId="tests" />
     </history-entry>
@@ -1307,12 +1129,14 @@
     <history-entry file="pytest_in_test_contract_miku_py - 2020.07.15 at 16h 18m 06s.xml">
       <configuration name="pytest in test_contract_miku.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_contract_miku_py - 2020.07.15 at 17h 07m 09s.xml">
+      <configuration name="pytest in test_contract_miku.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1440" height="844" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1323,7 +1147,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.2794702" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.32446808" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.24069148" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.16356383" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.39893618" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -1398,13 +1222,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="90" column="30" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1562,13 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943125/posix.py" />
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943125/sys.py" />
     <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1607,13 +1417,6 @@
     <entry file="file://$PROJECT_DIR$/pytestDemo/pytest.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1631,46 +1434,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-          <folding>
-            <element signature="e#137#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_nanoha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#137#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="900">
           <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding>
             <element signature="e#172#185#0" expanded="true" />
@@ -1680,10 +1449,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        <state relative-caret-position="945">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_nanoha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <element signature="e#46#59#0" expanded="true" />
+            <element signature="e#137#188#0" expanded="true" />
           </folding>
         </state>
       </provider>

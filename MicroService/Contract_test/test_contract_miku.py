@@ -25,7 +25,7 @@ print("当前工作目录：", os.getcwd())  # /Users/yang/PycharmProjects/Test0
 # 获取项目路径下的目录
 # os.chdir('/Users/yang/PycharmProjects/Test0402_git')  # 用于改变当前工作目录到指定的路径  必须的操作！**********************
 
-os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
+# os.chdir('../../')  # 不把路径写死，根据具体的「当前路径」退2个路径
 # 为了jenkins运行成功，这里注释掉os.chdir('../../')操作，因为目录退2格后jenkins找不到MicroService目录了。
 
 # 打印出项目路径下的目录
