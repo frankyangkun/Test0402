@@ -12,7 +12,7 @@ class ddtreadexcel(object):
     """
     def getdata(self):
 
-        path = '/Users/yang/PycharmProjects/Test0402_git/ddt_excel/locmantestcase.xlsx'
+        path = '/Users/yang/PycharmProjects/Test0402_git/ddt_excel/newbind.xlsx'  # 原测试文件locmantestcase.xlsx
         book_data = xlrd.open_workbook(path)  # 读取excel
         book_sheet = book_data.sheet_by_index(0)  # 获取sheet1的数据
         rows_num = book_sheet.nrows  # 获取行数
@@ -65,4 +65,4 @@ class ddtreadexcel(object):
 
 if __name__ == '__main__':
     test = ddtreadexcel()
-    print(test.getdata3())
+    print(test.getdata())
