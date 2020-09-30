@@ -1,6 +1,6 @@
-I, [2020-07-15T17:09:28.491434 #21081]  INFO -- : Cleared interactions
-I, [2020-07-15T17:09:28.500152 #21081]  INFO -- : Registered expected interaction GET /information?name=miku
-D, [2020-07-15T17:09:28.500456 #21081] DEBUG -- : {
+I, [2020-08-18T15:04:37.886463 #21437]  INFO -- : Cleared interactions
+I, [2020-08-18T15:04:37.902658 #21437]  INFO -- : Registered expected interaction GET /information?name=miku
+D, [2020-08-18T15:04:37.902926 #21437] DEBUG -- : {
   "description": "a request for Miku",
   "request": {
     "method": "GET",
@@ -28,8 +28,8 @@ D, [2020-07-15T17:09:28.500456 #21081] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2020-07-15T17:09:28.506671 #21081]  INFO -- : Received request GET /information?name=miku
-D, [2020-07-15T17:09:28.506791 #21081] DEBUG -- : {
+I, [2020-08-18T15:04:37.909292 #21437]  INFO -- : Received request GET /information?name=miku
+D, [2020-08-18T15:04:37.909510 #21437] DEBUG -- : {
   "path": "/information",
   "query": "name=miku",
   "method": "get",
@@ -42,8 +42,8 @@ D, [2020-07-15T17:09:28.506791 #21081] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2020-07-15T17:09:28.507177 #21081]  INFO -- : Found matching response for GET /information?name=miku
-D, [2020-07-15T17:09:28.507284 #21081] DEBUG -- : {
+I, [2020-08-18T15:04:37.910220 #21437]  INFO -- : Found matching response for GET /information?name=miku
+D, [2020-08-18T15:04:37.910330 #21437] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
@@ -58,5 +58,5 @@ D, [2020-07-15T17:09:28.507284 #21081] DEBUG -- : {
     }
   }
 }
-I, [2020-07-15T17:09:28.525161 #21081]  INFO -- : Verifying - interactions matched
-I, [2020-07-15T17:09:28.532104 #21081]  INFO -- : Writing pact for Provider to /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test/consumer_miku-provider.json
+I, [2020-08-18T15:04:37.917323 #21437]  INFO -- : Verifying - interactions matched
+I, [2020-08-18T15:04:37.922739 #21437]  INFO -- : Writing pact for Provider to /Users/yang/PycharmProjects/Test0402_git/MicroService/Contract_test/consumer_miku-provider.json

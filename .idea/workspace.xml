@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="解决契约测试脚本生成Allure报告报错的问题&#10;总结一下用法，如果直接在pycharm里使用，下面两条命令可以直接写在main中，如果要在ci中使用，必须使用命令行执行&#10;1、先用pytest生成测试数据，pytest --alluredir=temp test_demo4.py&#10;2、有时候找不到allure命令，source ~/.bash_profile 生效一下&#10;3、生成allure报告，allure generate ./temp -o ./report --clean&#10;4、注意：jenkins中添加以上命令&#10;5、注意：不能把命令写在main中，然后用python3 xx.py的方式执行脚本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +15,19 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Test0402$Unittests_for_test_param_TestPara_test_para.coverage" NAME="Unittests for test_param.TestPara.test_para Coverage Results" MODIFIED="1585898415298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$testRandomLogin3_queue.coverage" NAME="testRandomLogin3-queue Coverage Results" MODIFIED="1591153170834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_TestQRCodeLogin_py.coverage" NAME="pytest in TestQRCodeLogin.py Coverage Results" MODIFIED="1601452885242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/data/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo5.coverage" NAME="test_demo5 Coverage Results" MODIFIED="1590029674310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_monkeypatch3_py.coverage" NAME="pytest in test_monkeypatch3.py Coverage Results" MODIFIED="1591579612650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$pay_client.coverage" NAME="pay_client Coverage Results" MODIFIED="1591601512262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskMock" />
+    <SUITE FILE_PATH="coverage/Test0402_git$QRCodeTest.coverage" NAME="QRCodeTest Coverage Results" MODIFIED="1601454279745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1589785758054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$mock_client.coverage" NAME="mock_client Coverage Results" MODIFIED="1591587452747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$testYml.coverage" NAME="testYml Coverage Results" MODIFIED="1586849781401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_param_py.coverage" NAME="Unittests in test_param.py Coverage Results" MODIFIED="1585898569810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_api_server_py.coverage" NAME="pytest in api_server.py Coverage Results" MODIFIED="1592984503013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_api_server_py.coverage" NAME="pytest in api_server.py Coverage Results" MODIFIED="1597045952214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
     <SUITE FILE_PATH="coverage/Test0402_git$testLogin.coverage" NAME="testLogin Coverage Results" MODIFIED="1590654486850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_db.coverage" NAME="read_db Coverage Results" MODIFIED="1586420395876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_contract_miku_py.coverage" NAME="pytest in test_contract_miku.py Coverage Results" MODIFIED="1594804025873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_contract_miku_py.coverage" NAME="pytest in test_contract_miku.py Coverage Results" MODIFIED="1597734275238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest2.coverage" NAME="hooktest2 Coverage Results" MODIFIED="1590049195321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_contract_miku.coverage" NAME="test_contract_miku Coverage Results" MODIFIED="1594800908518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402_git$read_json.coverage" NAME="read_json Coverage Results" MODIFIED="1586338074619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
@@ -40,6 +41,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$correlationtools.coverage" NAME="correlationtools Coverage Results" MODIFIED="1591167774744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust/utils" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo1_py.coverage" NAME="Unittests in demo1.py Coverage Results" MODIFIED="1586504145549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$search_page.coverage" NAME="search_page Coverage Results" MODIFIED="1587443447652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_newbund_py.coverage" NAME="pytest in test_newbund.py Coverage Results" MODIFIED="1599719696189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_demo2_py.coverage" NAME="Unittests in demo2.py Coverage Results" MODIFIED="1586849020394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402$read_json_more.coverage" NAME="read_json_more Coverage Results" MODIFIED="1585902287164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_pytestDemo.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1589188642767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -70,6 +72,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3_test3.coverage" NAME="pytest for test_locman_login.TestDemo3.test3 Coverage Results" MODIFIED="1588755901167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$demo2_math.coverage" NAME="demo2_math Coverage Results" MODIFIED="1591256522477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestMock" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_more_py.coverage" NAME="Unittests in test_login_more.py Coverage Results" MODIFIED="1585902901360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$newbund.coverage" NAME="newbund Coverage Results" MODIFIED="1599727989184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$logger.coverage" NAME="logger Coverage Results" MODIFIED="1590649901480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logger/loggerDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_demo5_test_02.coverage" NAME="pytest for test_demo5.test_02 Coverage Results" MODIFIED="1588229269612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_contract_nanoha.coverage" NAME="test_contract_nanoha Coverage Results" MODIFIED="1594783360934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
@@ -87,15 +90,18 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytestDemo6.coverage" NAME="pytestDemo5 Coverage Results" MODIFIED="1594798369991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$login_page.coverage" NAME="login_page Coverage Results" MODIFIED="1587450516715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui/POMode/pageObject" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login3_py.coverage" NAME="pytest in test_login3.py Coverage Results" MODIFIED="1589791655147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$QRCode.coverage" NAME="QRCode Coverage Results" MODIFIED="1601453866364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1585900388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1589867768264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_TestDemo3.coverage" NAME="pytest for test_locman_login.TestDemo3 Coverage Results" MODIFIED="1588756849695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_test_login4_py.coverage" NAME="pytest in test_login4.py Coverage Results" MODIFIED="1589447136950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
+    <SUITE FILE_PATH="coverage/Test0402_git$UnittestNewBind.coverage" NAME="UnittestNewBind Coverage Results" MODIFIED="1599730719638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pact_provider.coverage" NAME="pact_provider Coverage Results" MODIFIED="1593399819594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService2/provider" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_contract_miku_py.coverage" NAME="pytest in contract_miku.py Coverage Results" MODIFIED="1594716748339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1590566728004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_monkeypatch2_test_get.coverage" NAME="pytest for test_monkeypatch2.test_get Coverage Results" MODIFIED="1591346397884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$MailDemo.coverage" NAME="MailDemo Coverage Results" MODIFIED="1587631514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
+    <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login.coverage" NAME="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login Coverage Results" MODIFIED="1601454937083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/tests/test_login" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_in_test_database2_py.coverage" NAME="Unittests in test_database2.py Coverage Results" MODIFIED="1586421212344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1589362614116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loginDemo/utils" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest.coverage" NAME="pytest in pytestDemo Coverage Results" MODIFIED="1587960961023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -122,8 +128,8 @@
     <SUITE FILE_PATH="coverage/Test0402_git$hooktest__1_.coverage" NAME="hooktest (1) Coverage Results" MODIFIED="1589872491609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest/.pytest_cache" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_database.coverage" NAME="test_database Coverage Results" MODIFIED="1586420706197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/Test0402_git$consumer_miku.coverage" NAME="consumer_miku Coverage Results" MODIFIED="1593314131993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/consumer" />
-    <SUITE FILE_PATH="coverage/Test0402_git$api_server.coverage" NAME="api_server Coverage Results" MODIFIED="1593335765661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
-    <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1589358298474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
+    <SUITE FILE_PATH="coverage/Test0402_git$api_server.coverage" NAME="api_server Coverage Results" MODIFIED="1597734194736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/provider" />
+    <SUITE FILE_PATH="coverage/Test0402_git$DDTReadExcel.coverage" NAME="DDTReadExcel Coverage Results" MODIFIED="1599709203854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$Unittests_for_demo2_forTest.coverage" NAME="Unittests for demo2.forTest Coverage Results" MODIFIED="1586848872124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unittestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$flaskDemo1.coverage" NAME="flaskDemo1 Coverage Results" MODIFIED="1591601496182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaskMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytestDemo5.coverage" NAME="pytestDemo5 Coverage Results" MODIFIED="1594798116064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -171,11 +177,12 @@
     <session id="552763555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="31" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="6" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -183,9 +190,9 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="8" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="68" />
+          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -194,10 +201,10 @@
           <entry key="CSV" value="3" />
           <entry key="HTML" value="27" />
           <entry key="Ini" value="3" />
-          <entry key="JSON" value="78" />
+          <entry key="JSON" value="87" />
           <entry key="Log" value="27" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="930" />
+          <entry key="Python" value="980" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -206,15 +213,15 @@
         <counts>
           <entry key="HTML" value="279" />
           <entry key="Ini" value="189" />
-          <entry key="JSON" value="264" />
-          <entry key="PLAIN_TEXT" value="1120" />
-          <entry key="Python" value="60319" />
+          <entry key="JSON" value="265" />
+          <entry key="PLAIN_TEXT" value="1121" />
+          <entry key="Python" value="62936" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="54" />
+          <entry key="git.branch.checkout.local" value="57" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="4" />
           <entry key="git.checkout.as.new.branch" value="1" />
@@ -227,41 +234,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_nanoha.py">
+        <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="15">
+              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               <folding>
-                <element signature="e#137#188#0" expanded="true" />
+                <element signature="e#71#101#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddt_excel/test_newbind.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -282,13 +271,20 @@
       <find>funName</find>
       <find>formatter</find>
       <find>set</find>
+      <find>&quot;</find>
+      <find>'</find>
+      <find>bund</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>'</replace>
+      <replace>&quot;</replace>
+      <replace>bind</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pytestDemo</dir>
       <dir>$PROJECT_DIR$/Locust/utils</dir>
+      <dir>$PROJECT_DIR$/ddt_excel</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -302,12 +298,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/case/test_channels.py" />
-        <option value="$PROJECT_DIR$/Locust/tests/test_login/test.py" />
-        <option value="$PROJECT_DIR$/Locust/data/test_login/login_more.json" />
-        <option value="$PROJECT_DIR$/tools/read_json.py" />
-        <option value="$PROJECT_DIR$/Locust/data/test_login/testLogin.json" />
-        <option value="$PROJECT_DIR$/logger/loggerDemo/logger.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/locust_log.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py" />
@@ -353,6 +343,12 @@
         <option value="$PROJECT_DIR$/pytestDemo/test_demo5.py" />
         <option value="$PROJECT_DIR$/pytestDemo/test_demo4.py" />
         <option value="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/test_newbund.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/test_newbind.py" />
+        <option value="$PROJECT_DIR$/loginDemo/data/test_login/TestQRCodeLogin.py" />
+        <option value="$PROJECT_DIR$/loginDemo/data/test_login/cookies.json" />
+        <option value="$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py" />
       </list>
     </option>
   </component>
@@ -362,9 +358,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="239" />
+    <option name="y" value="396" />
     <option name="width" value="1440" />
     <option name="height" value="844" />
   </component>
@@ -396,7 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,31 +402,39 @@
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService" type="462c0819:PsiDirectoryNode" />
-              <item name="Contract_test" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService" type="462c0819:PsiDirectoryNode" />
-              <item name="Contract_test" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test_login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="MicroService" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
+              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -452,18 +455,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ddt_excel" />
       <recent name="$PROJECT_DIR$/MicroService/Contract_test" />
       <recent name="$PROJECT_DIR$/MicroService2/Contract_test" />
       <recent name="$PROJECT_DIR$/MicroService/provider" />
       <recent name="$PROJECT_DIR$/MicroService2/provider" />
-      <recent name="$PROJECT_DIR$/MicroService2/consumer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginDemo/tests/test_login" />
       <recent name="$PROJECT_DIR$/MicroService2/provider" />
       <recent name="$PROJECT_DIR$/MicroService/consumer/templates" />
       <recent name="$PROJECT_DIR$/MicroService/consumer/static/img" />
       <recent name="$PROJECT_DIR$/MicroService/consumer/static/css" />
-      <recent name="$PROJECT_DIR$/Locust/data/test_login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -478,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_contract_miku.py">
+  <component name="RunManager" selected="Python tests.pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login">
     <configuration name="api_server" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -493,28 +496,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MicroService/provider/api_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="consumer_nanoha" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MicroService/consumer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -545,20 +526,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pact_provider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="newbund" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MicroService2/provider" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MicroService2/provider/pact_provider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ddt_excel/test_newbind.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -655,6 +636,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="QRCodeTest" type="tests" factoryName="py.test">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnittestNewBind" type="tests" factoryName="Unittests">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_newbind.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -667,6 +680,38 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo/tests/test_login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestQRCodeLogin.TestQRCodeLogin.test_cookie_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in TestQRCodeLogin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo/data/test_login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -734,19 +779,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_monkeypatch3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_newbind.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestMock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ddt_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestMock/test_monkeypatch3.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_newbind.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -847,12 +892,15 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.newbund" />
       <item itemvalue="Python.pytestDemo5" />
       <item itemvalue="Python.pytestDemo4" />
       <item itemvalue="Python.test_contract_miku" />
       <item itemvalue="Python.test_contract_nanoha" />
       <item itemvalue="Python.api_server" />
       <item itemvalue="Python.contract_test_nanoha" />
+      <item itemvalue="Python tests.QRCodeTest" />
+      <item itemvalue="Python tests.UnittestNewBind" />
       <item itemvalue="Python tests.pytestDemo4" />
       <item itemvalue="Python tests.pytestDemo5" />
       <item itemvalue="Python tests.pytestDemo6" />
@@ -861,19 +909,19 @@
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
-      <item itemvalue="Python.consumer_nanoha" />
-      <item itemvalue="Python.pact_provider" />
-      <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
       <item itemvalue="Python tests.pytest in api_server.py" />
       <item itemvalue="Python tests.pytest in test_contract_miku.py" />
+      <item itemvalue="Python tests.pytest in test_newbind.py" />
+      <item itemvalue="Python tests.pytest in TestQRCodeLogin.py" />
+      <item itemvalue="Python tests.pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" />
+        <item itemvalue="Python tests.pytest in TestQRCodeLogin.py" />
+        <item itemvalue="Python tests.pytest in test_newbind.py" />
         <item itemvalue="Python tests.pytest in test_contract_miku.py" />
         <item itemvalue="Python tests.pytest in api_server.py" />
-        <item itemvalue="Python tests.pytest in test_monkeypatch3.py" />
-        <item itemvalue="Python.pact_provider" />
-        <item itemvalue="Python.consumer_nanoha" />
       </list>
     </recent_temporary>
   </component>
@@ -1098,58 +1146,75 @@
       <option name="project" value="LOCAL" />
       <updated>1591346482815</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1、将原设备所在设施A解绑；--&gt; 根据原设备devA搜索出设施A的id FA_id，解绑&#10;2、将实际安装设备所在设施B解绑； --&gt; 根据实际设备devB搜索出设施B的id FB_id，解绑&#10;3、将实际安装设备重新绑定在设施A；--&gt; devB绑定FA_id">
+      <created>1599794562218</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599794562219</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_contract_miku_py - 2020.07.14 at 16h 52m 31s.xml">
-      <configuration name="pytest in contract_miku.py" configurationId="tests" />
+    <history-entry file="pytest_in_TestQRCodeLogin_py - 2020.09.30 at 16h 01m 55s.xml">
+      <configuration name="pytest in TestQRCodeLogin.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_contract_miku_py - 2020.07.14 at 17h 01m 25s.xml">
-      <configuration name="pytest in test_contract_miku.py" configurationId="tests" />
+    <history-entry file="QRCodeTest - 2020.09.30 at 16h 10m 18s.xml">
+      <configuration name="QRCodeTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytestDemo6 - 2020.07.15 at 15h 17m 58s.xml">
-      <configuration name="pytestDemo6" configurationId="tests" />
+    <history-entry file="QRCodeTest - 2020.09.30 at 16h 11m 55s.xml">
+      <configuration name="QRCodeTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytestDemo5 - 2020.07.15 at 15h 28m 09s.xml">
-      <configuration name="pytestDemo5" configurationId="tests" />
+    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 18m 47s.xml">
+      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytestDemo5 - 2020.07.15 at 15h 28m 37s.xml">
-      <configuration name="pytestDemo5" configurationId="tests" />
+    <history-entry file="QRCodeTest - 2020.09.30 at 16h 21m 20s.xml">
+      <configuration name="QRCodeTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytestDemo4 - 2020.07.15 at 15h 44m 23s.xml">
-      <configuration name="pytestDemo4" configurationId="tests" />
+    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 22m 03s.xml">
+      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytestDemo4 - 2020.07.15 at 15h 45m 36s.xml">
-      <configuration name="pytestDemo4" configurationId="tests" />
+    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 23m 01s.xml">
+      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytestDemo4 - 2020.07.15 at 15h 52m 39s.xml">
-      <configuration name="pytestDemo4" configurationId="tests" />
+    <history-entry file="QRCodeTest - 2020.09.30 at 16h 24m 08s.xml">
+      <configuration name="QRCodeTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_contract_miku_py - 2020.07.15 at 16h 18m 06s.xml">
-      <configuration name="pytest in test_contract_miku.py" configurationId="tests" />
+    <history-entry file="QRCodeTest - 2020.09.30 at 16h 25m 05s.xml">
+      <configuration name="QRCodeTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_contract_miku_py - 2020.07.15 at 17h 07m 09s.xml">
-      <configuration name="pytest in test_contract_miku.py" configurationId="tests" />
+    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 36m 00s.xml">
+      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1440" height="844" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="847" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.19174434" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.50265956" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994709" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19156626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.1986755" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.2794702" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.24069148" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32980132" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.2754967" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.2397351" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.16356383" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.39893618" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3986755" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32978722" />
@@ -1194,7 +1259,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="对数据库主要方法进行封装，便于重用。" />
     <MESSAGE value="UnitTest结合DDT自动化实现。" />
     <MESSAGE value="补充：ddt.file_data对yaml文件的读取。" />
     <MESSAGE value="补充：ddt.file_data对yaml文件的读取，**kwargs参数个数不定。" />
@@ -1219,132 +1283,10 @@
     <MESSAGE value="补充unittest mock的另一种实现方式：@patch(上次是mock.Mock)" />
     <MESSAGE value="1. 使用的是pytest-mock 中的mocker&#10;2. 使用的 mock 中patch方法，是对目标函数的返回值进行替换，采用了with上下文进行管理&#10;3. 使用的装饰器的方式对mock对象的函数返回值进行替换" />
     <MESSAGE value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
+    <MESSAGE value="1、将原设备所在设施A解绑；--&gt; 根据原设备devA搜索出设施A的id FA_id，解绑&#10;2、将实际安装设备所在设施B解绑； --&gt; 根据实际设备devB搜索出设施B的id FB_id，解绑&#10;3、将实际安装设备重新绑定在设施A；--&gt; devB绑定FA_id" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、将原设备所在设施A解绑；--&gt; 根据原设备devA搜索出设施A的id FA_id，解绑&#10;2、将实际安装设备所在设施B解绑； --&gt; 根据实际设备devB搜索出设施B的id FB_id，解绑&#10;3、将实际安装设备重新绑定在设施A；--&gt; devB绑定FA_id" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hooktest2/conftest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/loggerDemo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logger/loggerDemo/logger2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hooktest2/test_hook2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskMock/mock_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/templates/nanoha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/static/css/cover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1838" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/pact/pact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="853" selection-start-line="853" selection-end-line="853" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/templates/miku.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/consumer_nanoha-provider.json" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_nanoha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/pact/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/pact/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1944169360/atexit.py" />
-    <entry file="file://$PROJECT_DIR$/MicroService2/provider/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/werkzeug/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="809" column="4" selection-start-line="809" selection-start-column="4" selection-end-line="809" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService2/Contract_test/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Test0402_git/lib/python3.8/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="693" column="8" selection-start-line="693" selection-start-column="8" selection-end-line="693" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService2/provider/provider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MicroService2/consumer/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1356,9 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
           <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding>
-            <element signature="e#41#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,9 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/api/api_channels.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_article.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943125/posix.py" />
@@ -1407,24 +1343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/report/index.html">
@@ -1437,47 +1356,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/report/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding>
-            <element signature="e#172#185#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/temp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_pytestddt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login_more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locman_login.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
+        <state relative-caret-position="700">
           <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
+        <state relative-caret-position="700">
           <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py">
+    <entry file="file://$PROJECT_DIR$/pytestDemo/test_demo5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="885">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui_excel/ReadExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_suites.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_article.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/locmanlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroService/provider/api_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="870">
           <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18" />
+        <state relative-caret-position="495">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/query.py">
@@ -1487,19 +1501,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/report/index.html">
+    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_nanoha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="364">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/contract_nanoha.py">
+    <entry file="file://$PROJECT_DIR$/webui/POMode2/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state>
           <folding>
-            <element signature="e#137#188#0" expanded="true" />
+            <element signature="e#29#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/POMode2/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webui/POMode2/TestCase.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_newbind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="e#53#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/cookies.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#71#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
