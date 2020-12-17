@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="解决契约测试脚本生成Allure报告报错的问题&#10;总结一下用法，如果直接在pycharm里使用，下面两条命令可以直接写在main中，如果要在ci中使用，必须使用命令行执行&#10;1、先用pytest生成测试数据，pytest --alluredir=temp test_demo4.py&#10;2、有时候找不到allure命令，source ~/.bash_profile 生效一下&#10;3、生成allure报告，allure generate ./temp -o ./report --clean&#10;4、注意：jenkins中添加以上命令&#10;5、注意：不能把命令写在main中，然后用python3 xx.py的方式执行脚本">
+    <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="拆回来的100个设备修复完毕，需要验证是否全部修复成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +96,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$UnittestNewBind.coverage" NAME="UnittestNewBind Coverage Results" MODIFIED="1599730719638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pact_provider.coverage" NAME="pact_provider Coverage Results" MODIFIED="1593399819594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService2/provider" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_contract_miku_py.coverage" NAME="pytest in contract_miku.py Coverage Results" MODIFIED="1594716748339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MicroService/Contract_test" />
+    <SUITE FILE_PATH="coverage/Test0402_git$unittest_in_locmanBattery.coverage" NAME="unittest in locmanBattery Coverage Results" MODIFIED="1608111119711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1590566728004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Locust" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_monkeypatch2_test_get.coverage" NAME="pytest for test_monkeypatch2.test_get Coverage Results" MODIFIED="1591346397884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestMock" />
     <SUITE FILE_PATH="coverage/Test0402_git$MailDemo.coverage" NAME="MailDemo Coverage Results" MODIFIED="1587631514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webui" />
@@ -177,12 +176,12 @@
     <session id="552763555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
-          <entry key="project.open.time.0" value="31" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="32" />
           <entry key="project.open.time.1" value="7" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="6" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.11" value="7" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -192,7 +191,7 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="9" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="77" />
+          <entry key="project.opened" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -204,7 +203,7 @@
           <entry key="JSON" value="87" />
           <entry key="Log" value="27" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="980" />
+          <entry key="Python" value="1006" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -214,14 +213,14 @@
           <entry key="HTML" value="279" />
           <entry key="Ini" value="189" />
           <entry key="JSON" value="265" />
-          <entry key="PLAIN_TEXT" value="1121" />
-          <entry key="Python" value="62936" />
+          <entry key="PLAIN_TEXT" value="1127" />
+          <entry key="Python" value="64219" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="57" />
+          <entry key="git.branch.checkout.local" value="64" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="4" />
           <entry key="git.checkout.as.new.branch" value="1" />
@@ -235,22 +234,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py">
+        <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanBattery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
-                <element signature="e#71#101#0" expanded="true" />
+                <element signature="e#145#160#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddt_excel/test_newbind.py">
+        <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="165">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="e#53#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -298,8 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Locust/tests/test_login/locust_log.py" />
-        <option value="$PROJECT_DIR$/Locust/tests/test_login/testLogin.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin.py" />
         <option value="$PROJECT_DIR$/Locust/data/test_login/userdata.csv" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin2.py" />
@@ -344,11 +344,13 @@
         <option value="$PROJECT_DIR$/pytestDemo/test_demo4.py" />
         <option value="$PROJECT_DIR$/MicroService/Contract_test/test_contract_miku.py" />
         <option value="$PROJECT_DIR$/ddt_excel/test_newbund.py" />
-        <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
         <option value="$PROJECT_DIR$/ddt_excel/test_newbind.py" />
         <option value="$PROJECT_DIR$/loginDemo/data/test_login/TestQRCodeLogin.py" />
         <option value="$PROJECT_DIR$/loginDemo/data/test_login/cookies.json" />
         <option value="$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/111.py" />
+        <option value="$PROJECT_DIR$/ddt_excel/test_locmanBattery.py" />
       </list>
     </option>
   </component>
@@ -358,11 +360,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="239" />
-    <option name="y" value="396" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="844" />
+    <option name="height" value="847" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,6 +393,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -402,39 +404,12 @@
             <path>
               <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="test_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
-              <item name="loginDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_login" type="462c0819:PsiDirectoryNode" />
+              <item name="ddt_excel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,19 +429,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ddt_excel" />
-      <recent name="$PROJECT_DIR$/MicroService/Contract_test" />
-      <recent name="$PROJECT_DIR$/MicroService2/Contract_test" />
-      <recent name="$PROJECT_DIR$/MicroService/provider" />
-      <recent name="$PROJECT_DIR$/MicroService2/provider" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/loginDemo/tests/test_login" />
       <recent name="$PROJECT_DIR$/MicroService2/provider" />
       <recent name="$PROJECT_DIR$/MicroService/consumer/templates" />
       <recent name="$PROJECT_DIR$/MicroService/consumer/static/img" />
       <recent name="$PROJECT_DIR$/MicroService/consumer/static/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ddt_excel" />
+      <recent name="$PROJECT_DIR$/MicroService/Contract_test" />
+      <recent name="$PROJECT_DIR$/MicroService2/Contract_test" />
+      <recent name="$PROJECT_DIR$/MicroService/provider" />
+      <recent name="$PROJECT_DIR$/MicroService2/provider" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,7 +456,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login">
+  <component name="RunManager" selected="Python tests.unittest in locmanBattery">
     <configuration name="api_server" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -859,6 +834,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="unittest in locmanBattery" type="tests" factoryName="Unittests">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ddt_excel/test_locmanBattery.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="unittest in pytestddt" type="tests" factoryName="Unittests">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -909,6 +900,7 @@
       <item itemvalue="Python tests.pytest in test_pytestddt.py" />
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
+      <item itemvalue="Python tests.unittest in locmanBattery" />
       <item itemvalue="Python tests.pytest in api_server.py" />
       <item itemvalue="Python tests.pytest in test_contract_miku.py" />
       <item itemvalue="Python tests.pytest in test_newbind.py" />
@@ -1153,39 +1145,46 @@
       <option name="project" value="LOCAL" />
       <updated>1599794562219</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="需求：拆回来的100个设备修复完毕，需要验证是否全部修复成功&#10;实现：&#10;1、根据设备id查询出设备信息；&#10;2、根据设备信息中的最新上报时间对比当前时间，如果是今天上报的，即可判定激活成功；">
+      <created>1608176347325</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608176347326</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_TestQRCodeLogin_py - 2020.09.30 at 16h 01m 55s.xml">
-      <configuration name="pytest in TestQRCodeLogin.py" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 16h 49m 24s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="QRCodeTest - 2020.09.30 at 16h 10m 18s.xml">
-      <configuration name="QRCodeTest" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 16h 50m 19s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="QRCodeTest - 2020.09.30 at 16h 11m 55s.xml">
-      <configuration name="QRCodeTest" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 16h 52m 05s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 18m 47s.xml">
-      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 13m 13s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="QRCodeTest - 2020.09.30 at 16h 21m 20s.xml">
-      <configuration name="QRCodeTest" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 13m 49s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 22m 03s.xml">
-      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 21m 46s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 23m 01s.xml">
-      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 26m 05s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="QRCodeTest - 2020.09.30 at 16h 24m 08s.xml">
-      <configuration name="QRCodeTest" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 27m 01s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="QRCodeTest - 2020.09.30 at 16h 25m 05s.xml">
-      <configuration name="QRCodeTest" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 29m 30s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestQRCodeLogin_TestQRCodeLogin_test_cookie_login - 2020.09.30 at 16h 36m 00s.xml">
-      <configuration name="pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" configurationId="tests" />
+    <history-entry file="unittest_in_locmanBattery - 2020.12.16 at 17h 32m 45s.xml">
+      <configuration name="unittest in locmanBattery" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1198,20 +1197,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="847" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="847" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15450644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17668097" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19156626" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.1986755" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33642384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980132" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.2754967" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" visible="true" weight="0.2754967" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.2397351" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.16356383" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3986755" />
@@ -1259,7 +1258,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UnitTest结合DDT自动化实现。" />
     <MESSAGE value="补充：ddt.file_data对yaml文件的读取。" />
     <MESSAGE value="补充：ddt.file_data对yaml文件的读取，**kwargs参数个数不定。" />
     <MESSAGE value="Unittest断言和skip的使用。" />
@@ -1284,36 +1282,10 @@
     <MESSAGE value="1. 使用的是pytest-mock 中的mocker&#10;2. 使用的 mock 中patch方法，是对目标函数的返回值进行替换，采用了with上下文进行管理&#10;3. 使用的装饰器的方式对mock对象的函数返回值进行替换" />
     <MESSAGE value="使用monkeypatch.setattr()结合类，模拟函数的返回对象" />
     <MESSAGE value="1、将原设备所在设施A解绑；--&gt; 根据原设备devA搜索出设施A的id FA_id，解绑&#10;2、将实际安装设备所在设施B解绑； --&gt; 根据实际设备devB搜索出设施B的id FB_id，解绑&#10;3、将实际安装设备重新绑定在设施A；--&gt; devB绑定FA_id" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、将原设备所在设施A解绑；--&gt; 根据原设备devA搜索出设施A的id FA_id，解绑&#10;2、将实际安装设备所在设施B解绑； --&gt; 根据实际设备devB搜索出设施B的id FB_id，解绑&#10;3、将实际安装设备重新绑定在设施A；--&gt; devB绑定FA_id" />
+    <MESSAGE value="需求：拆回来的100个设备修复完毕，需要验证是否全部修复成功&#10;实现：&#10;1、根据设备id查询出设备信息；&#10;2、根据设备信息中的最新上报时间对比当前时间，如果是今天上报的，即可判定激活成功；" />
+    <option name="LAST_COMMIT_MESSAGE" value="需求：拆回来的100个设备修复完毕，需要验证是否全部修复成功&#10;实现：&#10;1、根据设备id查询出设备信息；&#10;2、根据设备信息中的最新上报时间对比当前时间，如果是今天上报的，即可判定激活成功；" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MicroService2/consumer/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService2/Contract_test/test_user_consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService2/provider/pact_provider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/article_add.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/api_channels.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943125/posix.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1199943125/sys.py" />
     <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/__init__.py">
@@ -1376,9 +1348,6 @@
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_pytestddt.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/test_login3.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1447,18 +1416,12 @@
     <entry file="file://$PROJECT_DIR$/run_suites.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login1.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case/test_article.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1467,16 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanlogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1509,13 +1462,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webui/POMode2/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#29#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webui/POMode2/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1527,35 +1474,93 @@
     <entry file="file://$PROJECT_DIR$/webui/POMode2/TestCase.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_newbind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#53#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginDemo/data/test_login/cookies.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py">
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_pytestddt.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/test_login1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittestDemo/testSuite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/111.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_newbind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#181#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#71#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanBattery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#145#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#53#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
