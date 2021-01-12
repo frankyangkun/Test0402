@@ -13,7 +13,7 @@ class ddtreadexcel(object):
     def getdata(self):
 
         # path = '/Users/yang/PycharmProjects/Test0402_git/ddt_excel/newbind.xlsx'  # 原测试文件locmantestcase.xlsx
-        path = '/Users/yang/PycharmProjects/Test0402_git/ddt_excel/20201216LocmanBattery.xlsx'
+        path = '/Users/yang/PycharmProjects/Test0402_git/ddt_excel/20201230LocmanBattery.xlsx'
         book_data = xlrd.open_workbook(path)  # 读取excel
         book_sheet = book_data.sheet_by_index(0)  # 获取sheet1的数据
         rows_num = book_sheet.nrows  # 获取行数

@@ -24,7 +24,7 @@ class TestBattery(unittest.TestCase):
     def getDeviceTime(self, DeviceId):
         url = "http://140.246.137.19:8002/locman/binding/queryDevicesByPage"
         # header = "Content-Type: application/json;charset=utf-8"  #不能这么写
-        header = {"Content-Type": "application/json", "charset": "utf-8", "Token": "token-3acf710973834332af8e15f04329f998"}
+        header = {"Content-Type": "application/json", "charset": "utf-8", "Token": "token-0b58be380c3f409f8c95711046519602"}
         body = '{"pageNum":1,"pageSize":12,"accessSecret":"aecde01f-9ae2-4876-84b7-c08ea25a4788","bingStatus":"","deviceTypeId":"", ' \
                '"deviceId":' + DeviceId + ', "facilityId":"","factoryId":"","whole":"false","startTime":"","endTime":"","onLineState":""}'
 
@@ -45,7 +45,8 @@ class TestBattery(unittest.TestCase):
 
             lastReportTime = self.getDeviceTime(DeviceId)["value"]["list"][0]["lastReportTime"]
 
-            localtime = time.strftime("%Y-%m-%d")
+            # localtime = time.strftime("%Y-%m-%d")
+            localtime = '2021-01-02'
 
             if(localtime == lastReportTime.split(" ")[0]):
                 print(DeviceId + " " + lastReportTime + "验证通过！")
