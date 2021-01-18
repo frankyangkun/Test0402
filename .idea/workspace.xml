@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b21c74f-5160-4664-8ed3-5cc72720f36b" name="Default" comment="拆回来的100个设备修复完毕，需要验证是否全部修复成功">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/DDTReadExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddt_excel/test_locmanBattery.py" beforeDir="false" afterPath="$PROJECT_DIR$/ddt_excel/test_locmanBattery.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,7 @@
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_test_locman_login_test3.coverage" NAME="pytest for test_locman_login.test3 Coverage Results" MODIFIED="1588756079984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_in_hooktest_py.coverage" NAME="pytest in hooktest.py Coverage Results" MODIFIED="1589955554149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest2" />
     <SUITE FILE_PATH="coverage/Test0402$test_login.coverage" NAME="test_login Coverage Results" MODIFIED="1585900333249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/Test0402_git$nmaptest.coverage" NAME="nmaptest Coverage Results" MODIFIED="1610938247857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PenetrationTest" />
     <SUITE FILE_PATH="coverage/Test0402_git$Testdemo1.coverage" NAME="Testdemo1 Coverage Results" MODIFIED="1588038143745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pytestDemo" />
     <SUITE FILE_PATH="coverage/Test0402_git$pytest_for_hooktest_TestHook_test_1.coverage" NAME="pytest for hooktest.TestHook.test_1 Coverage Results" MODIFIED="1589877514725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hooktest" />
     <SUITE FILE_PATH="coverage/Test0402_git$test_demo2__1_.coverage" NAME="test_demo2 (1) Coverage Results" MODIFIED="1588081533616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ddt_excel" />
@@ -181,8 +181,8 @@
     <session id="552763555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
-          <entry key="project.open.time.0" value="32" />
+          <entry key="project.closed" value="40" />
+          <entry key="project.open.time.0" value="33" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="8" />
           <entry key="project.open.time.11" value="7" />
@@ -193,10 +193,10 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.7" value="7" />
+          <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="86" />
+          <entry key="project.opened" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -208,7 +208,7 @@
           <entry key="JSON" value="87" />
           <entry key="Log" value="27" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="1011" />
+          <entry key="Python" value="1031" />
           <entry key="PythonStub" value="1" />
           <entry key="YAML" value="28" />
         </counts>
@@ -219,13 +219,13 @@
           <entry key="Ini" value="189" />
           <entry key="JSON" value="265" />
           <entry key="PLAIN_TEXT" value="1127" />
-          <entry key="Python" value="65463" />
+          <entry key="Python" value="66919" />
           <entry key="YAML" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="65" />
+          <entry key="git.branch.checkout.local" value="68" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="4" />
           <entry key="git.checkout.as.new.branch" value="1" />
@@ -238,53 +238,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanBattery.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <element signature="e#145#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest2.py">
+        <entry file="file://$PROJECT_DIR$/PenetrationTest/nmaptest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <element signature="e#53#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -332,7 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Locust/utils/correlationtools.py" />
         <option value="$PROJECT_DIR$/Locust/tests/test_login/testRandomLogin3-queue.py" />
         <option value="$PROJECT_DIR$/unittestMock/template.py" />
         <option value="$PROJECT_DIR$/unittestMock/testPay.py" />
@@ -383,6 +340,7 @@
         <option value="$PROJECT_DIR$/PenetrationTest/scapytest1.py" />
         <option value="$PROJECT_DIR$/PenetrationTest/scapytest2.py" />
         <option value="$PROJECT_DIR$/PenetrationTest/scapytest3.py" />
+        <option value="$PROJECT_DIR$/PenetrationTest/nmaptest.py" />
       </list>
     </option>
   </component>
@@ -437,6 +395,10 @@
               <item name="Test0402_git" type="462c0819:PsiDirectoryNode" />
               <item name="PenetrationTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Test0402_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -488,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scapytest2">
+  <component name="RunManager" selected="Python.nmaptest">
     <configuration name="api_server" type="PythonConfigurationType" factoryName="Python">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -547,6 +509,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ddt_excel/test_newbind.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nmaptest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test0402" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PenetrationTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PenetrationTest/nmaptest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -772,22 +756,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in TestQRCodeLogin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Test0402" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loginDemo/data/test_login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/loginDemo/tests/test_login/TestQRCodeLogin.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in hook" type="tests" factoryName="py.test">
       <module name="Test0402" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -951,19 +919,19 @@
       <item itemvalue="Python tests.unittest in testYml.py" />
       <item itemvalue="Python tests.unittest in pytestddt" />
       <item itemvalue="Python tests.unittest in locmanBattery" />
-      <item itemvalue="Python tests.pytest in TestQRCodeLogin.py" />
       <item itemvalue="Python tests.pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" />
       <item itemvalue="Python.scapytest1" />
       <item itemvalue="Python.scapytest2" />
       <item itemvalue="Python.scapytest3" />
+      <item itemvalue="Python.nmaptest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scapytest2" />
+        <item itemvalue="Python.nmaptest" />
         <item itemvalue="Python.scapytest3" />
+        <item itemvalue="Python.scapytest2" />
         <item itemvalue="Python.scapytest1" />
         <item itemvalue="Python tests.pytest for TestQRCodeLogin.TestQRCodeLogin.test_cookie_login" />
-        <item itemvalue="Python tests.pytest in TestQRCodeLogin.py" />
       </list>
     </recent_temporary>
   </component>
@@ -1247,21 +1215,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="844" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="844" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13590844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
       <window_info id="Structure" order="1" sideWeight="0.49905124" weight="0.24964234" />
       <window_info id="Favorites" order="2" sideWeight="0.5009488" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19156626" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.23404256" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32845744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980132" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.30728477" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.2397351" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.20079787" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.16356383" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3986755" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -1336,30 +1304,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="需求：拆回来的100个设备修复完毕，需要验证是否全部修复成功&#10;实现：&#10;1、根据设备id查询出设备信息；&#10;2、根据设备信息中的最新上报时间对比当前时间，如果是今天上报的，即可判定激活成功；" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MicroService/consumer/consumer_miku.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/pact-mock-service.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MicroService/Contract_test/consumer_miku-provider.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-777">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hooktest/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytestDemo/pytest.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1578,33 +1522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanBattery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#145#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="e#53#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1614,8 +1531,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/DDTReadExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddt_excel/test_locmanBattery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/nmap/__init__.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/nmap/test_nmap.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/nmap/test.py" />
+    <entry file="file://$PROJECT_DIR$/PenetrationTest/scapytest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PenetrationTest/nmaptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
