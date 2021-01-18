@@ -2,8 +2,8 @@
 """
 2021-01-15 10:52:57
 调用nmap，但是会报错，提示『'nmap program was not found in path. 』但在kali上可以运行
-可能是因为我mac上没装nmap，只装了python-nmap，python-nmap去调用nmap没发调用。而kali是两个都装了
-这里不细究，作为nmap和python的思路先记录一下。
+是因为我mac上没装nmap，只装了python-nmap，python-nmap去调用nmap没发调用。而kali是两个都装了
+mac端安装nmap后，可成功运行。
 """
 import nmap
 
